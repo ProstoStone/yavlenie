@@ -1,4 +1,4 @@
-There Is Nothing to Fear
+There is nothing to fear
 Why fear can have real reasons, yet the phenomenon faces no ultimate threat it must overcome.
 Essay
 2026-11-03
@@ -11,7 +11,7 @@ Then a message arrives: “Sorry, I was busy.” The room hasn't changed. Neithe
 
 So what, exactly, were you afraid of? And what does it mean for something to be a “threat” at all?
 
-## Fear Is Not a Mistake to Be Corrected
+## Fear is not a mistake to be corrected
 
 We usually answer the question “Why are you afraid?” by saying, “Because there's danger.” Sometimes this is true in the most practical sense. If a car is coming toward you, stepping aside is a good idea. If a fire alarm sounds, you need to find out what's happening. Fear can take part in such responses faster than any elaborate reasoning.
 
@@ -23,7 +23,7 @@ In *Model of the Phenomenon*, a concept is not necessarily a word or a thought i
 
 And fear certainly doesn't have to disappear simply because we've called it conceptual. **What is distinguished doesn't become unreal by being distinguished.**
 
-## What Are We Afraid of When We Fear the Future?
+## What are we afraid of when we fear the future?
 
 One remarkable thing about fear is how often its object is not something happening, but something that *might* happen. Tomorrow's conversation hasn't begun, yet we've already lost the argument in our minds a dozen times. No illness has been diagnosed, yet imagination has lived through its consequences. Someone hasn't left us, yet the loss is already being felt.
 
@@ -39,7 +39,7 @@ Sometimes what frightens us isn't even the anticipated pain, but the endless reh
 
 But fearing tomorrow's pain today doesn't mean we have to live tomorrow in advance. What is distinguished now is anticipation. It may be difficult. It doesn't have to become a prophecy.
 
-## Who Is Under Threat?
+## Who is under threat?
 
 Almost every fear contains an unspoken continuation: “This will happen **to me**.”
 
@@ -53,7 +53,7 @@ But if we ask where the separate, ultimate owner of it all is located, the answe
 
 Fear can protect a body, a reputation, loved ones, or the opportunity to keep working. But behind all these specific things worth protecting, there need not be one more thing—**an absolute “I” that must save itself from existence itself**.
 
-## The Fear of Losing Everything
+## The fear of losing everything
 
 Some fears cannot be reduced to inconvenience or failure. We can fear losing our health, someone we love, our memory, our home, our very ability to recognize the familiar world. There is nothing trivial about such fears. Loss can be irreversible, and words do not bring back what has been lost.
 
@@ -67,7 +67,7 @@ This does not promise the survival of a home, a body, or a memory. **The phenome
 
 So we can fear loss while also asking what else we mean by a final catastrophe, beyond the loss itself. Often we find the thought: “If this happens, my very existence will be wrong.” But the correctness of existence would again require an external standard—one we haven't introduced.
 
-## Death: The Hardest Boundary
+## Death: the hardest boundary
 
 Perhaps this is where the conversation becomes most serious. The fear of death is not merely an unpleasant expectation. It concerns the possible disappearance of the body, memory, the recognizable person, and the whole familiar perspective.
 
@@ -83,7 +83,7 @@ In *Model of the Phenomenon*, death is considered as a distinction of an ending 
 
 We can fear death and cherish life. We may not know what comes next, and we aren't obliged to replace that uncertainty with either a promise of immortality or a picture of eternal darkness. **The fear of death does not establish a separate someone who must experience their own nonexistence.**
 
-## But What If the Worst Really Happens?
+## But what if the worst really happens?
 
 This is the most reasonable question to put to a title like *There Is Nothing to Fear*.
 
@@ -97,7 +97,7 @@ There is no contradiction in knowing fire-safety rules, treating an illness, avo
 
 **“There is nothing to fear” does not mean “nothing can hurt you.” It means there is no ultimate threat outside the phenomenon that could make the phenomenon itself wrong, unacceptable, or a failure to exist as it does.**
 
-## Being Afraid of Fear
+## Being afraid of fear
 
 And yet this conversation can create a familiar trap. Someone reads about freedom from an ultimate threat and begins watching themselves: “Why am I still afraid? Haven't I understood?”
 
@@ -109,7 +109,7 @@ None of these responses is required. The model has no built-in goal of eliminati
 
 Moreover, if you are frightened again tomorrow, you haven't “fallen back into unfreedom.” For such a fall to occur, freedom would first have to be established as a state you can drop out of. But the absolute freedom we're considering is not a reserve of calm you earn as a reward for understanding things correctly.
 
-## You Can Be Careful Without Living Under a Verdict
+## You can be careful without living under a verdict
 
 There is nothing to fear is not an invitation to test the idea through reckless acts. There is nothing heroic about refusing help, neglecting your health, or hurting other people to test a philosophical claim. Such acts and their consequences are distinguished in human life, where caution, knowledge, and care matter.
 
@@ -125,7 +125,7 @@ Sometimes this becomes apparent in the most ordinary moments. The city is noisy,
 
 It's a little like standing by a mountain river. Water roars between rocks, and there is no demand that it stop moving. If you need to cross, you look for a bridge rather than declaring the current harmless. If you want, you can simply stand and listen.
 
-## So Where Does Fear End?
+## So where does fear end?
 
 Perhaps this conversation has no final scene in which a person stops being afraid forever. That is not a flaw. Such a scene would turn calm into a new goal, fear into a new enemy, and life into yet another test.
 

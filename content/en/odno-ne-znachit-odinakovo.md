@@ -1,4 +1,4 @@
-One Doesn't Mean the Same
+One doesn't mean the same
 Why one phenomenon doesn't turn people, feelings, and things into identical copies.
 Essay
 2026-11-03
@@ -9,7 +9,7 @@ Everything is different. Which is why the claim that “everything is one phenom
 
 No. That picture gets in the way of what monophenomenalism is proposing.
 
-## One Is Not Another Thing
+## One is not another thing
 
 We're used to counting objects. Three cups on a table. Two people in a room. Ten cars on a street. When someone says all of this is “one,” it's natural to imagine one enormous thing containing everything else.
 
@@ -19,7 +19,7 @@ The starting point is different: everything that exists is considered as one phe
 
 Differences don't disappear. Without them, there would be nothing to describe.
 
-## Different Things Remain Different
+## Different things remain different
 
 One person hears laughter; another reads an upsetting message. Hearing laughter is not the same as reading a message. Tiredness doesn't turn into joy. A hot cup doesn't become cold. And calling everything one phenomenon doesn't make someone else's pain your own.
 
@@ -29,7 +29,7 @@ Unity here isn't the claim that everything is identical. It's the refusal to ass
 
 In everyday life, that may sound like a tiny adjustment. In philosophy, it changes the question. Instead of searching for an invisible second foundation that somehow connects an experiencer to what is experienced, we can examine the distinctions themselves, as they are available to us.
 
-## No Scissors, No Assembly Line
+## No scissors, no assembly line
 
 *Model of the Phenomenon* sets out five theses that consider experiencing, distinctions, concepts, and experience together. In its specific terminology, a concept is a system of distinctions. It isn't necessarily a word or a conscious thought.
 
@@ -39,7 +39,7 @@ The red you see isn't produced by saying the word “red.” Pain doesn't wait f
 
 Even when we speak of “parts,” “wholes,” and “boundaries,” those words need not refer to independent cuts in the phenomenon itself. We can use them without turning a way of describing things into the workings of a hidden machine.
 
-## And Life Goes On
+## And life goes on
 
 The person at the bus stop can still miss the bus. Someone in the café can still burn their hand. Two people can argue, make up, or walk past each other without ever meeting. Differences don't become stage scenery, and the consequences of actions don't vanish.
 

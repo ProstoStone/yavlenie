@@ -1,4 +1,4 @@
-How a Gradient Becomes a Picture
+How a gradient becomes a picture
 A field of color, contrast, and one picture: a visual introduction to distinctions.
 Illustration
 2026-11-03
@@ -9,7 +9,7 @@ Imagine a large sheet with no stripes or drawn objects. Color covers its whole s
 
 It's easy to notice a greener area and a yellower one. There's a difference, but there needn't be one definitive line with only green on one side and only yellow on the other. The transition can be gradual, and its boundary depends on which areas we consider and how we compare them. In one place the difference seems barely perceptible; in another, distinct. The colors themselves needn't consist of ready-made, originally separate pieces.
 
-## Neighbors and Contrast
+## Neighbors and contrast
 
 Now imagine several fragments taken from different places on the same sheet. One is deep blue, another green, a third yellow, a fourth reddish. Broad areas of gradual transition may have stood between them on the large sheet. When the fragments sit next to each other, those transitions no longer lie between them. Clear edges, noticeable combinations, and contrast appear.
 
@@ -25,7 +25,7 @@ There's another feature. The same green area can look different surrounded by bu
 
 Here we can see why a color name alone doesn't describe the whole picture. What matters is both the chosen shade and its place among others. An area is set apart from its neighbors and determined in relation to them at the same time. This is a visual image of the mutual determination of distinctions, although the color example doesn't prove philosophical theses.
 
-## From a Sheet of Color to an Image
+## From a sheet of color to an image
 
 The same imagined sections can form a landscape. Blue and turquoise fragments become sky and water; green ones become hills; a yellow circle is distinguished as the sun; warm shades form a path. The sheet of gradual patches contained no ready-made “hills” or “sun,” yet these are clearly distinguishable in the new composition. A meaningful image emerges in which space, lighting, distance, nearness, and remoteness can be recognized.
 
@@ -35,7 +35,7 @@ The picture doesn't become less real *as an image* because we see how its colors
 
 The image of the sheet and the assembled picture has a limit. It doesn't follow that an undistinguished phenomenon actually existed first, that someone cut pieces from it, and that a world was then assembled. Cutting, rearranging, and assembling are actions within the illustration. **Experience in the model isn't the result of such a process.**
 
-## From Colors to Experiencing
+## From colors to experiencing
 
 Similar comparisons can be noticed in everyday experience without colored paper. Someone sits on the steps holding a cup of coffee. The warm cup is distinguished against cool air; the taste of coffee among other sensations; tiredness in relation to movement, rest, expectations, and what came before. Calm may be distinguished, or anxiety. Words such as “warmth,” “tiredness,” “joy,” and “anxiety” don't replace what's happening with separate objects. They allow us to talk about distinctions with content within experiencing.
 

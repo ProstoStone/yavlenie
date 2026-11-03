@@ -1,4 +1,4 @@
-A Glossary of Model of the Phenomenon
+A glossary of Model of the Phenomenon
 Brief explanations of phenomenon, one, distinction, concept, and experience.
 Reference
 2026-11-03
@@ -15,7 +15,7 @@ In the model, that which is and exists as sensory experiencing. The phenomenon i
 
 Not one object among others, and not the identity of all things. The word points to not introducing a separate second foundation. Differences among colors, pain, speech, people, and events remain. Unity doesn't mean every experiencing is accessible to a single observer.
 
-## Sensory Experiencing
+## Sensory experiencing
 
 The term encompasses sensations, emotions, thoughts, and experienced states. It isn't limited to the data of particular sense organs and doesn't require an owner of experiencing to be established beforehand.
 
@@ -39,7 +39,7 @@ The phenomenon structured through concepts. Not a separate product or an indepen
 
 In the model, a distinction through which experience is described as “mine,” “not mine,” or “happening to me.” Not introducing a separate owner doesn't abolish people, their particularities, relationships, or practical responsibility.
 
-## A Property and Its Negation
+## A property and its negation
 
 The model doesn't attribute an independent nature behind distinctions to the phenomenon. “There is no time” shouldn't be turned into a new property of a hidden thing: timelessness. Temporal and causal descriptions remain within particular experience.
 
@@ -47,6 +47,6 @@ The model doesn't attribute an independent nature behind distinctions to the phe
 
 Context needs clarification: logical consistency, agreement with observations, and experienced harmony don't automatically become one criterion. A consistent description doesn't by itself prove the starting philosophical position.
 
-## Self-Application
+## Self-application
 
 The model, reading it, doubt, and criticism are also considered within experience. Being able to describe an objection in the model's terms doesn't make the objection false or prove all the theses true.

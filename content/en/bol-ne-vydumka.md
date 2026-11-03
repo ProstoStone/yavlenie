@@ -1,4 +1,4 @@
-Pain Doesn't Become Imaginary
+Pain doesn't become imaginary
 Why calling pain a “concept” doesn't make the pain disappear—and why making distinctions doesn't turn the world into an illusion.
 Essay
 2026-11-03
@@ -9,7 +9,7 @@ Each of these moments involves something different: heat, pain, the movement of 
 
 But that doesn't follow. In *Model of the Phenomenon*, the word “concept” has an unusual meaning. And misunderstanding that meaning can lead you astray before you've even begun exploring the position.
 
-## Not a Word Placed on Top of a Sensation
+## Not a word placed on top of a sensation
 
 In everyday speech, a concept is usually an idea someone has invented or learned: the concept of a state, of happiness, or of a new app. So it's easy to conclude that if pain is a concept, it must be nothing more than a thought about pain.
 
@@ -19,7 +19,7 @@ Pain differs from warmth. A burn differs from the memory of a burn. A sudden tou
 
 To say that pain is conceptually distinguished is not to replace pain with a description of it. If you're in pain, no philosophical explanation makes it hurt any less. And if someone near you is in pain, talking about concepts is no substitute for helping them.
 
-## The World Doesn't Disappear When We Notice Distinctions
+## The world doesn't disappear when we notice distinctions
 
 Consider an ordinary traffic light. Red is distinguished from green; stopping from moving; an intersection from the road leading to it. Rules, habits, actions, and dangers are connected with these distinctions.
 
@@ -29,7 +29,7 @@ Quite the opposite: distinctions matter precisely because they have content in e
 
 The boundaries between “mine” and “someone else's,” “before” and “after,” “success” and “mistake” can also be examined. But examining a boundary isn't the same as erasing everything distinguished on either side of it.
 
-## And Who Does It All Belong To?
+## And who does it all belong to?
 
 The everyday phrase “my finger hurts” is useful and perfectly understandable. It lets us speak to a doctor, ask for help, or explain what happened. There's no need to ban it or replace it with special philosophical language.
 
@@ -39,7 +39,7 @@ Still, we can take a closer look at what is being called “mine”: a body, a f
 
 There's an important difference between these two claims: **“No separate fundamental owner of experiencing is required”** and **“No one can be harmed.”** The second does not follow from the first. Actions and consequences, help and care, and responsibility remain part of the world we live in.
 
-## A Concept Doesn't Have to Destroy What It Distinguishes
+## A concept doesn't have to destroy what it distinguishes
 
 Sometimes philosophical explanations sound as if their purpose were to unmask the familiar world. Discover that everything is experiencing, and suddenly you're supposed to stop trusting your eyes, your feelings, your relationships, or your memories.
 

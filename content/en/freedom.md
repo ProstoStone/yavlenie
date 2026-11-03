@@ -1,4 +1,4 @@
-Absolute Freedom
+Absolute freedom
 A freedom you don't have to choose, acquire, or even acknowledge: what remains when no one needs to be unfree.
 Essay
 2026-11-03
@@ -15,7 +15,7 @@ This matters more than anything else. If freedom depends on your consent, there 
 
 But what if there was never any need to assume a separate prisoner in the first place?
 
-## Freedom That Has an Opposite
+## Freedom that has an opposite
 
 Ordinary freedom is always distinguished in relation to something. Freedom to leave a room makes sense against the possibility of being locked inside. Freedom of speech makes sense against a prohibition on speaking. A free evening makes sense against work and obligations. People may have rights, opportunities, and room for decisions—or they may face restrictions. These differences matter. People fight for such freedoms, protect them, and negotiate their limits.
 
@@ -29,7 +29,7 @@ In *Model of the Phenomenon*, freedom is a concept: a distinction within experie
 
 And this is where things take an unexpected turn. Perhaps the very impossibility of making absolute freedom into a separate possession allows us to speak about it more radically than about any freedom we can acquire.
 
-## At What Point Does the Chooser Appear?
+## At what point does the chooser appear?
 
 Imagine an ordinary morning. You wake up, see your phone, think about work, want coffee, change your mind, and decide to go for a walk. You can list reasons: sleep, habits, weather, memories, mood, yesterday's conversation. You can say, “I decided to go for a walk,” and that will be a perfectly good description of what happened.
 
@@ -45,7 +45,7 @@ Within monophenomenalism, everything is considered as one phenomenon. “I,” w
 
 You can choose between coffee and tea. But **there need not be another, fundamental choice: whether to be the one to whom that choice belongs at all**.
 
-## Why Determinism Comes So Close—and Then Stops
+## Why determinism comes so close—and then stops
 
 There is a remarkable honesty in determinism. If an action is connected with preceding circumstances, we cannot identify a moment when an independent director appears out of nowhere, breaks the entire chain, and announces, “From now on, this decision belongs to me alone.”
 
@@ -63,7 +63,7 @@ We therefore need neither a free will that breaks causes nor an absolute necessi
 
 In this sense, absolute freedom is not a victory of indeterminism over determinism. It begins where the opposition itself stops being a compulsory explanation of the phenomenon.
 
-## Freedom Even from Having to Accept Freedom
+## Freedom even from having to accept freedom
 
 Suppose someone tells you, “To be liberated, understand that there is no separate you.”
 
@@ -81,7 +81,7 @@ You can reject the sentence “you are free,” too. No philosophical fall will 
 
 **If freedom requires you to stop thinking you're unfree, it isn't absolute freedom yet.**
 
-## No Fundamental Prisoner Doesn't Mean There Are No Prisons
+## No fundamental prisoner doesn't mean there are no prisons
 
 This idea has a dangerous literal misreading. If there is no fundamental prisoner, does that mean someone in prison is free to walk out? That a sick person needn't get treatment? That promises and laws no longer matter? No.
 
@@ -95,7 +95,7 @@ If everything is one phenomenon, then the barrier, the person impeded by it, the
 
 So absolute freedom cannot be taken away by locking a door. But that **does not** mean the locked door is open. One statement concerns an alleged ultimate boundary of the phenomenon; the other concerns a particular human circumstance. Neither has to erase the other.
 
-## And Who Is Responsible for Everything That Happens?
+## And who is responsible for everything that happens?
 
 Here we reach an even stranger idea: **there is no one responsible for the happening of the phenomenon as a whole**.
 
@@ -111,7 +111,7 @@ This is not a universal amnesty for actions. **Responsibility for an action is d
 
 You can apologize and correct mistakes without regarding yourself as the creator of everything that happened. You can love and care without appointing yourself supreme director of the world.
 
-## There Is No Need to Destroy Cause and Effect
+## There is no need to destroy cause and effect
 
 Liberation is sometimes pictured as an escape from the chain of cause and effect. As if ordinary life were one place, where everything is connected, and beyond it lay a special region where connections no longer apply.
 
@@ -125,7 +125,7 @@ That is also why the freedom we're talking about does not “make the world what
 
 It is more accurate to put it differently: **the world doesn't have to obtain permission from freedom before it can be what it is distinguished as being**. There is no separate freedom standing behind the phenomenon and explaining it. By speaking of freedom, we are not adding a sixth thing to the five theses. We are drawing attention to the lack of any necessary external prisoner, jailer, and lock.
 
-## Even Feeling Unfree Takes Nothing Away
+## Even feeling unfree takes nothing away
 
 Imagine someone who doesn't feel free at all right now. They're frightened, angry with themselves, dependent on circumstances, unable to accept what's happening. What do they need to do to satisfy this article?
 
@@ -141,7 +141,7 @@ Here we reach perhaps the most difficult sentence: **not only calm, acceptance, 
 
 Not because fear is secretly pleasant or injustice suddenly good. But because we have stopped looking for a separate place beyond everything that happens in which a fundamental captive could be established.
 
-## Nothing Changes. And Nothing Has to Be Kept Unchanged
+## Nothing changes. and nothing has to be kept unchanged
 
 We usually recognize liberation by some change. There was fear; now there is peace. There was suffering; now joy has arrived. There was searching; now there is awakening. Such stories are understandable: in human experience, relief is real, change happens, and moments of extraordinary clarity occur.
 
@@ -155,7 +155,7 @@ It does not follow that the phenomenon possesses some special property called �
 
 Everything can continue just as it did. Not because it *must* continue that way, not because every event is good, and not because causality has stopped working. Only because what happens does not require a separate moment in which freedom is granted.
 
-## Freedom Even from Freedom Itself
+## Freedom even from freedom itself
 
 At this point it's tempting to pronounce the final formula: “So everything has always been free.” Almost immediately, though, we see that “everything,” “free,” and “always” are also distinctions. “Always” doesn't establish eternal duration. “Free” doesn't designate an invisible property of things. And “everything” doesn't turn the phenomenon into a gigantic object containing all the others.
 
