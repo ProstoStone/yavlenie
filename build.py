@@ -1,100 +1,107 @@
 #!/usr/bin/env python3
-"""Dependency-free static publisher. Content format documented in README.md."""
+"""Static bilingual publisher; no client JavaScript or external dependencies."""
 from pathlib import Path
-import json, re, html, shutil
-from datetime import date
+import json,re,html,shutil
+from datetime import date,datetime,timezone
+from email.utils import format_datetime
 from xml.etree import ElementTree as ET
 ROOT=Path(__file__).resolve().parent
 OUT=ROOT/'dist'
 BASE='https://prostostone.github.io/yavlenie-ryadom/'
 PREFIX='/yavlenie-ryadom/'
 SOURCE='https://prostostone.github.io/Monophenomenalism/index.html'
-NAME='Явление рядом'
+SOURCE_BASE=SOURCE.rsplit('/',1)[0]+'/'
 E=html.escape
-if OUT.exists(): shutil.rmtree(OUT)
-OUT.mkdir()
-shutil.copytree(ROOT/'assets', OUT/'assets')
-
+if OUT.exists():shutil.rmtree(OUT)
+OUT.mkdir();shutil.copytree(ROOT/'assets',OUT/'assets')
 def write(path,text):
  p=OUT/path;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(text,encoding='utf-8')
-def inline(s): return re.sub(r'\*\*(.+?)\*\*',r'<strong>\1</strong>',E(s))
-def render(body):
- result=[];toc=[];n=0
+def local(lang,path=''):return ('en/' if lang=='en' else '')+path
+def url(lang,path=''):return BASE+local(lang,path)
+def href(lang,path=''):return PREFIX+local(lang,path)
+def tr(lang,ru,en):return en if lang=='en' else ru
+def name(lang):return tr(lang,'Явление рядом','Phenomenon Nearby')
+def inline(s):
+ s=E(s)
+ s=re.sub(r'\[([^\]]+)\]\((https://[^\s)]+|/[^\s)]+)\)',r'<a href="\2">\1</a>',s)
+ s=re.sub(r'\*\*(.+?)\*\*',r'<strong>\1</strong>',s)
+ return re.sub(r'(?<!\*)\*([^*]+)\*(?!\*)',r'<em>\1</em>',s)
+def render(body,lang):
+ result=[];toc=[]
  for block in body.strip().split('\n\n'):
   if block.startswith('## '):
-   n+=1;title=block[3:].strip();toc.append((f'section-{n}',title));result.append(f'<h2 id="section-{n}">{inline(title)}</h2>')
-  elif re.match(r'^\d+\. ',block):
-   result.append('<ol>'+''.join('<li>'+inline(re.sub(r'^\d+\. ','',x))+'</li>' for x in block.splitlines())+'</ol>')
-  else: result.append('<p>'+inline(block.replace('\n',' '))+'</p>')
+   ident=f'section-{len(toc)+1}';title=block[3:].strip();toc.append((ident,title));result.append(f'<h2 id="{ident}">{inline(title)}</h2>')
+  elif re.fullmatch(r'\{\{figure:[1-4]\}\}',block):
+   n=block[9];result.append((ROOT/f'templates/gradient-{n}{".en" if lang=="en" else ""}.html').read_text())
+  elif re.match(r'^\d+\. ',block):result.append('<ol>'+''.join('<li>'+inline(re.sub(r'^\d+\. ','',x))+'</li>' for x in block.splitlines())+'</ol>')
+  elif block.startswith('> '):result.append('<blockquote><p>'+inline(block[2:])+'</p></blockquote>')
+  else:result.append('<p>'+inline(block.replace('\n',' '))+'</p>')
  return '\n'.join(result),toc
+ORDER=['freedom','mistakes','fear','bol-ne-vydumka','odno-ne-znachit-odinakovo','gradient','start','glossary','about']
+RELATED={'freedom':['fear','mistakes','start'],'mistakes':['bol-ne-vydumka','freedom','fear'],'fear':['freedom','bol-ne-vydumka','mistakes'],'bol-ne-vydumka':['odno-ne-znachit-odinakovo','gradient','glossary'],'odno-ne-znachit-odinakovo':['gradient','bol-ne-vydumka','start'],'gradient':['odno-ne-znachit-odinakovo','bol-ne-vydumka','glossary'],'start':['freedom','odno-ne-znachit-odinakovo','glossary'],'glossary':['gradient','bol-ne-vydumka','start'],'about':['start','glossary','gradient']}
 items=[]
-for path in sorted((ROOT/'content').glob('*.md')):
- title,desc,kind,published,body=path.read_text().split('\n',4)
- date.fromisoformat(published)
- slug=path.stem
- assert re.fullmatch(r'[a-z0-9-]+',slug)
- items.append(dict(slug=slug,title=title,description=desc,kind=kind,date=published,body=body.strip(),url=BASE+slug+'/',minutes=max(1,round(len(body.split())/180))))
-by={x['slug']:x for x in items}
-order=['freedom','mistakes','fear','start','glossary','about']
-items.sort(key=lambda x:order.index(x['slug']) if x['slug'] in order else len(order))
-
-def layout(title,desc,path,content,schema,alternate=None,noindex=False):
- canonical=BASE+path
- return f'''<!doctype html>
-<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{E(title)} — {NAME}</title><meta name="description" content="{E(desc,quote=True)}">
-<meta name="robots" content="{'noindex,follow' if noindex else 'index,follow,max-snippet:-1,max-image-preview:large'}"><link rel="canonical" href="{canonical}">
-<link rel="icon" href="{PREFIX}assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="{PREFIX}assets/style.css">
-<link rel="alternate" type="application/rss+xml" title="{NAME}" href="{BASE}feed.xml">
-{f'<link rel="alternate" type="text/plain" href="{BASE}text/{alternate}.txt" title="Текстовая версия">' if alternate else ''}
-<meta property="og:type" content="{'article' if alternate else 'website'}"><meta property="og:title" content="{E(title,quote=True)}"><meta property="og:description" content="{E(desc,quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:locale" content="ru_RU"><meta property="og:site_name" content="{NAME}">
-<script type="application/ld+json">{json.dumps(schema,ensure_ascii=False).replace('<','&lt;')}</script>
-</head><body><a class="skip" href="#main">К содержанию</a>
-<header class="header"><a class="brand" href="{PREFIX}" aria-label="Явление рядом — главная"><span class="mark" aria-hidden="true">я.</span>{NAME}</a><nav aria-label="Основная навигация"><a href="{PREFIX}start/">С чего начать</a><a href="{PREFIX}#articles">Все тексты</a><a href="{PREFIX}about/">О проекте</a></nav></header>
-<main id="main">{content}</main>
-<footer><div><strong>{NAME}</strong><p>Монофеноменализм и Модель явления<br>в вопросах повседневной жизни.</p></div><nav aria-label="Ссылки внизу страницы"><a href="{SOURCE}">Исходные работы ↗</a><a href="{PREFIX}glossary/">Словарь</a><a href="{PREFIX}catalog/">Текстовый каталог</a><a href="{PREFIX}feed.xml">RSS</a><a href="{PREFIX}about/">О материалах</a></nav><p class="footnote">Популярные интерпретации и пояснения. Без персональной авторской подписи.</p></footer>
-</body></html>'''
-
+for lang in ('ru','en'):
+ for p in sorted((ROOT/'content'/('en' if lang=='en' else '')).glob('*.md')):
+  title,desc,kind,published,body=p.read_text().split('\n',4);date.fromisoformat(published)
+  slug=p.stem;assert re.fullmatch(r'[a-z0-9-]+',slug)
+  items.append(dict(slug=slug,title=title,description=desc,kind=kind,date=published,body=body.strip(),lang=lang,url=url(lang,slug+'/'),text_url=url(lang,'text/'+slug+'.txt'),minutes=max(1,round(len(body.split())/180))))
+by={(a['lang'],a['slug']):a for a in items}
+assert {a['slug'] for a in items if a['lang']=='ru'}=={a['slug'] for a in items if a['lang']=='en'}
+def sources(lang):
+ suffix='_en' if lang=='en' else ''
+ return [(tr(lang,'Модель явления','Model of the Phenomenon'),SOURCE_BASE+f'model{suffix}-1.html'),(tr(lang,'Монофеноменализм','Monophenomenalism'),SOURCE_BASE+f'monophenomenalism{suffix}-1.html'),(tr(lang,'Рабочая карта','Working Map'),SOURCE_BASE+f'working_map{suffix}-1.html')]
+def source_links(lang):return ' · '.join(f'<a href="{u}">{t}</a>' for t,u in sources(lang))
+def layout(lang,title,desc,path,content,schema,text_path=None,noindex=False):
+ n=name(lang);other='en' if lang=='ru' else 'ru';canonical=url(lang,path)
+ alts='' if noindex else ''.join(f'<link rel="alternate" hreflang="{l}" href="{url(l,path)}">' for l in ('ru','en'))+f'<link rel="alternate" hreflang="x-default" href="{url("ru",path)}">'
+ return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{E(title)} — {n}</title><meta name="description" content="{E(desc,quote=True)}"><meta name="robots" content="{'noindex,follow' if noindex else 'index,follow,max-snippet:-1,max-image-preview:large'}"><link rel="canonical" href="{canonical}">{alts}
+<link rel="icon" href="{PREFIX}assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="{PREFIX}assets/style.css"><link rel="stylesheet" href="{PREFIX}assets/illustrations.css">
+<link rel="alternate" type="application/rss+xml" title="{n}" href="{url(lang,'feed.xml')}">
+{f'<link rel="alternate" type="text/plain" href="{text_path}">' if text_path else ''}
+<meta property="og:type" content="{'article' if text_path else 'website'}"><meta property="og:title" content="{E(title,quote=True)}"><meta property="og:description" content="{E(desc,quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:locale" content="{'en_US' if lang=='en' else 'ru_RU'}"><meta property="og:locale:alternate" content="{'ru_RU' if lang=='en' else 'en_US'}"><meta property="og:site_name" content="{n}">
+<script type="application/ld+json">{json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')}</script></head><body>
+<a class="skip" href="#main">{tr(lang,'К содержанию','Skip to content')}</a>
+<header class="header"><a class="brand" href="{href(lang)}"><span class="mark" aria-hidden="true">я.</span>{n}</a><nav aria-label="{tr(lang,'Основная навигация','Main navigation')}"><a href="{href(lang,'start/')}">{tr(lang,'С чего начать','Start here')}</a><a href="{href(lang,'#articles')}">{tr(lang,'Все тексты','All articles')}</a><a href="{href(lang,'about/')}">{tr(lang,'О проекте','About')}</a><a class="language" href="{url(other,path) if not noindex else url(other)}" lang="{other}" hreflang="{other}" aria-label="{tr(lang,'Read this page in English','Читать эту страницу по-русски')}">{tr(lang,'EN','RU')}</a></nav></header>
+<main id="main">{content}</main><footer><div><strong>{n}</strong><p>{tr(lang,'Монофеноменализм и Модель явления<br>в вопросах повседневной жизни.','Monophenomenalism and Model of the Phenomenon<br>through everyday questions.')}</p></div><nav aria-label="{tr(lang,'Ссылки внизу страницы','Footer links')}"><a href="{SOURCE}">{tr(lang,'Официальный сайт ↗','Original works ↗')}</a><a href="{href(lang,'glossary/')}">{tr(lang,'Словарь','Glossary')}</a><a href="{href(lang,'catalog/')}">{tr(lang,'Текстовый каталог','Text catalogue')}</a><a href="{url(lang,'feed.xml')}">RSS</a><a href="{href(lang,'about/')}">{tr(lang,'О материалах','About the articles')}</a></nav></footer></body></html>'''
 def card(a,i):
- return f'''<a class="entry" href="{PREFIX}{a['slug']}/"><span class="num">{i:02d}</span><div><div class="meta">{a['kind']} <span>·</span> {a['minutes']} мин чтения</div><h3>{E(a['title'])}<span aria-hidden="true">↗</span></h3><p>{E(a['description'])}</p></div></a>'''
-entries=''.join(card(a,i+1) for i,a in enumerate(items) if a['slug']!='about')
-home=f'''<section class="hero"><p class="eyebrow">ЗАМЕТКИ О ТОМ, ЧТО УЖЕ ЕСТЬ</p><h1>Жизнь ближе,<br>чем её <em>объяснения.</em></h1><div class="hero-bottom"><p>Свобода, страх, ошибки и привычное «я».<br>Монофеноменализм и Модель явления —<br>понятным языком, рядом с обычной жизнью.</p><a class="button" href="{PREFIX}start/">Начать знакомство <span aria-hidden="true">↗</span></a></div><div class="orbit" aria-hidden="true"><span></span><span></span><span></span></div></section>
-<section class="intro"><span class="eyebrow">ОДНА ТОЧКА ВХОДА</span><p>Не обязательно сначала разобраться во всём,<br>чтобы заметить то, что происходит сейчас.</p><a href="{SOURCE}">Перейти к исходным работам ↗</a></section>
-<section id="articles" class="listing"><div class="section-head"><h2>Тексты для чтения</h2><span>{len(items)-1:02d} материалов</span></div>{entries}</section>
-<section class="closing"><span class="eyebrow">КОНТЕКСТ И ЗНАЧЕНИЯ</span><h2>Слова знакомые.<br>Смысл стоит уточнить.</h2><p>Что здесь называется явлением, концепцией и опытом? Короткий словарь помогает читать дальше без подмены значений.</p><a href="{PREFIX}glossary/">Открыть словарь →</a></section>'''
-write('index.html',layout('Монофеноменализм в повседневной жизни','Статьи о свободе, страхе, ошибках и опыте. Монофеноменализм и Модель явления простыми словами, со ссылками на первоисточники.','',home,{'@context':'https://schema.org','@type':'CollectionPage','name':NAME,'url':BASE,'inLanguage':'ru','hasPart':[{'@type':'WebPage','url':a['url'],'name':a['title']} for a in items]}))
-for a in items:
- body,toc=render(a['body']); slug=a['slug']
- related=[x for x in items if x['slug']!=slug and x['slug']!='about'][:3]
- toc_html=''.join(f'<a href="#{id}">{E(t)}</a>' for id,t in toc)
- note='Свободное философское прочтение. Не доказательство исходной позиции и не обещание определённого жизненного результата.' if a['kind']=='Эссе' else 'Пояснение для знакомства с темой. Точные формулировки и аргументы — в исходных работах.'
- content=f'''<div class="article-top"><a class="back" href="{PREFIX}#articles">← Все тексты</a><p class="eyebrow">{a['kind']} · {a['minutes']} МИН ЧТЕНИЯ</p><h1>{E(a['title'])}</h1><p class="deck">{E(a['description'])}</p><div class="meta"><time datetime="{a['date']}">{date.fromisoformat(a['date']).day} {['января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'][date.fromisoformat(a['date']).month-1]} {date.fromisoformat(a['date']).year}</time><span>·</span><a href="{PREFIX}text/{slug}.txt">Текстовая версия</a></div></div>
-<div class="article-grid"><aside><nav aria-label="Содержание статьи"><span class="eyebrow">В ЭТОМ ТЕКСТЕ</span>{toc_html}</nav></aside><article><div class="prose">{body}</div><section class="source-note"><h2>Связь с исходными работами</h2><p>{note}</p><a href="{SOURCE}">«Монофеноменализм» и «Модель явления» ↗</a><p><a href="{PREFIX}about/">О происхождении и статусе материалов</a></p></section></article></div>
-<section class="related"><h2>Продолжить чтение</h2>{''.join(card(x,i+1) for i,x in enumerate(related))}</section>'''
- schema={'@context':'https://schema.org','@type':'Article','headline':a['title'],'description':a['description'],'datePublished':a['date'],'dateModified':a['date'],'inLanguage':'ru','mainEntityOfPage':a['url'],'url':a['url'],'isPartOf':{'@type':'WebSite','name':NAME,'url':BASE},'citation':SOURCE,'articleSection':a['kind']}
- write(slug+'/index.html',layout(a['title'],a['description'],slug+'/',content,schema,slug))
- text=f"{a['title']}\n{a['description']}\n\nТип: {a['kind']}\nДата: {a['date']}\nСтраница: {a['url']}\nСтатус: {note}\n\n{a['body']}\n\nИсходные работы: {SOURCE}\nО материалах: {BASE}about/\n"
- write('text/'+slug+'.txt',text)
- # Separate downloadable source; same text, no hidden additional claims.
- a['text_url']=BASE+'text/'+slug+'.txt'
-write('catalog.json',json.dumps({'title':NAME,'url':BASE,'language':'ru','source':SOURCE,'status':'Популярные интерпретации и пояснения, не первоисточник','items':[{k:v for k,v in a.items() if k not in ['body']} for a in items]},ensure_ascii=False,indent=2))
-cat='<section class="article-top"><p class="eyebrow">ОТКРЫТЫЙ КАТАЛОГ</p><h1>Все тексты.<br>Прямые ссылки.</h1><p class="deck">HTML для чтения, обычный текст для сохранения и JSON для программной обработки. Содержание одинаково доступно людям и программам.</p></section><section class="catalog"><p><a href="'+PREFIX+'catalog.json">Каталог JSON</a> · <a href="'+PREFIX+'llms.txt">Краткий указатель llms.txt</a> · <a href="'+PREFIX+'feed.xml">RSS</a></p>'
-for a in items: cat+=f'<div class="catalog-row"><h2><a href="{a["url"]}">{E(a["title"])}</a></h2><p>{E(a["description"])}</p><a href="{a["text_url"]}">Обычный текст ↗</a></div>'
-cat+='</section>'
-write('catalog/index.html',layout('Каталог текстов','Все материалы сайта: HTML, текстовые версии, JSON и RSS.','catalog/',cat,{'@context':'https://schema.org','@type':'CollectionPage','name':'Каталог текстов','url':BASE+'catalog/'}))
-write('llms.txt','# Явление рядом\n\n> Статьи и пояснения о монофеноменализме и Модели явления. Популярные интерпретации, не авторские первоисточники и не независимые доказательства.\n\nИсходные работы: '+SOURCE+'\n\n## Материалы\n'+''.join(f'- [{a["title"]}]({a["text_url"]}): {a["description"]}\n' for a in items)+'\nКаталог JSON: '+BASE+'catalog.json\n')
-ET.register_namespace('','http://www.sitemaps.org/schemas/sitemap/0.9')
-root=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
-for url in [BASE,BASE+'catalog/']+[a['url'] for a in items]:
- el=ET.SubElement(root,'url');ET.SubElement(el,'loc').text=url
-write('sitemap.xml',ET.tostring(root,encoding='unicode',xml_declaration=True))
-rss=ET.Element('rss',version='2.0');channel=ET.SubElement(rss,'channel')
-for k,v in [('title',NAME),('link',BASE),('description','Новые статьи о монофеноменализме и Модели явления'),('language','ru')]:ET.SubElement(channel,k).text=v
-for a in items:
- if a['slug']=='about':continue
- el=ET.SubElement(channel,'item')
- for k,v in [('title',a['title']),('link',a['url']),('guid',a['url']),('description',a['description'])]:ET.SubElement(el,k).text=v
-write('feed.xml',ET.tostring(rss,encoding='unicode',xml_declaration=True))
-write('.nojekyll','')
-write('404.html',layout('Страница не найдена','Такой страницы здесь нет.','404.html','<section class="article-top"><p class="eyebrow">404</p><h1>Здесь пока пусто.</h1><p class="deck">Возможно, адрес изменился.</p><a class="button" href="'+PREFIX+'">К текстам →</a></section>',{},noindex=True))
-print(f'Built {len(items)} articles and {len(list(OUT.rglob("*.html")))} HTML pages')
+ return f'<a class="entry" href="{a["url"]}"><span class="num">{i:02d}</span><div><div class="meta">{a["kind"]} · {a["minutes"]} {tr(a["lang"],"мин чтения","min read")}</div><h3>{E(a["title"])}<span aria-hidden="true">↗</span></h3><p>{E(a["description"])}</p></div></a>'
+for lang in ('ru','en'):
+ articles=sorted([a for a in items if a['lang']==lang],key=lambda a:ORDER.index(a['slug']))
+ home=f'''<section class="hero"><p class="eyebrow">{tr(lang,'ЗАМЕТКИ О ТОМ, ЧТО УЖЕ ЕСТЬ','NOTES ON WHAT IS ALREADY HERE')}</p><h1>{tr(lang,'Жизнь ближе,<br>чем её <em>объяснения.</em>','Life is closer<br>than its <em>explanations.</em>')}</h1><div class="hero-bottom"><p>{tr(lang,'Свобода, страх, ошибки и привычное «я».<br>Монофеноменализм и Модель явления —<br>понятным языком, рядом с обычной жизнью.','Freedom, fear, mistakes, and the familiar “I.”<br>Monophenomenalism and Model of the Phenomenon,<br>in plain language, close to everyday life.')}</p><a class="button" href="{href(lang,'start/')}">{tr(lang,'Начать знакомство','Start exploring')} ↗</a></div><div class="orbit" aria-hidden="true"><span></span><span></span><span></span></div></section>
+<section class="intro"><span class="eyebrow">{tr(lang,'ОДНА ТОЧКА ВХОДА','A PLACE TO BEGIN')}</span><p>{tr(lang,'Не обязательно сначала разобраться во всём,<br>чтобы заметить то, что происходит сейчас.',"You don't have to work everything out<br>to notice what is happening now.")}</p><a href="{SOURCE}">{tr(lang,'Перейти к исходным работам ↗','Explore the original works ↗')}</a></section>
+<section id="articles" class="listing"><div class="section-head"><h2>{tr(lang,'Тексты для чтения','Read and explore')}</h2><span>{len(articles)-1:02d} {tr(lang,'материалов','texts')}</span></div>{''.join(card(a,i+1) for i,a in enumerate(articles) if a['slug']!='about')}</section>
+<section class="closing"><span class="eyebrow">{tr(lang,'КОНТЕКСТ И ЗНАЧЕНИЯ','CONTEXT AND MEANING')}</span><h2>{tr(lang,'Слова знакомые.<br>Смысл стоит уточнить.','Familiar words.<br>Meanings worth exploring.')}</h2><p>{tr(lang,'Что здесь называется явлением, концепцией и опытом? Короткий словарь помогает читать дальше без подмены значений.','What do phenomenon, concept, and experience mean here? A short glossary helps you read on without losing the distinctions.')}</p><a href="{href(lang,'glossary/')}">{tr(lang,'Открыть словарь','Open the glossary')} →</a></section>'''
+ write(local(lang,'index.html'),layout(lang,tr(lang,'Монофеноменализм в повседневной жизни','Monophenomenalism in Everyday Life'),tr(lang,'Статьи о свободе, страхе, ошибках и опыте. Монофеноменализм и Модель явления простыми словами.','Articles about freedom, fear, mistakes, and experience. Monophenomenalism and Model of the Phenomenon in plain language.'),'',home,{'@context':'https://schema.org','@type':'CollectionPage','name':name(lang),'url':url(lang),'inLanguage':lang,'hasPart':[{'@type':'WebPage','url':a['url'],'name':a['title']} for a in articles]}))
+ for a in articles:
+  slug=a['slug'];body,toc=render(a['body'],lang);related=[by[lang,s] for s in RELATED[slug]]
+  content=f'''<div class="article-top"><a class="back" href="{href(lang,'#articles')}">← {tr(lang,'Все тексты','All articles')}</a><p class="eyebrow">{a['kind']} · {a['minutes']} {tr(lang,'МИН ЧТЕНИЯ','MIN READ')}</p><h1>{E(a['title'])}</h1><p class="deck">{E(a['description'])}</p><div class="meta"><time datetime="{a['date']}">{a['date']}</time><span>·</span><a href="{a['text_url']}">{tr(lang,'Текстовая версия','Plain text')}</a></div></div>
+<div class="article-grid"><aside><nav aria-label="{tr(lang,'Содержание статьи','Contents')}"><span class="eyebrow">{tr(lang,'В ЭТОМ ТЕКСТЕ','IN THIS ARTICLE')}</span>{''.join(f'<a href="#{i}">{E(t)}</a>' for i,t in toc)}</nav></aside><article><div class="prose">{body}</div><section class="source-note"><h2>{tr(lang,'Исходные работы','Original works')}</h2><p>{source_links(lang)}</p></section></article></div><section class="related"><h2>{tr(lang,'Продолжить чтение','Keep reading')}</h2>{''.join(card(x,i+1) for i,x in enumerate(related))}</section>'''
+  schema={'@context':'https://schema.org','@type':'Article','headline':a['title'],'description':a['description'],'datePublished':a['date'],'inLanguage':lang,'mainEntityOfPage':a['url'],'url':a['url'],'isPartOf':{'@type':'WebSite','name':name(lang),'url':url(lang)},'citation':[u for t,u in sources(lang)],'articleSection':a['kind'],'workTranslation':{'@type':'Article','url':url('en' if lang=='ru' else 'ru',slug+'/'),'inLanguage':'en' if lang=='ru' else 'ru'}}
+  write(local(lang,slug+'/index.html'),layout(lang,a['title'],a['description'],slug+'/',content,schema,a['text_url']))
+  plain=a['body']
+  for i in range(1,5):
+   f=(ROOT/f'templates/gradient-{i}{".en" if lang=="en" else ""}.html').read_text();caption=re.search(r'<figcaption>(.*?)</figcaption>',f)[1]
+   plain=plain.replace('{{figure:'+str(i)+'}}',tr(lang,'Иллюстрация','Illustration')+f' {i}: '+caption)
+  write(local(lang,'text/'+slug+'.txt'),f'{a["title"]}\n{a["description"]}\n\n{a["url"]}\n\n{plain}\n\n'+ '\n'.join(f'{t}: {u}' for t,u in sources(lang))+'\n'+url(lang,'about/')+'\n')
+ cat=f'<section class="article-top"><p class="eyebrow">{tr(lang,"ОТКРЫТЫЙ КАТАЛОГ","OPEN CATALOGUE")}</p><h1>{tr(lang,"Все тексты.<br>Прямые ссылки.","Every text.<br>Direct links.")}</h1><p class="deck">{tr(lang,"HTML для чтения, обычный текст для сохранения и JSON для программной обработки.","HTML for reading, plain text for saving, and JSON for programmatic access.")}</p></section><section class="catalog"><p><a href="{url(lang,"catalog.json")}">JSON</a> · <a href="{url(lang,"llms.txt")}">llms.txt</a> · <a href="{url(lang,"feed.xml")}">RSS</a></p>'
+ for a in articles:cat+=f'<div class="catalog-row"><h2><a href="{a["url"]}">{E(a["title"])}</a></h2><p>{E(a["description"])}</p><a href="{a["text_url"]}">{tr(lang,"Обычный текст","Plain text")} ↗</a></div>'
+ write(local(lang,'catalog/index.html'),layout(lang,tr(lang,'Каталог текстов','Text Catalogue'),tr(lang,'Все материалы сайта: HTML, текстовые версии, JSON и RSS.','Every article: HTML, plain text, JSON, and RSS.'),'catalog/',cat+'</section>',{'@context':'https://schema.org','@type':'CollectionPage','name':name(lang),'url':url(lang,'catalog/'),'inLanguage':lang}))
+ write(local(lang,'catalog.json'),json.dumps({'title':name(lang),'url':url(lang),'language':lang,'sources':sources(lang),'items':[{k:v for k,v in a.items() if k!='body'} for a in articles]},ensure_ascii=False,indent=2))
+ write(local(lang,'llms.txt'),'# '+name(lang)+'\n\n'+tr(lang,'Популярные статьи, созданные при помощи ИИ; сведения о происхождении: ','Popular articles created with AI assistance; provenance: ')+url(lang,'about/')+'\n\n'+ '\n'.join(f'{t}: {u}' for t,u in sources(lang))+'\n\n'+''.join(f'- [{a["title"]}]({a["text_url"]}): {a["description"]}\n' for a in articles)+'\nJSON: '+url(lang,'catalog.json')+'\n'+url('en' if lang=='ru' else 'ru','llms.txt')+'\n')
+ rss=ET.Element('rss',version='2.0');channel=ET.SubElement(rss,'channel')
+ for k,v in [('title',name(lang)),('link',url(lang)),('description',tr(lang,'Новые статьи о монофеноменализме и Модели явления','Articles on monophenomenalism and Model of the Phenomenon')),('language',lang)]:ET.SubElement(channel,k).text=v
+ for a in articles:
+  if a['slug']=='about':continue
+  el=ET.SubElement(channel,'item')
+  for k,v in [('title',a['title']),('link',a['url']),('guid',a['url']),('description',a['description']),('pubDate',format_datetime(datetime.fromisoformat(a['date']).replace(tzinfo=timezone.utc)))]:ET.SubElement(el,k).text=v
+ write(local(lang,'feed.xml'),ET.tostring(rss,encoding='unicode',xml_declaration=True))
+ write(local(lang,'404.html'),layout(lang,tr(lang,'Страница не найдена','Page Not Found'),'404','404.html',f'<section class="article-top"><h1>{tr(lang,"Здесь пока пусто.","Nothing here yet.")}</h1><a href="{href(lang)}">{tr(lang,"К текстам","Back to reading")} →</a></section>',{},noindex=True))
+ET.register_namespace('xhtml','http://www.w3.org/1999/xhtml')
+sitemap=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
+for path in ['', 'catalog/']+[s+'/' for s in ORDER]:
+ for lang in ('ru','en'):
+  node=ET.SubElement(sitemap,'url');ET.SubElement(node,'loc').text=url(lang,path)
+  for l in ('ru','en','x-default'):ET.SubElement(node,'{http://www.w3.org/1999/xhtml}link',rel='alternate',hreflang=l,href=url('ru' if l=='x-default' else l,path))
+write('sitemap.xml',ET.tostring(sitemap,encoding='unicode',xml_declaration=True));write('.nojekyll','')
+print(f'Built {len(items)} materials in two languages; {len(list(OUT.rglob("*.html")))} HTML pages')

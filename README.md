@@ -51,3 +51,32 @@ python3 check.py
 GitHub Pages project site расположен в подкаталоге: robots.txt применяется только в корне домена https://prostostone.github.io/robots.txt. Этот проект не меняет его и не выдаёт файл внутри подкаталога за действующий robots.txt. Для включения в поиск после публикации можно отправить URL sitemap.xml в Google Search Console и Яндекс Вебмастер при наличии подтверждённого доступа к сайту. Индексация и цитирование не гарантированы.
 
 Статьи публикуются с помощью автоматической сборки; личные данные, токены и вложенные исходные DOCX в репозиторий не включаются.
+
+## Bilingual edition
+
+Russian URLs remain unchanged. English pages are under `/en/`. Each source in
+`content/<slug>.md` must have a complete counterpart in `content/en/<slug>.md`.
+The filename is the language-independent article ID: the same slug pairs translations.
+The first four lines remain title, description, category, and ISO publication date.
+The body supports paragraphs, `##` headings, emphasis, numbered lists, Markdown links,
+and blockquotes. The illustration article uses `{{figure:1}}` through `{{figure:4}}`;
+reviewed accessible HTML lives in `templates/`, with `.en.html` translations.
+Do not include arbitrary scripts or raw HTML in content Markdown.
+
+Add new slugs to `ORDER` and choose genuinely relevant articles in `RELATED` in
+`build.py`. Add both languages in one commit. The build verifies matching language
+sets; `check.py` checks reciprocal alternates, canonical URLs, links, metadata,
+feeds, figures, and preservation of the original five theses.
+
+Both languages have their own home, glossary, About, catalogue, RSS, JSON catalogue,
+plain-text articles and llms.txt. The root sitemap lists both languages and their
+hreflang counterparts. There are no automatic language redirects or required scripts.
+The About pages hold the editorial and AI provenance explanation. Article source
+footers link directly to all three original works in the current language; the
+original author is never entered as the author of derivative articles in JSON-LD.
+
+The original philosophical repository and PDFs are not modified or mirrored.
+English terminology follows the supplied translations: experiencing (переживание),
+experience (опыт), sensory experiencing (чувственное переживание), distinction
+(различение), concept (концепция). The source texts, not these popular explanations,
+remain the authority for quotations.
