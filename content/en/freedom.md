@@ -141,7 +141,7 @@ Here we reach perhaps the most difficult sentence: **not only calm, acceptance, 
 
 Not because fear is secretly pleasant or injustice suddenly good. But because we have stopped looking for a separate place beyond everything that happens in which a fundamental captive could be established.
 
-## Nothing changes. and nothing has to be kept unchanged
+## Nothing changes. And nothing has to be kept unchanged
 
 We usually recognize liberation by some change. There was fear; now there is peace. There was suffering; now joy has arrived. There was searching; now there is awakening. Such stories are understandable: in human experience, relief is real, change happens, and moments of extraordinary clarity occur.
 

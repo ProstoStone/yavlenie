@@ -65,7 +65,7 @@ We can call ourselves agents, guilty, responsible, careless. Those words have re
 
 Here it is easy to make the opposite substitution: if there is no separate owner, perhaps nobody acts and nobody can be held responsible. But that confuses levels again. Responsibility, promises, harm, repair, and trust remain. They do not need an ontological owner beyond the phenomenon in order to be meaningful distinctions in life.
 
-## But what about consequences? surely they're real
+## But what about consequences? Surely they're real
 
 Yes. The cup broke. A shard can cut your finger. Someone else may be angry. A poor decision can be followed by the loss of money, work, or a relationship. None of this should be denied for the sake of the elegant phrase “there are no mistakes.”
 
