@@ -1,42 +1,174 @@
-Total Freedom
-Living without the obligation to turn yourself into the right kind of person.
+Absolute Freedom
+A freedom you don't have to choose, acquire, or even acknowledge: what remains when no one needs to be unfree.
 Essay
 2026-11-03
 
-Freedom always seems to be coming later.
+**You are absolutely free.**
 
-When you have money. When the exhausting job is over. When other people's opinions stop ruling you. When you've worked yourself out. Everyone has a different list, but it usually ends with the same promise: then you can finally live.
+Perhaps that's one of the most suspicious things you can say to anyone. They immediately think of everything they're not free from: a body that gets tired; money they don't have; promises they must keep; laws they can't break without consequences; a fear they can't shake off. All they have to do is look at their life to object: “How can you possibly call this absolute freedom?”
 
-For now, you have to prepare the person who deserves that life. Fix your character, get rid of weaknesses, learn to feel the right things. Even rest becomes work: recover efficiently, or you won't cope tomorrow.
+And they'd be right—if we were talking about freedom in the sense of available options. But the freedom at issue here can't be measured by options. It doesn't promise unlocked doors, immunity from consequences, or control over events. You don't have to stop being afraid, learn to accept life, or become someone else.
 
-When did your very existence become a task you had to complete successfully?
+More than that, **you don't even have to choose it**.
 
-## Who Gives You Permission to Live?
+This matters more than anything else. If freedom depends on your consent, there must first be someone capable of consenting to it correctly or incorrectly. Once again, we've placed a door in front of a person and announced that liberation waits on the other side. We've invented a prisoner and instructed them to get out on their own.
 
-Specific activities have conditions. Renting a home takes money. Learning a profession takes knowledge. Keeping a relationship may require listening to someone and changing your behavior. But how do these separate tasks become a demand to first turn into the right person—and only then earn permission to live?
+But what if there was never any need to assume a separate prisoner in the first place?
 
-Who grants that permission?
+## Freedom That Has an Opposite
 
-We tend to picture ourselves as an inner manager responsible for everything that happens. Body exhausted? Bad management. Afraid? Not strong enough. Something went wrong? You chose badly. Even your thoughts can look like unruly employees who need to be brought into line.
+Ordinary freedom is always distinguished in relation to something. Freedom to leave a room makes sense against the possibility of being locked inside. Freedom of speech makes sense against a prohibition on speaking. A free evening makes sense against work and obligations. People may have rights, opportunities, and room for decisions—or they may face restrictions. These differences matter. People fight for such freedoms, protect them, and negotiate their limits.
 
-But look at this manager. Here is the thought “I have to cope.” Here is anxiety. Here is an image of who you should become. Here is dissatisfaction with yourself. Where among these is a separate owner who first exists independently and then receives a life to manage?
+But try removing everything against which freedom is contrasted. What, exactly, would remain of the word “freedom”?
 
-*Model of the Phenomenon* doesn't require adding such an owner. People, desires, decisions, and difficulties remain. We can examine the demand to install yet another flawless manager above them.
+If freedom means the absence of an obstacle, we have to identify the obstacle. If it means being able to choose, we need alternatives, a chooser, and a distinction between what was chosen and what wasn't. If it means the right to act according to one's will, we must distinguish the will and whoever is supposed to own it.
 
-## Freedom Without a Final Achievement
+**Absolute freedom cannot be reached by endlessly expanding ordinary freedom.** Even if we unlock every door, the question remains: who wanted to leave, and what were they escaping? Even if we give someone infinitely many options, the existence of those options doesn't establish an independent someone who chooses them.
 
-This is where “total freedom” takes on a particular meaning.
+In *Model of the Phenomenon*, freedom is a concept: a distinction within experiencing determined through other distinctions. Absolute freedom, with no distinguishing restriction left to oppose it, cannot be just another experienced state with its own special characteristics. We can name it. We cannot discover it as an additional object among objects.
 
-It doesn't promise that everything is now available to you. A locked door may stay locked. A shortage of money won't disappear. Another person may say no. This freedom isn't measured by how many options you have.
+And this is where things take an unexpected turn. Perhaps the very impossibility of making absolute freedom into a separate possession allows us to speak about it more radically than about any freedom we can acquire.
 
-It means there's no obligation to transform yourself into someone who finally deserves the life already happening.
+## At What Point Does the Chooser Appear?
 
-And even this needn't become an exercise. You don't have to urgently stop controlling, learn to let go, or convince yourself that no separate owner exists. Otherwise, another boss appears, checking whether you've freed yourself well enough.
+Imagine an ordinary morning. You wake up, see your phone, think about work, want coffee, change your mind, and decide to go for a walk. You can list reasons: sleep, habits, weather, memories, mood, yesterday's conversation. You can say, “I decided to go for a walk,” and that will be a perfectly good description of what happened.
 
-You can pursue a career with enthusiasm. You can want a quiet job and free evenings. You can look for answers, argue, change plans. Desires still have consequences; actions still involve responsibility. But no path through life has to become the final justification for your existence.
+But where, in that story, does a separate decider appear?
 
-If nothing has loosened its grip just now, you haven't failed to understand. If you feel anxious again tomorrow, that won't prove you've lost.
+A thought can be distinguished. So can a desire. So can hesitation between two plans. Even the feeling “I'm the one making this decision right now” has its own definite content in experiencing. But **the feeling of authorship does not, by itself, present a separate author existing behind everything just described**.
 
-Perhaps today you simply want to finish work, eat, and look out at the evening street.
+To locate such an author, we often mentally separate a person from everything happening. Here is the world, with its circumstances, body, memory, desires, and causal connections. And over here is supposedly the person themselves, who must enter that world from the outside and make a truly free choice.
 
-You don't have to finish yourself first.
+But the boundary between “person” and “circumstances” is already a distinction. It involves the body, surroundings, history, language, and possibilities. Separating the “I” from all of this and then asking whether it is free from the rest of the world means first drawing a boundary and then investigating the captive created by that drawing.
+
+Within monophenomenalism, everything is considered as one phenomenon. “I,” world, decision, doubt, consent, and refusal are distinctions within it. There is no need for a second stage on which someone stands apart from the phenomenon and chooses how to relate to it.
+
+You can choose between coffee and tea. But **there need not be another, fundamental choice: whether to be the one to whom that choice belongs at all**.
+
+## Why Determinism Comes So Close—and Then Stops
+
+There is a remarkable honesty in determinism. If an action is connected with preceding circumstances, we cannot identify a moment when an independent director appears out of nowhere, breaks the entire chain, and announces, “From now on, this decision belongs to me alone.”
+
+The desire to change our desires is itself distinguishable in relation to conditions. The decision to become more decisive has conditions. Even rebellion against predetermination doesn't arise in a separate room sealed off from everything else.
+
+Gradually the image of a little sovereign inside the person begins to disappear—the ruler to whom the body, thoughts, and events were supposedly meant to answer. Yet determinism retains a foundation of its own: universal necessity. “It couldn't have been otherwise.” Each cause is determined by another; an entire life seems to move along a compulsory track.
+
+And with that comes a new form of unfreedom: if I'm not an independent ruler, I must be a prisoner of causes.
+
+But who, exactly, is the prisoner? And where is the line between that prisoner and the causal chain?
+
+If everything that happens is considered as one phenomenon, then causality, necessity, and possibility are distinctions within it too. They have content: science, medicine, technology, and everyday decisions do not cease to work because we examine the meaning of causality. But causality need not become a separate law to which the phenomenon itself submits from the outside.
+
+We therefore need neither a free will that breaks causes nor an absolute necessity that binds all existence. **Neither “I could have acted in complete independence from everything” nor “I'm forever chained to the only possible course of events” needs to serve as a starting foundation.** Both pictures already depend on particular distinctions concerning agency, possibility, time, and cause.
+
+In this sense, absolute freedom is not a victory of indeterminism over determinism. It begins where the opposition itself stops being a compulsory explanation of the phenomenon.
+
+## Freedom Even from Having to Accept Freedom
+
+Suppose someone tells you, “To be liberated, understand that there is no separate you.”
+
+It sounds inviting. But look at the structure of that promise. There is you, still unfree; there is an understanding you must attain; and there is a future you, liberated after reaching the correct conclusion. Between them lies a path to complete.
+
+That might be a fascinating path of inquiry. But if we're speaking of absolute freedom, it has once again been made dependent on a condition. Someone has been assigned the task of first agreeing that there is no separate one who agrees.
+
+It's a peculiar arrangement: to become free from choosing, you must correctly choose freedom. To be freed from a separate “I,” you must make that separate “I” eliminate itself. To stop being a prisoner of concepts, you must successfully carry out a program of fighting concepts.
+
+**Absolute freedom does not require your consent.** Nor does it require your refusal. It cannot be a reward for understanding, because understanding would then be a condition and misunderstanding a barrier.
+
+You can believe you have a separate will. You can be a committed determinist. You can argue with this article, have no interest in philosophy, pursue liberation, stop pursuing it, and start again one day. None of these places you outside what is being discussed.
+
+You can reject the sentence “you are free,” too. No philosophical fall will occur. Rejecting freedom doesn't require a position outside the phenomenon: refusal, like acceptance, is distinguished within experience.
+
+**If freedom requires you to stop thinking you're unfree, it isn't absolute freedom yet.**
+
+## No Fundamental Prisoner Doesn't Mean There Are No Prisons
+
+This idea has a dangerous literal misreading. If there is no fundamental prisoner, does that mean someone in prison is free to walk out? That a sick person needn't get treatment? That promises and laws no longer matter? No.
+
+Prisons exist in human experience, doors are locked, movement is restricted, people are coerced. These distinctions do not lose their consequences. Releasing someone from prison in the legal sense can be an enormously important event.
+
+But we are not investigating legal freedom or the number of actions available to a body. We are asking whether, in addition to all people and their circumstances, there must exist **a separate, absolute owner of what happens, who could be imprisoned by the phenomenon itself**.
+
+When we say “I'm limited,” the limitation has meaning in relation to a particular possibility. I cannot walk through a wall. I cannot return to yesterday. I cannot force someone else to love me. These are not empty statements. Yet none of these limitations establishes a fundamental unfreedom of the phenomenon itself.
+
+If everything is one phenomenon, then the barrier, the person impeded by it, the wish to overcome it, and the overcoming are distinguished within it. We cannot put the phenomenon on one side of its own boundary and true freedom on the other without turning that other side into yet another supposedly independent foundation.
+
+So absolute freedom cannot be taken away by locking a door. But that **does not** mean the locked door is open. One statement concerns an alleged ultimate boundary of the phenomenon; the other concerns a particular human circumstance. Neither has to erase the other.
+
+## And Who Is Responsible for Everything That Happens?
+
+Here we reach an even stranger idea: **there is no one responsible for the happening of the phenomenon as a whole**.
+
+In ordinary life, we distinguish actions, their agents, intentions, harm, promises, guilt, and attempts to make things right. If someone breaks an agreement, they can be held accountable. If a person harms another, we can stop them, protect the victim, and seek restitution. Calling these things concepts does not make them trivial.
+
+But “who is responsible for the phenomenon as a whole?” is a different sort of question. To blame someone, we must distinguish them from the circumstances, identify an action, and establish a standard of judgment. To assign responsibility *for everything*, we would have to find an agent separate from everything for which they were responsible.
+
+Where would that agent be? Their body, history, character, decisions, even their sense of guilt already belong to what can be distinguished. If we move the agent beyond all of it, we haven't discovered a pure bearer of responsibility. We've merely added another proposed foundation to the phenomenon.
+
+There is therefore no ultimate owner who can be presented with the bill for the existence of the world. No one who should have chosen the phenomenon in advance, granted it permission to happen, or ensured that it matched the correct blueprint.
+
+This is not a universal amnesty for actions. **Responsibility for an action is distinguished in human experience; responsibility for the phenomenon itself would require a separate agent outside the phenomenon.** The model introduces no such agent.
+
+You can apologize and correct mistakes without regarding yourself as the creator of everything that happened. You can love and care without appointing yourself supreme director of the world.
+
+## There Is No Need to Destroy Cause and Effect
+
+Liberation is sometimes pictured as an escape from the chain of cause and effect. As if ordinary life were one place, where everything is connected, and beyond it lay a special region where connections no longer apply.
+
+But an escape “beyond” would require a second place separate from the phenomenon. And destroying causality would require an action that breaks the connections and produces freedom as a new result. Such a story merely rearranges familiar elements: agent, action, cause, effect, achievement.
+
+You can watch a ball hit a window and say that the impact broke the glass. That is a meaningful explanation. You can investigate how childhood relates to present habits, how medicine affects the body, how words change relationships. Causal descriptions are indispensable for many human purposes.
+
+But there's no need to turn them into a cage enclosing the phenomenon itself and then try to escape it. **Causality can retain all its content within experience without becoming an independent condition for experience to exist.**
+
+That is also why the freedom we're talking about does not “make the world what it is.” That would be just another causal theory: freedom as a special force, and the world as something it produces. The question “Why is everything this way?” would once again have an external maker.
+
+It is more accurate to put it differently: **the world doesn't have to obtain permission from freedom before it can be what it is distinguished as being**. There is no separate freedom standing behind the phenomenon and explaining it. By speaking of freedom, we are not adding a sixth thing to the five theses. We are drawing attention to the lack of any necessary external prisoner, jailer, and lock.
+
+## Even Feeling Unfree Takes Nothing Away
+
+Imagine someone who doesn't feel free at all right now. They're frightened, angry with themselves, dependent on circumstances, unable to accept what's happening. What do they need to do to satisfy this article?
+
+**Nothing.**
+
+Not because they're forbidden to change anything, but because they don't have to change themselves to comply with an article. They can ask for help, struggle against circumstances, go to therapy, look for work, defend their rights, learn to rest. They can go on feeling anxious. They can regard everything we've said as nonsense.
+
+If absolute freedom disappears every time the experience of unfreedom appears, then it was only one state among others. States are distinguishable: today things feel easier, tomorrow harder; today everything seems possible, tomorrow even a simple step feels difficult. But these differences do not place the phenomenon on one side or the other of absolute freedom.
+
+Even the words “nothing needs to be done” must not become a law. You can set goals and work toward changes. You can want relief from suffering and take real steps to find it. You do not have to be free *of* desires to satisfy a freedom with no opposing limitation.
+
+Here we reach perhaps the most difficult sentence: **not only calm, acceptance, and joy, but also fear, resistance, and seeking are already not on the far side of this freedom**.
+
+Not because fear is secretly pleasant or injustice suddenly good. But because we have stopped looking for a separate place beyond everything that happens in which a fundamental captive could be established.
+
+## Nothing Changes. And Nothing Has to Be Kept Unchanged
+
+We usually recognize liberation by some change. There was fear; now there is peace. There was suffering; now joy has arrived. There was searching; now there is awakening. Such stories are understandable: in human experience, relief is real, change happens, and moments of extraordinary clarity occur.
+
+But if we make these changes proof of absolute freedom, their disappearance tomorrow will become proof that freedom has been lost. Once again, a condition appears: maintain the correct state.
+
+Here there is no event that must take place. Someone may finish this article and feel elated. They may feel nothing. They may disagree. They may go to work, make coffee, and forget what they read.
+
+Freedom is not the result of reading. It is not situated in time as a future reward. Nor can you lose it by forgetting it: anything preserved through effort is already defined by the possibility of loss.
+
+It does not follow that the phenomenon possesses some special property called “unchanging freedom.” The word “freedom” itself remains a concept. We have not discovered a hidden substance and assigned it a new quality. **We have simply not accepted the necessity of a division in which someone must first get outside the phenomenon in order to become free of it.**
+
+Everything can continue just as it did. Not because it *must* continue that way, not because every event is good, and not because causality has stopped working. Only because what happens does not require a separate moment in which freedom is granted.
+
+## Freedom Even from Freedom Itself
+
+At this point it's tempting to pronounce the final formula: “So everything has always been free.” Almost immediately, though, we see that “everything,” “free,” and “always” are also distinctions. “Always” doesn't establish eternal duration. “Free” doesn't designate an invisible property of things. And “everything” doesn't turn the phenomenon into a gigantic object containing all the others.
+
+We can use these words—just as we use “I decided,” “yesterday,” “cause,” and “responsibility.” We simply needn't turn a way of speaking into a separate foundation for what happens.
+
+At the limit, even absolute freedom must be free of any requirement to call itself freedom. It needs no declaration of its existence. No defense against disagreement. No victory over determinism, fear, choice, law, or concepts. And no one has to experience it as a special state.
+
+In this sense, “you are absolutely free” is not news that you have acquired infinitely many possibilities. Rather, it points to this: **there is no need to assume a separate you who is first denied the right to be what is happening, and must then obtain that right**.
+
+Nothing to acquire. No one to grant it. No other side of the phenomenon to escape to. But this is not emptiness in place of the world: the bus arrives or runs late, people choose and hesitate, love and loss occur, mistakes are made and corrected, causes operate, consequences unfold. None of that needs to be abolished.
+
+And yet we can call this absolute liberation—the most radical liberation we can speak about. Not because someone has finally achieved it, but because even the need for achievement has turned out not to be necessary.
+
+**You are absolutely free to be as you are right now—including being free not to believe a single word about this freedom.**
+
+And even that is not a rule you have to live up to.
