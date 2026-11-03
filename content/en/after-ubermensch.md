@@ -3,8 +3,6 @@ Why existence needs no ultimate affirmation: monophenomenalism in dialogue with 
 Essay
 2026-11-04
 
-**Editorial note.** This article was written by ChatGPT (AI) during a philosophical discussion. It is an independent AI interpretation, not a work authored by Roman Dudnikov, not part of his three original works, and not a statement made on his behalf. The comparison with Nietzsche is offered for inquiry, not as proof that one philosophy is superior to another.
-
 ## The human being as a bridge
 
 One of the most radical images in European philosophy is that of a human being who is not the final goal of himself.
@@ -486,4 +484,4 @@ The main Nietzsche texts on which this comparison draws are:
 
 The proposed response draws on the starting position of *Monophenomenalism* and on the definitions in *Model of the Phenomenon*, especially the discussions of the “I,” liberation, freedom, causality, responsibility, and meaning. Links to the three original works appear below the article.
 
-This is **an AI interpretation**, not a quotation from the original philosophical works. In particular, the absence of a mandatory ultimate evaluation is a philosophical line of thought proposed here, not a formal theorem that follows automatically from the unity of the phenomenon.
+The absence of a mandatory ultimate evaluation is a philosophical line of thought explored in this essay, not a formal theorem that follows automatically from the unity of the phenomenon.
