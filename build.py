@@ -7,8 +7,8 @@ from email.utils import format_datetime
 from xml.etree import ElementTree as ET
 ROOT=Path(__file__).resolve().parent
 OUT=ROOT/'dist'
-BASE='https://prostostone.github.io/yavlenie-ryadom/'
-PREFIX='/yavlenie-ryadom/'
+BASE='https://prostostone.github.io/yavlenie/'
+PREFIX='/yavlenie/'
 SOURCE='https://prostostone.github.io/Monophenomenalism/index.html'
 SOURCE_BASE=SOURCE.rsplit('/',1)[0]+'/'
 E=html.escape
@@ -20,7 +20,7 @@ def local(lang,path=''):return ('en/' if lang=='en' else '')+path
 def url(lang,path=''):return BASE+local(lang,path)
 def href(lang,path=''):return PREFIX+local(lang,path)
 def tr(lang,ru,en):return en if lang=='en' else ru
-def name(lang):return tr(lang,'Явление рядом','Phenomenon Nearby')
+def name(lang):return tr(lang,'Явление','Phenomenon')
 def inline(s):
  s=E(s)
  s=re.sub(r'\[([^\]]+)\]\((https://[^\s)]+|/[^\s)]+)\)',r'<a href="\2">\1</a>',s)

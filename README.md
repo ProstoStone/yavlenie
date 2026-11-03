@@ -1,8 +1,8 @@
-# Явление рядом
+# Явление
 
 Тематический сайт о монофеноменализме и Модели явления. Материалы без персональной авторской подписи; популярные интерпретации отделены от исходных работ.
 
-Сайт: https://prostostone.github.io/yavlenie-ryadom/
+Сайт: https://prostostone.github.io/yavlenie/
 
 Первоисточники: https://prostostone.github.io/Monophenomenalism/index.html
 

@@ -1,9 +1,9 @@
 About the Site and Its Sources
-How Phenomenon Nearby works and where its materials come from.
+How Phenomenon works and where its materials come from.
 About
 2026-11-03
 
-Phenomenon Nearby is an independent information site about monophenomenalism and *Model of the Phenomenon*. Start with an everyday question, explore an example, encounter an objection, and gradually turn to the original formulations.
+Phenomenon is an independent information site about monophenomenalism and *Model of the Phenomenon*. Start with an everyday question, explore an example, encounter an objection, and gradually turn to the original formulations.
 
 ## How the Articles Are Made
 
