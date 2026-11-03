@@ -37,8 +37,8 @@ def render(body,lang):
   elif block.startswith('> '):result.append('<blockquote><p>'+inline(block[2:])+'</p></blockquote>')
   else:result.append('<p>'+inline(block.replace('\n',' '))+'</p>')
  return '\n'.join(result),toc
-ORDER=['freedom','mistakes','fear','bol-ne-vydumka','odno-ne-znachit-odinakovo','gradient','start','glossary','about']
-RELATED={'freedom':['fear','mistakes','start'],'mistakes':['bol-ne-vydumka','freedom','fear'],'fear':['freedom','bol-ne-vydumka','mistakes'],'bol-ne-vydumka':['odno-ne-znachit-odinakovo','gradient','glossary'],'odno-ne-znachit-odinakovo':['gradient','bol-ne-vydumka','start'],'gradient':['odno-ne-znachit-odinakovo','bol-ne-vydumka','glossary'],'start':['freedom','odno-ne-znachit-odinakovo','glossary'],'glossary':['gradient','bol-ne-vydumka','start'],'about':['start','glossary','gradient']}
+ORDER=['freedom','after-ubermensch','mistakes','fear','bol-ne-vydumka','odno-ne-znachit-odinakovo','gradient','start','glossary','about']
+RELATED={'freedom':['after-ubermensch','fear','mistakes'],'after-ubermensch':['freedom','mistakes','start'],'mistakes':['bol-ne-vydumka','freedom','fear'],'fear':['freedom','bol-ne-vydumka','mistakes'],'bol-ne-vydumka':['odno-ne-znachit-odinakovo','gradient','glossary'],'odno-ne-znachit-odinakovo':['gradient','bol-ne-vydumka','start'],'gradient':['odno-ne-znachit-odinakovo','bol-ne-vydumka','glossary'],'start':['freedom','odno-ne-znachit-odinakovo','glossary'],'glossary':['gradient','bol-ne-vydumka','start'],'about':['start','glossary','gradient']}
 items=[]
 for lang in ('ru','en'):
  for p in sorted((ROOT/'content'/('en' if lang=='en' else '')).glob('*.md')):
