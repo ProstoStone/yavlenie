@@ -73,5 +73,13 @@ assert all(f'{i}. {t}' in en_glossary for i,t in enumerate(expected,1))
 ru_count=len(re.findall(r'^## ',ru_glossary,re.M))
 en_count=len(re.findall(r'^## ',en_glossary,re.M))
 assert ru_count==en_count and ru_count>=20,(ru_count,en_count)
+# Third essay in the sequence: exact thesis wording and matching bilingual structure.
+ru_weight=(ROOT/'content/weightlessness.md').read_text()
+en_weight=(ROOT/'content/en/weightlessness.md').read_text()
+assert all(f'{i}. {t}' in ru_weight for i,t in enumerate(ru_theses,1))
+assert all(f'{i}. {t}' in en_weight for i,t in enumerate(expected,1))
+assert len(re.findall(r'^## ',ru_weight,re.M))==len(re.findall(r'^## ',en_weight,re.M))>=12
+assert 'Множество вещей. Множество различий.<br>Одно явление.' in (ROOT/'build.py').read_text()
+assert 'Many things. Many distinctions.<br>One phenomenon.' in (ROOT/'build.py').read_text()
 assert len(ET.parse(OUT/'sitemap.xml').getroot())==2*(len(ORDER)+2)
 print('OK: bilingual pairing, language metadata, sitemap URLs, four figures per language, original Russian texts and five English theses preserved')
