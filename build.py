@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Static bilingual publisher; no client JavaScript or external dependencies."""
+"""Static bilingual publisher; optional reading theme; no external dependencies."""
 from pathlib import Path
 import json,re,html,shutil
 from datetime import date,datetime,timezone
@@ -52,17 +52,20 @@ def sources(lang):
  return [(tr(lang,'Модель явления','Model of the Phenomenon'),SOURCE_BASE+f'model{suffix}-1.html'),(tr(lang,'Монофеноменализм','Monophenomenalism'),SOURCE_BASE+f'monophenomenalism{suffix}-1.html'),(tr(lang,'Рабочая карта','Working Map'),SOURCE_BASE+f'working_map{suffix}-1.html')]
 def source_links(lang):return ' · '.join(f'<a href="{u}">{t}</a>' for t,u in sources(lang))
 def layout(lang,title,desc,path,content,schema,text_path=None,noindex=False):
+ theme_script=(ROOT/'assets/theme.js').read_text()
  n=name(lang);other='en' if lang=='ru' else 'ru';canonical=url(lang,path)
  alts='' if noindex else ''.join(f'<link rel="alternate" hreflang="{l}" href="{url(l,path)}">' for l in ('ru','en'))+f'<link rel="alternate" hreflang="x-default" href="{url("ru",path)}">'
  return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{E(title)} — {n}</title><meta name="description" content="{E(desc,quote=True)}"><meta name="robots" content="{'noindex,follow' if noindex else 'index,follow,max-snippet:-1,max-image-preview:large'}"><link rel="canonical" href="{canonical}">{alts}
-<link rel="icon" href="https://prostostone.github.io/favicon.png" type="image/png" sizes="192x192"><link rel="shortcut icon" href="https://prostostone.github.io/favicon.ico"><link rel="stylesheet" href="{PREFIX}assets/style.css?v=glossary-20261104"><link rel="stylesheet" href="{PREFIX}assets/illustrations.css">
+<script id="reading-theme">{theme_script}</script>
+<link rel="icon" href="https://prostostone.github.io/favicon.png" type="image/png" sizes="192x192"><link rel="shortcut icon" href="https://prostostone.github.io/favicon.ico"><link rel="stylesheet" href="{PREFIX}assets/style.css?v=theme-20261105"><link rel="stylesheet" href="{PREFIX}assets/illustrations.css">
 <link rel="alternate" type="application/rss+xml" title="{n}" href="{url(lang,'feed.xml')}">
 {f'<link rel="alternate" type="text/plain" href="{text_path}">' if text_path else ''}
 <meta property="og:type" content="{'article' if text_path else 'website'}"><meta property="og:title" content="{E(title,quote=True)}"><meta property="og:description" content="{E(desc,quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:locale" content="{'en_US' if lang=='en' else 'ru_RU'}"><meta property="og:locale:alternate" content="{'ru_RU' if lang=='en' else 'en_US'}"><meta property="og:site_name" content="{n}">
-<script type="application/ld+json">{json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')}</script></head><body>
+<script type="application/ld+json">{json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')}</script></head><body class="{'reading-page' if text_path else 'index-page'}">
 <a class="skip" href="#main">{tr(lang,'К содержанию','Skip to content')}</a>
 <header class="header"><a class="brand" href="{href(lang)}"><span class="mark" aria-hidden="true">я.</span>{n}</a><nav aria-label="{tr(lang,'Основная навигация','Main navigation')}"><a href="{href(lang,'start/')}">{tr(lang,'С чего начать','Start here')}</a><a href="{href(lang,'#articles')}">{tr(lang,'Все тексты','All articles')}</a><a href="{href(lang,'about/')}">{tr(lang,'О проекте','About')}</a><a class="language" href="{url(other,path) if not noindex else url(other)}" lang="{other}" hreflang="{other}" aria-label="{tr(lang,'Read this page in English','Читать эту страницу по-русски')}">{tr(lang,'EN','RU')}</a></nav></header>
+<button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" hidden><span aria-hidden="true">◐</span> {tr(lang,'Тёмная тема','Dark theme')}</button>
 <main id="main">{content}</main><footer><div><strong>{n}</strong><p>{tr(lang,'Монофеноменализм и Модель явления<br>в вопросах повседневной жизни.','Monophenomenalism and Model of the Phenomenon<br>through everyday questions.')}</p></div><nav aria-label="{tr(lang,'Ссылки внизу страницы','Footer links')}"><a href="{href(lang,'glossary/')}">{tr(lang,'Словарь','Glossary')}</a><a href="{href(lang,'catalog/')}">{tr(lang,'Текстовый каталог','Text catalogue')}</a><a href="{url(lang,'feed.xml')}">RSS</a><a href="{href(lang,'about/')}">{tr(lang,'О материалах','About the articles')}</a><a href="{SOURCE}">{tr(lang,'Монофеноменализм: первоисточники ↗','Monophenomenalism: original works ↗')}</a></nav></footer></body></html>'''
 def card(a,i):
  return f'<a class="entry" href="{a["url"]}"><span class="num">{i:02d}</span><div><div class="meta">{a["kind"]} · {a["minutes"]} {tr(a["lang"],"мин чтения","min read")}</div><h3>{E(a["title"])}<span aria-hidden="true">↗</span></h3><p>{E(a["description"])}</p></div></a>'

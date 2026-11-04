@@ -13,7 +13,9 @@ class Page(HTMLParser):
   if t=='link' and a.get('rel')=='canonical':self.canon.append(a['href'])
   for k in ('href','src'):
    if k in a:self.links.append(a[k])
-  if t=='script':assert a.get('type')=='application/ld+json';self.json=True
+  if t=='script':
+   self.json=a.get('type')=='application/ld+json'
+   assert self.json or (a.get('id')=='reading-theme' and 'src' not in a)
  def handle_endtag(self,t):
   if t=='script':self.json=False
  def handle_data(self,s):
