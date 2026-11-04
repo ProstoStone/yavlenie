@@ -109,11 +109,13 @@ To see the problem more clearly, let us separate the argument into propositions.
 
 First: a human life has meaning only if there is an objective ultimate purpose it ought to fulfill.
 
-Second: no such purpose exists, or none can be adequately established.
+Second: suppose no such purpose exists.
 
-Third: therefore, human life has no meaning.
+Third: life then lacks meaning **only in this deliberately narrow sense of the word**.
 
-If the first two propositions are accepted, the third can follow.
+But if an ultimate purpose has not been disproven, only not established, the conclusion is different: **we have no grounds for claiming that this kind of meaning exists**. Not finding a purpose does not prove its absence.
+
+Neither case establishes that life is bad, that it cannot be loved, or that there is nothing in it to enjoy.
 
 But the decisive issue concerns the first.
 
@@ -311,7 +313,7 @@ But why must value be eternal?
 
 That is another independent demand.
 
-“To have no eternal value” is not the same as “to have never had value.”
+“To have no eternal value” is not the same as “to have never had value.” **Joy does not have to last forever to matter.**
 
 “An event has ended” is not the same as “the event never took place.”
 
@@ -539,7 +541,7 @@ In one respect, it is fair.
 
 Monophenomenalism need not refute the narrow nihilistic assertion “There is no established objective purpose for human life.”
 
-If no such purpose has been discovered, its absence can be acknowledged.
+If no such purpose has been discovered, we can acknowledge that we have no grounds for relying on it. That does not prove its impossibility.
 
 The disagreement concerns the next step.
 
@@ -551,7 +553,7 @@ That is the argument we are asking for.
 
 If the critic replies, “Personally, I need my life to have meaning,” this describes a real human experience that should not be dismissed.
 
-But a person's need for meaning and the objective necessity of meaning for all existence are different claims.
+But a person's need for meaning and the objective necessity of meaning for all existence are different claims. **You don't need to know why the universe exists to know whom you want to embrace, whom you want to help, or what you want to do today.**
 
 If the critic instead says, “I call any life without an ultimate purpose meaningless, but I do not consider such a life bad,” the central disagreement largely disappears.
 
@@ -709,7 +711,7 @@ And not “Life is beautiful because I have found it a new meaning.”
 
 But something far more radical:
 
-**Life requires no ultimate meaning in order to be life.**
+**Life requires no ultimate meaning in order to be life. We can love, create, rest, and rejoice without having to justify existence as a whole through any of them.**
 
 We may give meaning to anything.
 

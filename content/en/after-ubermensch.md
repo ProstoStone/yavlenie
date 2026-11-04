@@ -229,7 +229,7 @@ Perhaps, at this level, Nietzsche has no need for an “after” at all.
 
 Yet his philosophy retains another dimension: pronounced evaluations of particular ways of existing. Strength, creativity, the capacity to affirm, self-overcoming, the art of giving style to one's character—all have special significance for him.
 
-This is not necessarily a universal command. Nietzsche need not believe that everyone should embody the same ideal in the same way.
+This is not necessarily a universal command. Nietzsche need not believe that everyone should embody the same ideal in the same way. Yet his images can easily be turned into a modern order: “Become stronger. Overcome yourself. Learn to say Yes to life.” Our question concerns chiefly **whether such an order must bind the reader**, not whether Nietzsche failed to see the innocence of becoming.
 
 Nevertheless, his philosophy distinguishes higher and lower forms of human life. This distinction is not an incidental turn of phrase; it belongs to his positive philosophical project.
 
@@ -389,7 +389,7 @@ Instead of searching for a form of existence liberated from an earlier dependenc
 
 These questions do not make Nietzsche wrong.
 
-But they change the direction of philosophical inquiry.
+But they change the direction of philosophical inquiry. **You can grow from curiosity about life rather than hatred of who you are today.** Self-overcoming can be a fascination, an act of creation, or a response to a concrete challenge—not a compulsory examination in deserving to exist.
 
 In Nietzsche we encounter a profound critique of inherited foundations and an equally profound effort to think human greatness after their collapse.
 

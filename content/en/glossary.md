@@ -39,7 +39,7 @@ Imagine hearing rain, seeing light in a window, and thinking about tomorrow. We 
 
 ## One
 
-**In the position:** everything that exists is considered one phenomenon, without a separately established second foundation.
+**In the starting position:** everything that exists is one phenomenon. This is not merely advice to refrain from hypothesizing a second world: it is an adopted philosophical claim. No separately established second foundation is introduced. The fact that all available tests take place within experiencing motivates the position, but does not by itself prove it.
 
 “One” does not mean all things have one shape, that all people are one person, or that many sensations merge into an indistinguishable mass. Hot differs from cold, yesterday from today, one's own action from another's.
 

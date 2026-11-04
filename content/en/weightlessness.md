@@ -113,11 +113,11 @@ The point is not to prove the opposite—that everything must be wonderful, satu
 
 That would simply replace one verdict with another.
 
-Weightlessness is not an optimistic form of nihilism.
+Weightlessness is not simply an optimistic or pessimistic judgment about the absence of ultimate meaning.
 
-It does not say, “There is no meaning, and that is marvelous.”
+**Freedom from mandatory purpose really can bring joy.** Sometimes it opens room for curiosity, love, rest, and new plans. One may even delight in not having to justify oneself. But such joy is a possibility, not an examination: its absence disproves nothing.
 
-For that would oblige people to be happy about the absence of meaning. And if they were not happy, they would once again be doing something wrong.
+There is no duty to call the world beautiful, and no need to reject beauty when it is experienced.
 
 **Weightlessness is not a positive evaluation of emptiness. It is the possibility of treating neither the presence nor the absence of meaning as a final evaluation of the phenomenon.**
 
@@ -339,7 +339,7 @@ Now the moment need not be burdened with that demand.
 
 It does not have to justify its existence.
 
-And the person is not required to extract even pleasure from it.
+Nor is the person required to extract pleasure from the moment. But if pleasure comes, there is no need to dismiss it: joy need not justify life in order to be real.
 
 ## Not hiding from life behind philosophy
 
@@ -461,7 +461,7 @@ Nor is it the emptiness left after everything dear has disappeared.
 
 It is the absence of a need to turn life into a continuous test of whether one has managed to justify it.
 
-**There is no need to stop holding on. Nor is there a need to maintain the absence of support.**
+**There is no need to stop holding on. Nor is there a need to maintain the absence of support. **We can begin with a single demand on ourselves that we no longer want to treat as mandatory.****
 
 And one day even this sentence may be forgotten.
 

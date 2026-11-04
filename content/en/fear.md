@@ -65,7 +65,7 @@ But can we conclude from the loss of something within the phenomenon that the ph
 
 This does not promise the survival of a home, a body, or a memory. **The phenomenon is under no obligation to preserve what is distinguished within it.** It is simply that loss, like preservation, does not become an event beyond the phenomenon. No independent force appears that could carry what happens outside the phenomenon and declare it invalid.
 
-So we can fear loss while also asking what else we mean by a final catastrophe, beyond the loss itself. Often we find the thought: “If this happens, my very existence will be wrong.” But the correctness of existence would again require an external standard—one we haven't introduced.
+So we can fear loss while also asking what else we mean by a final catastrophe, beyond the loss itself. Often we find the thought: “If this happens, my very existence will be wrong.” But “something terrible has happened to me” does not entail “my very existence is wrong.” That further conclusion needs its own argument. Pain and loss may call for help and decisive action; they do not, by themselves, prove that a person should never have existed.
 
 ## Death: the hardest boundary
 
@@ -95,7 +95,7 @@ The same goes for consequences. They do not arrive from a world on the far side 
 
 There is no contradiction in knowing fire-safety rules, treating an illness, avoiding driving when it's unsafe to do so, protecting loved ones—and not regarding existence as an eternal examination in survival.
 
-**“There is nothing to fear” does not mean “nothing can hurt you.” It means there is no ultimate threat outside the phenomenon that could make the phenomenon itself wrong, unacceptable, or a failure to exist as it does.**
+**“There is nothing to fear” does not mean “nothing can hurt you.” In this philosophical approach, a concrete danger does not become a final verdict on existence itself.**
 
 ## Being afraid of fear
 
@@ -105,7 +105,7 @@ Now fear has a new job. At first we were afraid of events; now we're afraid of o
 
 But fear itself is not a violation of the model. It no more proves the existence of a separate owner of experiencing than calmness proves the absence of one. Fear is a distinction with content of its own. You can experience it, explore it, try to ease it, or seek support. You can also do nothing in particular about it.
 
-None of these responses is required. The model has no built-in goal of eliminating fear. And the phenomenon itself has no duty to be calm.
+**You don't have to stop being afraid before you act.** Sometimes help or protective action is needed right now—and you can act while still feeling afraid. The model has no built-in goal of eliminating fear, nor does it make calmness a condition of life.
 
 Moreover, if you are frightened again tomorrow, you haven't “fallen back into unfreedom.” For such a fall to occur, freedom would first have to be established as a state you can drop out of. But the absolute freedom we're considering is not a reserve of calm you earn as a reward for understanding things correctly.
 
@@ -135,7 +135,7 @@ Within the phenomenon there are dangers. There is fear. There are people who nee
 
 But no separate tribunal appears outside the phenomenon to pronounce a final sentence: “This was wrong. It should never have happened.”
 
-The phone is lying on the table again. Perhaps a message will arrive. Perhaps it won't. You can write once more, wait, call, turn to something else, or worry. Nothing requires you to perform this evening flawlessly.
+The phone is lying on the table again. Perhaps a message will arrive. Perhaps it won't. You can write once more, wait, call, turn to something else, or worry. You can ask for support without first becoming fearless. Nothing requires you to perform this evening flawlessly.
 
 **Fear has things to speak about within life. But life as the phenomenon has no ultimate accuser before whom it must justify itself.**
 

@@ -58,7 +58,7 @@ for lang in ('ru','en'):
   assert len(re.findall('<figure',s))==(4 if slug=='gradient' else 0)
 import hashlib
 # Editorial regression guard; does not depend on Git checkout depth.
-PRESERVED_RUSSIAN = {'freedom': 'e20c0110e070cefdfc6aad07ce69b9a4ddc0a8bf9fdb85223dcc6de93bac27bb', 'fear': '6f61a451e44f7ad08b6eb27cd5865f6c0cd062a942afcef072ab837219efbcc8', 'mistakes': '35355e9d7cfa5f8a602d86300f4902780c05e2f2bf3fae596165b89e77d79ada', 'start': '222649ed75142eef993804f7337ace862ed7ad2aa192e0d668ae72dbf1068e31', 'glossary': '2fc304b513f3561066c341e8411aff9513048479485864ac2425f61d4a1e04ba'}
+PRESERVED_RUSSIAN = {'freedom': '77722813805cc3f3806e5164d835c89343f1778ee21bcad1d01dadf444d6f70e', 'fear': '884e890d5fb196fe54ced141af4b1c2493d4c259dff92593d7c87ea464bf2ed2', 'mistakes': '3affec4e3774d68728f8d83f65e6c33b4f7bceee519af22be643da63cff49e53', 'start': '08e4f9f2241567c3d7b9f91c863ef969b3234524cb365b12c21041108b840442', 'glossary': '039ad6e20dc53ebf02da6912d0d2dc1aad59c943ca041d01e83eacf2c34773ac'}
 for slug,digest in PRESERVED_RUSSIAN.items():
  assert hashlib.sha256((ROOT/"content"/(slug+".md")).read_bytes()).hexdigest()==digest,slug
 expected=['Everything is one phenomenon.','The phenomenon is sensory experiencing.','A distinction within sensory experiencing is a concept.','Concepts structure the phenomenon into experience.','Experience is the phenomenon structured through concepts.']
@@ -81,5 +81,16 @@ assert all(f'{i}. {t}' in en_weight for i,t in enumerate(expected,1))
 assert len(re.findall(r'^## ',ru_weight,re.M))==len(re.findall(r'^## ',en_weight,re.M))>=12
 assert 'Множество вещей. Множество различий.<br>Одно явление.' in (ROOT/'build.py').read_text()
 assert 'Many things. Many distinctions.<br>One phenomenon.' in (ROOT/'build.py').read_text()
+# Editorial consistency: corresponding Russian and English articles retain their structure.
+EDITORIAL_SLUGS=('freedom','fear','mistakes','nihilism-without-verdict','weightlessness','after-ubermensch','start','glossary','bol-ne-vydumka')
+for slug in EDITORIAL_SLUGS:
+ ru=(ROOT/'content'/(slug+'.md')).read_text()
+ en=(ROOT/'content/en'/(slug+'.md')).read_text()
+ assert len(re.findall(r'^## ',ru,re.M))==len(re.findall(r'^## ',en,re.M)),slug
+ assert len(ru)>3000 and len(en)>3000,slug
+assert 'такой цели не существует или её невозможно обоснованно установить' not in (ROOT/'content/nihilism-without-verdict.md').read_text()
+assert 'no such purpose exists, or none can be adequately established' not in (ROOT/'content/en/nihilism-without-verdict.md').read_text()
+assert 'Ни одно из этих действий не обязательно.' not in (ROOT/'content/fear.md').read_text()
+assert 'None of these responses is required.' not in (ROOT/'content/en/fear.md').read_text()
 assert len(ET.parse(OUT/'sitemap.xml').getroot())==2*(len(ORDER)+2)
 print('OK: bilingual pairing, language metadata, sitemap URLs, four figures per language, original Russian texts and five English theses preserved')

@@ -113,6 +113,8 @@ This may be the most surprising turn of all: the statement “there are no mista
 
 The cup is still broken. The coffee needs wiping up. If it belonged to someone else, you can apologize and buy a replacement. If you cut your finger, you can treat the wound. You need not bless what happened, insist it was meant to be, or invent a story about how the loss was secretly beneficial.
 
+**You can correct an action without declaring your whole self a mistake.** Apologies, care, learning, and a new decision can follow failure without a lifelong indictment of who you are.
+
 Nor must you turn this understanding into an achievement. Tomorrow you may say “I made a mistake” again, feel upset, reconsider a decision. None of that will refute the point. It will be life, within which goals, results, regrets, and repairs are distinguished—and within which there is no extra examination that life itself must pass.
 
 **Mistakes exist wherever conditions are distinguished by which something counts as a mistake. Within the phenomenon there are those conditions, their violations, experiences, and consequences. But the phenomenon itself has no condition it is obliged to fulfill. There is no mandatory blueprint against which it could fail.**

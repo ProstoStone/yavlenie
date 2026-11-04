@@ -19,6 +19,8 @@ Pain differs from warmth. A burn differs from the memory of a burn. A sudden tou
 
 To say that pain is conceptually distinguished is not to replace pain with a description of it. If you're in pain, no philosophical explanation makes it hurt any less. And if someone near you is in pain, talking about concepts is no substitute for helping them.
 
+**Not every pain has to become a lesson. Sometimes what matters is simply getting help.** You can look after yourself, see a doctor, or ask for support without finding a higher purpose for suffering.
+
 ## The world doesn't disappear when we notice distinctions
 
 Consider an ordinary traffic light. Red is distinguished from green; stopping from moving; an intersection from the road leading to it. Rules, habits, actions, and dangers are connected with these distinctions.

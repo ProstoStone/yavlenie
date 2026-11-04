@@ -29,7 +29,7 @@ We normally begin describing the world with separate things.
 
 Here is a table. Here is a person. Here is a tree. Here is a thought about the tree. Here is a memory. We distinguish them and then try to discover how they relate to one another and what exists independently of what.
 
-Monophenomenalism offers a different starting point: to consider everything that exists as **one phenomenon**.
+**Monophenomenalism adopts a starting position: everything that exists is one phenomenon.** This is not merely advice to suspend judgment about a second world. It is a definite philosophical position. The limits of inquiry available through experiencing motivate examining it, but do not by themselves prove that all other positions are impossible.
 
 This does not mean a table and a tree are identical.
 
