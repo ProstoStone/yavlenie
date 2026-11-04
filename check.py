@@ -58,11 +58,20 @@ for lang in ('ru','en'):
   assert len(re.findall('<figure',s))==(4 if slug=='gradient' else 0)
 import hashlib
 # Editorial regression guard; does not depend on Git checkout depth.
-PRESERVED_RUSSIAN = {'freedom': 'e20c0110e070cefdfc6aad07ce69b9a4ddc0a8bf9fdb85223dcc6de93bac27bb', 'fear': '6f61a451e44f7ad08b6eb27cd5865f6c0cd062a942afcef072ab837219efbcc8', 'mistakes': '35355e9d7cfa5f8a602d86300f4902780c05e2f2bf3fae596165b89e77d79ada', 'start': '222649ed75142eef993804f7337ace862ed7ad2aa192e0d668ae72dbf1068e31', 'glossary': '167dee3438ec182257d7ffc58050aa2dccaa51117eab75e12430b6f61403d51d'}
+PRESERVED_RUSSIAN = {'freedom': 'e20c0110e070cefdfc6aad07ce69b9a4ddc0a8bf9fdb85223dcc6de93bac27bb', 'fear': '6f61a451e44f7ad08b6eb27cd5865f6c0cd062a942afcef072ab837219efbcc8', 'mistakes': '35355e9d7cfa5f8a602d86300f4902780c05e2f2bf3fae596165b89e77d79ada', 'start': '222649ed75142eef993804f7337ace862ed7ad2aa192e0d668ae72dbf1068e31', 'glossary': '2fc304b513f3561066c341e8411aff9513048479485864ac2425f61d4a1e04ba'}
 for slug,digest in PRESERVED_RUSSIAN.items():
  assert hashlib.sha256((ROOT/"content"/(slug+".md")).read_bytes()).hexdigest()==digest,slug
 expected=['Everything is one phenomenon.','The phenomenon is sensory experiencing.','A distinction within sensory experiencing is a concept.','Concepts structure the phenomenon into experience.','Experience is the phenomenon structured through concepts.']
 s=(ROOT/'content/en/start.md').read_text()
 assert all(f'{i}. {t}' in s for i,t in enumerate(expected,1))
+# A bilingual glossary must preserve the exact five foundational theses and matching sections.
+ru_glossary=(ROOT/'content/glossary.md').read_text()
+en_glossary=(ROOT/'content/en/glossary.md').read_text()
+ru_theses=['Всё есть одно явление.','Явление есть чувственное переживание.','Различение в чувственном переживании есть концепция.','Концепции структурируют явление в опыт.','Опыт есть явление, структурированное через концепции.']
+assert all(f'{i}. {t}' in ru_glossary for i,t in enumerate(ru_theses,1))
+assert all(f'{i}. {t}' in en_glossary for i,t in enumerate(expected,1))
+ru_count=len(re.findall(r'^## ',ru_glossary,re.M))
+en_count=len(re.findall(r'^## ',en_glossary,re.M))
+assert ru_count==en_count and ru_count>=20,(ru_count,en_count)
 assert len(ET.parse(OUT/'sitemap.xml').getroot())==2*(len(ORDER)+2)
 print('OK: bilingual pairing, language metadata, sitemap URLs, four figures per language, original Russian texts and five English theses preserved')
