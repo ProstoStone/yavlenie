@@ -275,6 +275,8 @@ Memory and biography remain open to investigation in experience. They do not req
 
 ## Kant Approached from the Other Side
 
+Kant appears here only as a historical parallel that helps clarify monophenomenalism's own starting point. This is neither an exposition of Kant's philosophy nor a dispute with it; the purpose is not to speak for Kant, refute him, or answer the questions he posed. **Neither Kant's concepts nor solutions to his problems are required by the five theses of *Model of the Phenomenon*.**
+
 Immanuel Kant saw another aspect of this immense difficulty.
 
 A mere list of perceptions does not explain coherent knowledge. How can representations concern one object? What makes unity of consciousness possible? How does objective judgment differ from an accidental sequence of impressions?
