@@ -1,6 +1,6 @@
 # Явление
 
-Тематический сайт о монофеноменализме и Модели явления. Материалы без персональной авторской подписи; популярные интерпретации отделены от исходных работ.
+Тематический сайт о монофеноменализме и Модели явления. Большинство пояснительных материалов публикуется без персональной подписи; отдельные явно утверждённые авторские эссе подписаны. Популярные интерпретации отделены от исходных работ.
 
 Сайт: https://prostostone.github.io/yavlenie/
 
@@ -42,7 +42,7 @@ python3 check.py
 
 Следующие отдельные темы: ответственность без окончательного владельца; боль и сообщение о боли; почему концепция не значит выдумка; смысл без обязательного предназначения; научная проверка внутри опыта; чем самоприменимость отличается от доказательства. Это план, не опубликованные материалы.
 
-К каждому тексту: отдельный вопрос, конкретный пример, границы вывода, ссылки на первоисточники. Не выдавать интерпретации за цитаты. Не создавать повторяющиеся страницы ради числа URL. Не приписывать автору исходных работ тексты сайта.
+К каждому тексту: отдельный вопрос, конкретный пример, границы вывода, ссылки на первоисточники. Не выдавать интерпретации за цитаты. Не создавать повторяющиеся страницы ради числа URL. Не приписывать автору исходных работ тексты сайта без его явного подтверждения авторства.
 
 ## Индексация и машинное чтение
 
@@ -72,8 +72,7 @@ Both languages have their own home, glossary, About, catalogue, RSS, JSON catalo
 plain-text articles and llms.txt. The root sitemap lists both languages and their
 hreflang counterparts. There are no automatic language redirects or required scripts.
 The About pages hold the editorial and AI provenance explanation. Article source
-footers link directly to all three original works in the current language; the
-original author is never entered as the author of derivative articles in JSON-LD.
+footers link directly to all three original works in the current language; only explicitly approved author essays carry the original author's name and an Article.author JSON-LD entry; other explanatory articles remain unattributed.
 
 The original philosophical repository and PDFs are not modified or mirrored.
 English terminology follows the supplied translations: experiencing (переживание),

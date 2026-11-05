@@ -9,7 +9,7 @@ Phenomenon is an independent information site about monophenomenalism and *Model
 
 This isn't the original author's official philosophical resource or an academic exposition. Popular articles, translations, and illustrations are created with AI assistance, drawing on the original works, supplied materials, and editorial discussion.
 
-They appear without a personal author byline and aren't presented as works or direct statements by Roman Dudnikov. A separate site and numerous explanations don't constitute independent confirmation of the philosophical position. These articles help explore it; they don't replace the sources.
+Most articles appear without a personal author byline and are not attributed to the author of the original works. The exception is the explicitly authorized essay [*I, World, Others: The Problem That Never Was*](/yavlenie/en/ya-mir-drugie/), by Roman Dudnikov. Its philosophical claims and Russian text were approved by him; editing and the English translation were prepared with AI assistance. A separate site and numerous explanations don't constitute independent confirmation of the philosophical position. These articles help explore it; they don't replace the sources.
 
 ## The three main sources
 

@@ -55,7 +55,10 @@ for lang in ('ru','en'):
   p=OUT/('en' if lang=='en' else '')/slug/'index.html'
   s=p.read_text()
   assert '"inLanguage": "'+lang+'"' in s
-  assert '"author"' not in s
+  if slug=='ya-mir-drugie':
+   assert '"author":' in s and '"copyrightHolder":' in s
+   assert ('Роман Дудников' if lang=='ru' else 'Roman Dudnikov') in s
+  else:assert '"author"' not in s
   assert 'model'+('_en' if lang=='en' else '')+'-1.html' in s
   assert len(re.findall('<figure',s))==(4 if slug=='gradient' else 0)
 import hashlib
@@ -96,3 +99,13 @@ assert 'Ни одно из этих действий не обязательно
 assert 'None of these responses is required.' not in (ROOT/'content/en/fear.md').read_text()
 assert len(ET.parse(OUT/'sitemap.xml').getroot())==2*(len(ORDER)+2)
 print('OK: bilingual pairing, language metadata, sitemap URLs, four figures per language, original Russian texts and five English theses preserved')
+
+# Explicitly attributed essay: bilingual section alignment and foundational theses.
+for lang in ('ru','en'):
+ p=ROOT/'content'/('en' if lang=='en' else '')/'ya-mir-drugie.md'
+ t=p.read_text()
+ assert len(re.findall(r'^## ',t,re.M))==14
+ exact=ru_theses if lang=='ru' else expected
+ assert all(f'{i}. {v}' in t for i,v in enumerate(exact,1))
+ assert ('Роман Дудников' if lang=='ru' else 'Roman Dudnikov') in (OUT/('en/' if lang=='en' else '')/'ya-mir-drugie'/'index.html').read_text()
+print('OK: authored bilingual essay and five theses verified')
