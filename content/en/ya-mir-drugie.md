@@ -15,7 +15,7 @@ Each person has consciousness. Experiences arise in consciousness. Experiences b
 
 Nothing unusual seems to have been said.
 
-But look carefully.
+But let us look more closely.
 
 So far, these are distinctions: person, world, consciousness, experiencing, other people. None of them yet requires an independent original foundation.
 
@@ -121,7 +121,7 @@ Monophenomenalism accepts one phenomenon as its starting philosophical position,
 
 But it is a definite and radically different starting point from the usual division of person, consciousness, and world.
 
-What was previously treated as an independent foundation can now be considered in the way it is distinguished. The necessity of each additional foundation can be examined without assuming some other independent foundation as its measure. There was no prior obligation to divide the phenomenon.
+What was previously treated as an independent foundation is considered as a distinction within experience—without the need to posit independent existence behind that distinction. The necessity of each additional foundation can be examined without assuming some other independent foundation as its measure. There was no prior obligation to divide the phenomenon.
 
 ## Five Theses
 
