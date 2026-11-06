@@ -37,7 +37,7 @@ def render(body,lang):
   elif block.startswith('> '):result.append('<blockquote><p>'+inline(block[2:])+'</p></blockquote>')
   else:result.append('<p>'+inline(block.replace('\n',' '))+'</p>')
  return '\n'.join(result),toc
-ORDER=['ya-mir-drugie','freedom','after-ubermensch','nihilism-without-verdict','weightlessness','mistakes','fear','bol-ne-vydumka','odno-ne-znachit-odinakovo','gradient','start','glossary','about']
+ORDER=['freedom','after-ubermensch','nihilism-without-verdict','weightlessness','mistakes','fear','bol-ne-vydumka','odno-ne-znachit-odinakovo','gradient','start','glossary','ya-mir-drugie','about']
 RELATED={'ya-mir-drugie':['start','glossary','weightlessness'],'freedom':['after-ubermensch','weightlessness','nihilism-without-verdict'],'after-ubermensch':['nihilism-without-verdict','weightlessness','freedom'],'nihilism-without-verdict':['weightlessness','after-ubermensch','freedom'],'weightlessness':['after-ubermensch','nihilism-without-verdict','freedom'],'mistakes':['bol-ne-vydumka','freedom','fear'],'fear':['freedom','bol-ne-vydumka','mistakes'],'bol-ne-vydumka':['odno-ne-znachit-odinakovo','gradient','glossary'],'odno-ne-znachit-odinakovo':['gradient','bol-ne-vydumka','start'],'gradient':['odno-ne-znachit-odinakovo','bol-ne-vydumka','glossary'],'start':['freedom','odno-ne-znachit-odinakovo','glossary'],'glossary':['gradient','bol-ne-vydumka','start'],'about':['start','glossary','gradient']}
 items=[]
 for lang in ('ru','en'):
