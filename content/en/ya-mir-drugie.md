@@ -17,9 +17,15 @@ Nothing unusual seems to have been said.
 
 But look carefully.
 
-We have already adopted an entire structure of existence: a separate person, a separate world, consciousness belonging to the person, experiences belonging to consciousness, and other people who are supposed to possess other consciousnesses.
+So far, these are distinctions: person, world, consciousness, experiencing, other people. None of them yet requires an independent original foundation.
 
-Now we must explain how all of this is connected.
+But a familiar explanation often takes another step without noticing it: what has been distinguished is treated not merely as content of experience, but as an independent foundation of existence.
+
+Within such an explanation, a person becomes a separate owner of experiencing, the world an independently existing reality beyond experiencing, and other people owners of other, independently existing experiences.
+
+**This is no longer merely a distinction. It is an additional assumption about the independence of what has been distinguished.**
+
+Only then does the demand arise to explain how these foundations are related.
 
 How does a person perceive a world if that world exists independently? How does consciousness know what lies beyond it? Why do experiences belong to one person rather than another? How can we establish the existence of other minds? What unites distinct perceptions into a single experience? Why is there something rather than nothing?
 
