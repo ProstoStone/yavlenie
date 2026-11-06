@@ -9,16 +9,16 @@
 
 /* Reading theme: pure black on article pages, charcoal on the index. */
 :root{color-scheme:light}
-html[data-theme="dark"]{color-scheme:dark;--paper:#141715;--ink:#deded8;--muted:#a8afa8;--line:#363c36;--accent:#bdd780}
+html[data-theme="dark"]{color-scheme:dark;--paper:#171513;--ink:#e8dfd2;--muted:#b8ac9c;--line:#423b33;--accent:#d8b98c}
 html[data-theme="dark"] body.reading-page{--paper:#000;background:#000}
-html[data-theme="dark"] a:hover{color:#cce6a0}
-html[data-theme="dark"] .intro{background:#20271e}
-html[data-theme="dark"] .button{background:var(--accent);color:#172010}
-html[data-theme="dark"] .button:hover{background:#d1e5a6;color:#172010}
-html[data-theme="dark"] .closing{background:#20271e;color:var(--ink)}
+html[data-theme="dark"] a:hover{color:#ead0aa}
+html[data-theme="dark"] .intro{background:#29241e}
+html[data-theme="dark"] .button{background:var(--accent);color:#211a12}
+html[data-theme="dark"] .button:hover{background:#ead0aa;color:#211a12}
+html[data-theme="dark"] .closing{background:#29241e;color:var(--ink)}
 html[data-theme="dark"] .figure{background:#111;box-shadow:none}
-html[data-theme="dark"] .skip{background:var(--accent);color:#172010}
-html[data-theme="dark"] ::selection{background:#45562c;color:#fff}
+html[data-theme="dark"] .skip{background:var(--accent);color:#211a12}
+html[data-theme="dark"] ::selection{background:#544532;color:#fff}
 /* Keep language and theme together, with matching square controls. */
 .reading-controls{display:inline-flex;align-items:center;gap:8px;flex-shrink:0}
 .reading-controls .language,.theme-toggle{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;padding:0;border:1px solid var(--line);border-radius:0;background:transparent;color:var(--ink);font:650 12px/1 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;text-decoration:none}
@@ -28,3 +28,21 @@ html[data-theme="dark"] ::selection{background:#45562c;color:#fff}
 .reading-controls .language:hover,.theme-toggle:hover{border-color:var(--muted)}
 .theme-toggle:focus-visible{outline:3px solid #819e45;outline-offset:4px}
 @media print{html[data-theme]{color-scheme:light;--paper:#fff;--ink:#000;--muted:#333;--line:#aaa;--accent:#555}html[data-theme] body{background:#fff;color:#000;padding-bottom:0}html[data-theme] .figure{background:#fff}.theme-toggle{display:none}}
+
+/* Reader controls and comfortable long-form reading. */
+[hidden]{display:none!important}
+.reader-toolbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;padding:12px 24px;margin:0 48px 30px;background:var(--paper);border-block:1px solid var(--line);font-size:12px}
+.reader-toolbar .reader-buttons{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.reader-toolbar button{min-height:36px;padding:5px 12px;border:1px solid var(--line);background:transparent;color:var(--ink);font:inherit;cursor:pointer;touch-action:manipulation}
+.reader-toolbar button[aria-pressed=true]{border-color:var(--muted);background:color-mix(in srgb,var(--ink) 10%,var(--paper))}
+.reader-toolbar button:focus-visible,html[data-theme=dark] :focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.reader-toolbar button:disabled{opacity:.4;cursor:default}
+html[data-reading-size=small] .prose{font-size:19px}html[data-reading-size=large] .prose{font-size:24px}
+.reading-page .prose{overflow-wrap:break-word}.reading-page .prose h2{scroll-margin-top:110px}
+.article-grid aside nav{top:90px;max-height:calc(100dvh - 115px);overflow:auto;scrollbar-width:thin}
+html[data-reading-focus=true] .reading-page .article-grid{display:block;max-width:836px;margin:auto}
+html[data-reading-focus=true] .reading-page .article-grid aside,html[data-reading-focus=true] .reading-page .related{display:none}
+.reading-progress{position:fixed;inset:0 0 auto;height:2px;z-index:30;pointer-events:none}.reading-progress span{display:block;height:100%;width:0;background:var(--accent)}
+html[data-theme=dark] .orbit span{border-color:#8c7960}
+@media(max-width:680px){.reader-toolbar{margin:0 22px 25px;padding:10px 0}.reader-toolbar>span{display:none}.article-grid aside nav{position:static;max-height:240px}}
+@media print{.reader-toolbar,.reading-progress{display:none!important}html[data-reading-size] .prose{font-size:12pt}.article-grid{max-width:none!important}}

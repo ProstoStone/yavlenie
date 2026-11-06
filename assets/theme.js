@@ -32,3 +32,54 @@
     apply();
   });
 })();
+
+// Reading preferences are optional; the complete text works without scripts.
+(() => {
+  const root = document.documentElement;
+  const sizes = ['small', 'normal', 'large'];
+  const get = key => { try { return localStorage.getItem(key); } catch (_) { return null; } };
+  const set = (key, value) => { try { localStorage.setItem(key, value); } catch (_) {} };
+  let size = sizes.includes(get('yavlenie-size')) ? get('yavlenie-size') : 'normal';
+  let focus = get('yavlenie-focus') === 'true';
+  root.dataset.readingSize = size;
+  root.dataset.readingFocus = String(focus);
+  document.addEventListener('DOMContentLoaded', () => {
+    const toolbar = document.querySelector('.reader-toolbar');
+    if (!toolbar) return;
+    const smaller = document.getElementById('reader-smaller');
+    const larger = document.getElementById('reader-larger');
+    const focusButton = document.getElementById('reader-focus');
+    const progress = document.querySelector('.reading-progress');
+    const prose = document.querySelector('.prose');
+    toolbar.hidden = false;
+    progress.hidden = false;
+    function updateProgress() {
+      const rect = prose.getBoundingClientRect();
+      const top = toolbar.getBoundingClientRect().bottom;
+      const distance = rect.height - Math.max(1, innerHeight - top);
+      const fraction = distance > 0 ? (top - rect.top) / distance : (rect.bottom <= innerHeight ? 1 : 0);
+      progress.firstElementChild.style.width = `${Math.max(0, Math.min(1, fraction)) * 100}%`;
+    }
+    function apply() {
+      root.dataset.readingSize = size;
+      root.dataset.readingFocus = String(focus);
+      smaller.disabled = size === 'small';
+      larger.disabled = size === 'large';
+      focusButton.setAttribute('aria-pressed', String(focus));
+      set('yavlenie-size', size); set('yavlenie-focus', String(focus));
+      updateProgress();
+    }
+    smaller.addEventListener('click', () => { size = sizes[Math.max(0, sizes.indexOf(size) - 1)]; apply(); });
+    larger.addEventListener('click', () => { size = sizes[Math.min(2, sizes.indexOf(size) + 1)]; apply(); });
+    document.getElementById('reader-reset').addEventListener('click', () => { size = 'normal'; apply(); });
+    focusButton.addEventListener('click', () => { focus = !focus; apply(); });
+    document.getElementById('reader-print').addEventListener('click', () => window.print());
+    let scheduled = false;
+    window.addEventListener('scroll', () => {
+      if (!scheduled) { scheduled = true; requestAnimationFrame(() => { scheduled = false; updateProgress(); }); }
+    }, { passive: true });
+    window.addEventListener('resize', updateProgress);
+    if ('ResizeObserver' in window) new ResizeObserver(updateProgress).observe(prose);
+    apply();
+  });
+})();
