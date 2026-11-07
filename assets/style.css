@@ -46,3 +46,19 @@ html[data-reading-focus=true] .reading-page .article-grid aside,html[data-readin
 html[data-theme=dark] .orbit span{border-color:#777777}
 @media(max-width:680px){.reader-toolbar{margin:0 22px 25px;padding:10px 0}.reader-toolbar>span{display:none}.article-grid aside nav{position:static;max-height:240px}}
 @media print{.reader-toolbar,.reading-progress{display:none!important}html[data-reading-size] .prose{font-size:12pt}.article-grid{max-width:none!important}}
+
+/* Restrained warm details for the English edition; prose stays neutral. */
+@media screen {
+ html[lang=en]{--detail:#805c3b;--detail-wash:#f0e9e0}
+ html[lang=en][data-theme=dark]{--ink:#f0f0f0;--detail:#c9ad86;--detail-wash:#26221d}
+ html[lang=en] .eyebrow,html[lang=en] .entry .num,html[lang=en] .entry h3 span{color:var(--detail)}
+ html[lang=en] .orbit span{border-color:var(--detail)}
+ html[lang=en] .orbit span:nth-child(2){background:var(--detail)}
+ html[lang=en] .prose blockquote{border-left-color:var(--detail)}
+ html[lang=en] .reading-progress span{background:var(--detail)}
+ html[lang=en] .reader-toolbar button[aria-pressed=true]{border-color:var(--detail);background:var(--detail-wash)}
+ html[lang=en] .reading-controls .language:hover,html[lang=en] .theme-toggle:hover,html[lang=en] .reader-toolbar button:not(:disabled):hover{border-color:var(--detail)}
+ html[lang=en] :focus-visible{outline-color:var(--detail)}
+ html[lang=en] .source-note a,html[lang=en] .closing a{ text-decoration-color:var(--detail)}
+ html[lang=en] .closing .eyebrow{color:#c9ad86}
+}
