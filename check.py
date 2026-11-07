@@ -40,7 +40,7 @@ print(f'OK: {len(pages)} pages, local links, anchors, JSON-LD, sitemap, RSS, cat
 # Every translated page must identify itself and its matching counterpart.
 from build import items,ORDER,url,ROOT
 for lang in ('ru','en'):
- for path in ['', 'catalog/']+[s+'/' for s in ORDER]:
+ for path in ['', 'catalog/', 'works/']+[s+'/' for s in ORDER]:
   rel=('en/' if lang=='en' else '')+path+'index.html'
   s=(OUT/rel).read_text()
   assert f'<html lang="{lang}">' in s
@@ -97,7 +97,7 @@ assert 'такой цели не существует или её невозмо
 assert 'no such purpose exists, or none can be adequately established' not in (ROOT/'content/en/nihilism-without-verdict.md').read_text()
 assert 'Ни одно из этих действий не обязательно.' not in (ROOT/'content/fear.md').read_text()
 assert 'None of these responses is required.' not in (ROOT/'content/en/fear.md').read_text()
-assert len(ET.parse(OUT/'sitemap.xml').getroot())==2*(len(ORDER)+2)
+assert len(ET.parse(OUT/'sitemap.xml').getroot())==2*(len(ORDER)+3)
 print('OK: bilingual pairing, language metadata, sitemap URLs, four figures per language, original Russian texts and five English theses preserved')
 
 # Explicitly attributed essay: bilingual section alignment and foundational theses.
