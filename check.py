@@ -26,6 +26,7 @@ for p in OUT.rglob('*.html'):
 for p,q in pages.items():
  for href in q.links:
   u=urlsplit(href)
+  if u.scheme not in ('','http','https'):continue
   if u.netloc and not href.startswith(BASE):continue
   path=u.path
   if path.startswith(PREFIX):target=OUT/unquote(path[len(PREFIX):])
@@ -38,9 +39,9 @@ for f in ('sitemap.xml','feed.xml'):ET.parse(OUT/f)
 catalog=json.loads((OUT/'catalog.json').read_text());assert len(catalog['items'])>=6
 print(f'OK: {len(pages)} pages, local links, anchors, JSON-LD, sitemap, RSS, catalog')
 # Every translated page must identify itself and its matching counterpart.
-from build import items,ORDER,url,ROOT
+from build import items,ORDER,url,ROOT,WORK_PATHS
 for lang in ('ru','en'):
- for path in ['', 'catalog/', 'works/']+[s+'/' for s in ORDER]:
+ for path in ['', 'catalog/', 'works/']+[s+'/' for s in ORDER]+WORK_PATHS:
   rel=('en/' if lang=='en' else '')+path+'index.html'
   s=(OUT/rel).read_text()
   assert f'<html lang="{lang}">' in s
@@ -97,7 +98,7 @@ assert 'такой цели не существует или её невозмо
 assert 'no such purpose exists, or none can be adequately established' not in (ROOT/'content/en/nihilism-without-verdict.md').read_text()
 assert 'Ни одно из этих действий не обязательно.' not in (ROOT/'content/fear.md').read_text()
 assert 'None of these responses is required.' not in (ROOT/'content/en/fear.md').read_text()
-assert len(ET.parse(OUT/'sitemap.xml').getroot())==2*(len(ORDER)+3)
+assert len(ET.parse(OUT/'sitemap.xml').getroot())==2*(len(ORDER)+3+len(WORK_PATHS))
 print('OK: bilingual pairing, language metadata, sitemap URLs, four figures per language, original Russian texts and five English theses preserved')
 
 # Explicitly attributed essay: bilingual section alignment and foundational theses.

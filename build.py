@@ -61,7 +61,7 @@ def layout(lang,title,desc,path,content,schema,text_path=None,noindex=False):
 <script id="reading-theme">{theme_script}</script>
 <link rel="icon" href="https://prostostone.github.io/favicon.png" type="image/png" sizes="192x192">
 <link rel="shortcut icon" href="https://prostostone.github.io/favicon.ico">
-<link rel="stylesheet" href="{PREFIX}assets/style.css?v=en-accents-20261107"><link rel="stylesheet" href="{PREFIX}assets/illustrations.css">
+<link rel="stylesheet" href="{PREFIX}assets/style.css?v=fullworks-20261107"><link rel="stylesheet" href="{PREFIX}assets/illustrations.css">
 <link rel="alternate" type="application/rss+xml" title="{n}" href="{url(lang,'feed.xml')}">
 {f'<link rel="alternate" type="text/plain" href="{text_path}">' if text_path else ''}
 <meta property="og:type" content="{'article' if text_path else 'website'}"><meta property="og:title" content="{E(title,quote=True)}"><meta property="og:description" content="{E(desc,quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:locale" content="{'en_US' if lang=='en' else 'ru_RU'}"><meta property="og:locale:alternate" content="{'ru_RU' if lang=='en' else 'en_US'}"><meta property="og:site_name" content="{n}">
@@ -71,19 +71,12 @@ def layout(lang,title,desc,path,content,schema,text_path=None,noindex=False):
 <main id="main">{content}</main><footer><div><strong>{n}</strong><p>{tr(lang,'Монофеноменализм и Модель явления<br>в вопросах повседневной жизни.','Monophenomenalism and Model of the Phenomenon<br>through everyday questions.')}</p></div><nav aria-label="{tr(lang,'Ссылки внизу страницы','Footer links')}"><a href="{href(lang,'glossary/')}">{tr(lang,'Словарь','Glossary')}</a><a href="{href(lang,'catalog/')}">{tr(lang,'Текстовый каталог','Text catalogue')}</a><a href="{url(lang,'feed.xml')}">RSS</a><a href="{href(lang,'about/')}">{tr(lang,'О материалах','About the articles')}</a><a href="{SOURCE}">{tr(lang,'Монофеноменализм: первоисточники ↗','Monophenomenalism: original works ↗')}</a></nav></footer></body></html>'''
 def card(a,i):
  return f'<a class="entry" href="{a["url"]}"><span class="num">{i:02d}</span><div><div class="meta">{a["kind"]} · {a["minutes"]} {tr(a["lang"],"мин чтения","min read")}</div><h3>{E(a["title"])}<span aria-hidden="true">↗</span></h3><p>{E(a["description"])}</p></div></a>'
+from original_works import publish_works, WORK_PATHS
+def reading_toolbar(lang):
+ return f'''<div class="reader-toolbar" role="region" aria-label="{tr(lang,'Настройки чтения','Reading settings')}" hidden><span>{tr(lang,'Удобное чтение','Reading settings')}</span><div class="reader-buttons"><button type="button" id="reader-smaller" aria-label="{tr(lang,'Уменьшить текст','Smaller text')}">A−</button><button type="button" id="reader-reset" aria-label="{tr(lang,'Обычный размер текста','Default text size')}">A</button><button type="button" id="reader-larger" aria-label="{tr(lang,'Увеличить текст','Larger text')}">A+</button><button type="button" id="reader-focus" aria-pressed="false">{tr(lang,'Фокус','Focus')}</button><button type="button" id="reader-print">{tr(lang,'Печать','Print')}</button></div></div><div class="reading-progress" aria-hidden="true" hidden><span></span></div>
+'''
 for lang in ('ru','en'):
- title=tr(lang,'Основные работы','Original works')
- desc=tr(lang,'Три работы Романа Дудникова на русском и английском: ссылки на первоисточники и отдельную версию для чтения.','Three works by Roman Dudnikov in Russian and English: original publications and a separate reading edition.')
- works=f'<section class="article-top"><p class="eyebrow">{tr(lang,"ПЕРВОИСТОЧНИКИ","PRIMARY SOURCES")}</p><h1>{title}</h1><p class="deck">{desc}</p><p><a href="{SOURCE}">{tr(lang,"Официальный сайт основных работ","Original website of the works")} ↗</a></p></section><section class="catalog">'
- for i in range(3):
-  works+=f'<div class="catalog-row"><h2>{sources(lang)[i][0]}</h2>'
-  for edition,label in [('ru','Русский'),('en','English')]:
-   work_title,first=sources(edition)[i]
-   works+=f'<p><a href="{first}" hreflang="{edition}" lang="{edition}">{label} — {work_title} ↗</a><br>'
-   works+=' · '.join(f'<a href="{first.replace("-1.html",f"-{part}.html")}" hreflang="{edition}">{tr(lang,"Часть","Part")} {part}</a>' for part in (1,2,3))+'</p>'
-  works+='</div>'
- works+=f'<div class="catalog-row"><h2>Model of the Phenomenon</h2><p>{tr(lang,"Дополнительный сайт с основными работами: полные тексты на двух языках, удобное чтение и скачивание.","An additional website for the original works: complete texts in both languages, reading controls, and downloads.")}</p><p><a href="https://model-of-the-phenomenon.starryadage.chatgpt.site/">English ↗</a> · <a href="https://model-of-the-phenomenon.starryadage.chatgpt.site/ru/">Русский ↗</a></p></div></section>'
- write(local(lang,'works/index.html'),layout(lang,title,desc,'works/',works,{'@context':'https://schema.org','@type':'CollectionPage','name':title,'url':url(lang,'works/'),'inLanguage':lang}))
+ publish_works(globals(),lang)
  articles=sorted([a for a in items if a['lang']==lang],key=lambda a:ORDER.index(a['slug']))
  home=f'''<section class="hero"><p class="eyebrow">{tr(lang,'МОНОФЕНОМЕНАЛИЗМ И МОДЕЛЬ ЯВЛЕНИЯ','MONOPHENOMENALISM AND MODEL OF THE PHENOMENON')}</p><h1>{tr(lang,'Всё есть одно явление.<em>Различия не требуют второго мира.</em>','Everything is one phenomenon.<em>Differences don\'t require another world.</em>')}</h1><div class="hero-bottom"><p>{tr(lang,'Кто выбирает? Где возникает ошибка?<br>Что значит свобода, которую не нужно даже принимать?<br>Страх, ответственность, привычное «я» и повседневный опыт —<br>через монофеноменализм и «Модель явления».','Who makes a choice? What makes something a mistake?<br>What does it mean to be free without even having to accept freedom?<br>Fear, responsibility, the familiar “I,” and everyday experience —<br>explored through monophenomenalism and <em>Model of the Phenomenon</em>.')}</p><a class="button" href="{href(lang,'start/')}">{tr(lang,'Начать знакомство','Start exploring')} ↗</a></div><div class="orbit" aria-hidden="true"><span></span><span></span><span></span></div></section>
 <section class="intro"><span class="eyebrow">{tr(lang,'ОДНА ТОЧКА ВХОДА','A PLACE TO BEGIN')}</span><p>{tr(lang,'Множество вещей. Множество различий.<br>Одно явление.',"Many things. Many distinctions.<br>One phenomenon.")}</p><a href="{SOURCE}">{tr(lang,'Перейти к исходным работам ↗','Explore the original works ↗')}</a></section>
@@ -94,7 +87,7 @@ for lang in ('ru','en'):
   slug=a['slug'];body,toc=render(a['body'],lang);related=[by[lang,s] for s in RELATED[slug]]
   byline=f'<span>·</span><span>{tr(lang,"Автор","Author")}: {E(a["author"])}</span>' if a.get('author') else ''
   content=f'''<div class="article-top"><a class="back" href="{href(lang,'#articles')}">← {tr(lang,'Все тексты','All articles')}</a><p class="eyebrow">{a['kind']} · {a['minutes']} {tr(lang,'МИН ЧТЕНИЯ','MIN READ')}</p><h1>{E(a['title'])}</h1><p class="deck">{E(a['description'])}</p><div class="meta"><time datetime="{a['date']}">{a['date']}</time><span>·</span><a href="{a['text_url']}">{tr(lang,'Текстовая версия','Plain text')}</a>{byline}</div></div>
-<div class="reader-toolbar" role="region" aria-label="{tr(lang,'Настройки чтения','Reading settings')}" hidden><span>{tr(lang,'Удобное чтение','Reading settings')}</span><div class="reader-buttons"><button type="button" id="reader-smaller" aria-label="{tr(lang,'Уменьшить текст','Smaller text')}">A−</button><button type="button" id="reader-reset" aria-label="{tr(lang,'Обычный размер текста','Default text size')}">A</button><button type="button" id="reader-larger" aria-label="{tr(lang,'Увеличить текст','Larger text')}">A+</button><button type="button" id="reader-focus" aria-pressed="false">{tr(lang,'Фокус','Focus')}</button><button type="button" id="reader-print">{tr(lang,'Печать','Print')}</button></div></div><div class="reading-progress" aria-hidden="true" hidden><span></span></div>
+{reading_toolbar(lang)}
 <div class="article-grid{' glossary-grid' if slug=='glossary' else ''}"><aside><nav aria-label="{tr(lang,'Содержание статьи','Contents')}"><span class="eyebrow">{tr(lang,'В ЭТОМ ТЕКСТЕ','IN THIS ARTICLE')}</span>{''.join(f'<a href="#{i}">{E(t)}</a>' for i,t in toc)}</nav></aside><article><div class="prose">{body}</div><section class="source-note"><h2>{tr(lang,'Исходные работы','Original works')}</h2><p>{source_links(lang)}</p></section></article></div><section class="related"><h2>{tr(lang,'Продолжить чтение','Keep reading')}</h2>{''.join(card(x,i+1) for i,x in enumerate(related))}</section>'''
   schema={'@context':'https://schema.org','@type':'Article','headline':a['title'],'description':a['description'],'datePublished':a['date'],'inLanguage':lang,'mainEntityOfPage':a['url'],'url':a['url'],'isPartOf':{'@type':'WebSite','name':name(lang),'url':url(lang)},'citation':[u for t,u in sources(lang)],'articleSection':a['kind'],'workTranslation':{'@type':'Article','url':url('en' if lang=='ru' else 'ru',slug+'/'),'inLanguage':'en' if lang=='ru' else 'ru'}}
   if a.get('author'):
@@ -121,7 +114,7 @@ for lang in ('ru','en'):
  write(local(lang,'404.html'),layout(lang,tr(lang,'Страница не найдена','Page not found'),'404','404.html',f'<section class="article-top"><h1>{tr(lang,"Здесь пока пусто.","Nothing here yet.")}</h1><a href="{href(lang)}">{tr(lang,"К текстам","Back to reading")} →</a></section>',{},noindex=True))
 ET.register_namespace('xhtml','http://www.w3.org/1999/xhtml')
 sitemap=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
-for path in ['', 'catalog/', 'works/']+[s+'/' for s in ORDER]:
+for path in ['', 'catalog/', 'works/']+[s+'/' for s in ORDER]+WORK_PATHS:
  for lang in ('ru','en'):
   node=ET.SubElement(sitemap,'url');ET.SubElement(node,'loc').text=url(lang,path)
   for l in ('ru','en','x-default'):ET.SubElement(node,'{http://www.w3.org/1999/xhtml}link',rel='alternate',hreflang=l,href=url('ru' if l=='x-default' else l,path))

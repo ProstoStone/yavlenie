@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "model",
+    "stem": "model",
+    "title": {
+      "en": "Model of the Phenomenon",
+      "ru": "Модель явления"
+    },
+    "pdf": {
+      "en": "Model of the Phenomenon. English Translation. Draft v2.pdf",
+      "ru": "model.pdf"
+    },
+    "kind": {
+      "en": "THE MODEL",
+      "ru": "МОДЕЛЬ"
+    },
+    "desc": {
+      "en": "Five theses, their terms, and an exploration of being, consciousness, freedom, meaning, and knowledge.",
+      "ru": "Пять тезисов, их термины и рассмотрение бытия, сознания, свободы, смысла и познания."
+    }
+  },
+  {
+    "slug": "monophenomenalism",
+    "stem": "monophenomenalism",
+    "title": {
+      "en": "Monophenomenalism",
+      "ru": "Монофеноменализм"
+    },
+    "pdf": {
+      "en": "Monophenomenalism. English Translation. Draft v1.pdf",
+      "ru": "monophenomenalism.pdf"
+    },
+    "kind": {
+      "en": "THE POSITION",
+      "ru": "ПОЗИЦИЯ"
+    },
+    "desc": {
+      "en": "The starting commitment, its philosophical context, arguments, objections, and limits of justification.",
+      "ru": "Исходная позиция, её философский контекст, аргументы, возражения и границы обоснования."
+    }
+  },
+  {
+    "slug": "working-map",
+    "stem": "working_map",
+    "title": {
+      "en": "Working Map",
+      "ru": "Рабочая карта"
+    },
+    "pdf": {
+      "en": "working_map_en.pdf",
+      "ru": "working_map.pdf"
+    },
+    "kind": {
+      "en": "THE COMPANION",
+      "ru": "КАРТА"
+    },
+    "desc": {
+      "en": "An extended guide to Model of the Phenomenon and Monophenomenalism: terminology, distinctions, examples, and research questions.",
+      "ru": "Подробная карта «Модели явления» и монофеноменализма: терминология, различения, примеры и исследовательские вопросы."
+    }
+  }
+]
