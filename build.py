@@ -61,7 +61,7 @@ def layout(lang,title,desc,path,content,schema,text_path=None,noindex=False):
 <script id="reading-theme">{theme_script}</script>
 <link rel="icon" href="https://prostostone.github.io/favicon.png" type="image/png" sizes="192x192">
 <link rel="shortcut icon" href="https://prostostone.github.io/favicon.ico">
-<link rel="stylesheet" href="{PREFIX}assets/style.css?v=fullworks-20261107"><link rel="stylesheet" href="{PREFIX}assets/illustrations.css">
+<link rel="stylesheet" href="{PREFIX}assets/style.css?v=all-accents-20261108"><link rel="stylesheet" href="{PREFIX}assets/illustrations.css">
 <link rel="alternate" type="application/rss+xml" title="{n}" href="{url(lang,'feed.xml')}">
 {f'<link rel="alternate" type="text/plain" href="{text_path}">' if text_path else ''}
 <meta property="og:type" content="{'article' if text_path else 'website'}"><meta property="og:title" content="{E(title,quote=True)}"><meta property="og:description" content="{E(desc,quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:locale" content="{'en_US' if lang=='en' else 'ru_RU'}"><meta property="og:locale:alternate" content="{'ru_RU' if lang=='en' else 'en_US'}"><meta property="og:site_name" content="{n}">
