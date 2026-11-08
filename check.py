@@ -40,8 +40,9 @@ catalog=json.loads((OUT/'catalog.json').read_text());assert len(catalog['items']
 print(f'OK: {len(pages)} pages, local links, anchors, JSON-LD, sitemap, RSS, catalog')
 # Every translated page must identify itself and its matching counterpart.
 from build import items,ORDER,url,ROOT,WORK_PATHS
+ALL_SLUGS=[a["slug"] for a in items if a["lang"]=="ru"]
 for lang in ('ru','en'):
- for path in ['', 'catalog/', 'works/']+[s+'/' for s in ORDER]+WORK_PATHS:
+ for path in ['', 'catalog/', 'works/']+[s+'/' for s in ALL_SLUGS]+WORK_PATHS:
   rel=('en/' if lang=='en' else '')+path+'index.html'
   s=(OUT/rel).read_text()
   assert f'<html lang="{lang}">' in s
@@ -98,7 +99,7 @@ assert 'такой цели не существует или её невозмо
 assert 'no such purpose exists, or none can be adequately established' not in (ROOT/'content/en/nihilism-without-verdict.md').read_text()
 assert 'Ни одно из этих действий не обязательно.' not in (ROOT/'content/fear.md').read_text()
 assert 'None of these responses is required.' not in (ROOT/'content/en/fear.md').read_text()
-assert len(ET.parse(OUT/'sitemap.xml').getroot())==2*(len(ORDER)+3+len(WORK_PATHS))
+assert len(ET.parse(OUT/'sitemap.xml').getroot())==2*(len(ALL_SLUGS)+3+len(WORK_PATHS))
 print('OK: bilingual pairing, language metadata, sitemap URLs, four figures per language, original Russian texts and five English theses preserved')
 
 # Explicitly attributed essay: bilingual section alignment and foundational theses.
@@ -110,3 +111,42 @@ for lang in ('ru','en'):
  assert all(f'{i}. {v}' in t for i,v in enumerate(exact,1))
  assert ('Роман Дудников' if lang=='ru' else 'Roman Dudnikov') in (OUT/('en/' if lang=='en' else '')/'ya-mir-drugie'/'index.html').read_text()
 print('OK: authored bilingual essay and five theses verified')
+
+# Every reading page has a real, readable PDF with all of its prose in order.
+from pypdf import PdfReader
+from original_works import WORKS, plain, Text
+from pdf_export import pdf_path
+def compact(value):
+ return re.sub(r'\s+', '', value).replace('\u00ad', '')
+editions=[(a['lang'],a['slug'],a['slug']+'/') for a in items]
+editions += [(lang,'work-'+w['slug'],'works/'+w['slug']+'/') for lang in ('ru','en') for w in WORKS]
+for lang,slug,page in editions:
+ pdf=OUT/pdf_path(lang,slug)
+ reader=PdfReader(pdf)
+ assert len(reader.pages)>0 and pdf.stat().st_size>5000,pdf
+ text='\n'.join(re.sub(r'prostostone\.github\.io/yavlenie\s*\d+', '', p.extract_text() or '') for p in reader.pages)
+ assert '\ufffd' not in text,('Invalid character',pdf)
+ # Remove repeated running footers before comparing the full body, not just a sample.
+ page_html=(OUT/('en/' if lang=='en' else '')/page/'index.html').read_text()
+ prose=re.search(r'<div class="prose">(.*?)</div><div class="article-download">',page_html,re.S)[1]
+ parser=Text();parser.feed(prose);remaining=compact(text)
+ for chunk in parser.parts:
+  needle=compact(chunk)
+  if not needle:continue
+  position=remaining.find(needle)
+  if position<0:
+   # PDF extraction may interleave list markers or neighbouring table cells.
+   cursor=0
+   for token in re.findall(r'\w+|[^\w\s]', chunk):
+    token=compact(token)
+    if not token:continue
+    found=remaining.find(token,cursor)
+    assert found>=0,('PDF text differs from HTML',pdf,token,needle[:90])
+    cursor=found+len(token)
+  # Table cells can be extracted in a different order across page breaks.
+ pdf_url=BASE+pdf_path(lang,slug)
+ assert page_html.count('class="pdf-download" href="'+pdf_url+'"')>=2,(page,lang)
+ assert '<link rel="alternate" type="application/pdf" href="'+pdf_url+'">' in page_html
+ assert any(p.get('/Annots') for p in reader.pages),('Missing PDF links',pdf)
+assert len(list(OUT.rglob('*.pdf')))==len(editions)
+print(f'OK: {len(editions)} PDFs, full text preserved, bilingual download links and PDF metadata')
