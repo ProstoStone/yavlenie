@@ -49,6 +49,7 @@
     const progress = document.querySelector('.reading-progress');
     const prose = document.querySelector('.prose');
     toolbar.hidden = false;
+    toolbar.querySelectorAll('button[hidden]').forEach(button => { button.hidden = false; });
     progress.hidden = false;
     function updateProgress() {
       const rect = prose.getBoundingClientRect();
@@ -70,7 +71,6 @@
     larger.addEventListener('click', () => { size = sizes[Math.min(2, sizes.indexOf(size) + 1)]; apply(); });
     document.getElementById('reader-reset').addEventListener('click', () => { size = 'normal'; apply(); });
     focusButton.addEventListener('click', () => { focus = !focus; apply(); });
-    document.getElementById('reader-print').addEventListener('click', () => window.print());
     let scheduled = false;
     window.addEventListener('scroll', () => {
       if (!scheduled) { scheduled = true; requestAnimationFrame(() => { scheduled = false; updateProgress(); }); }

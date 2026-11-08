@@ -128,7 +128,7 @@ for lang,slug,page in editions:
  assert '\ufffd' not in text,('Invalid character',pdf)
  # Remove repeated running footers before comparing the full body, not just a sample.
  page_html=(OUT/('en/' if lang=='en' else '')/page/'index.html').read_text()
- prose=re.search(r'<div class="prose">(.*?)</div><div class="article-download">',page_html,re.S)[1]
+ prose=re.search(r'<div class="prose">(.*?)</div><section class="source-note">',page_html,re.S)[1]
  parser=Text();parser.feed(prose);remaining=compact(text)
  for chunk in parser.parts:
   needle=compact(chunk)
@@ -145,7 +145,7 @@ for lang,slug,page in editions:
     cursor=found+len(token)
   # Table cells can be extracted in a different order across page breaks.
  pdf_url=BASE+pdf_path(lang,slug)
- assert page_html.count('class="pdf-download" href="'+pdf_url+'"')>=2,(page,lang)
+ assert page_html.count('class="pdf-download" href="'+pdf_url+'"')>=1,(page,lang)
  assert '<link rel="alternate" type="application/pdf" href="'+pdf_url+'">' in page_html
  assert any(p.get('/Annots') for p in reader.pages),('Missing PDF links',pdf)
 assert len(list(OUT.rglob('*.pdf')))==len(editions)

@@ -76,3 +76,15 @@ html[data-theme=dark] .orbit span{border-color:#777777}
 .catalog-row>.pdf-download{margin-left:16px}
 @media(max-width:680px){.entry-wrap>.pdf-download{margin-left:40px}.catalog-row>.pdf-download{margin:12px 0;display:flex;width:fit-content}}
 @media print{.pdf-download,.article-download{display:none!important}}
+
+/* Reading-list actions: beside the title on wide screens, below copy on narrow screens. */
+.entry-wrap{position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;column-gap:28px;padding:28px 0}
+.entry-wrap .entry{padding:0;border:0}
+.entry-actions{display:flex;gap:10px;align-items:center;padding-top:33px}
+.entry-actions .pdf-download,.read-link{display:inline-flex;align-items:center;justify-content:center;min-height:36px;padding:7px 13px;border:1px solid var(--detail,var(--line));border-radius:4px;color:var(--ink);background:transparent;font:500 13px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;text-decoration:none;white-space:nowrap}
+.read-link:hover{background:var(--detail-wash);color:var(--ink)}
+.reader-toolbar .pdf-download{min-height:36px;padding:5px 12px;border-color:var(--line);border-radius:0;font:inherit}
+.reader-toolbar .pdf-download:hover{border-color:var(--detail)}
+@media(max-width:900px){.entry-wrap{grid-template-columns:minmax(0,1fr);gap:14px}.entry-actions{padding:0;margin-left:85px}.entry-actions .pdf-download,.read-link{min-height:34px;padding:6px 12px;font-size:12px}}
+@media(max-width:680px){.entry-wrap{padding:24px 0}.entry-actions{margin-left:40px}}
+@media print{.entry-actions{display:none!important}}
