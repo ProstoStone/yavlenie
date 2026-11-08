@@ -1,4 +1,4 @@
-Advaita Vedānta and Monophenomenalism: Two Starting Points
+Advaita Vedānta and monophenomenalism: two starting points
 Nonduality, Ātman, consciousness, distinction, and freedom: what each philosophy claims and where their boundaries lie.
 Comparative essay
 2026-11-08
@@ -9,7 +9,7 @@ We will first consider Advaita Vedānta on its own terms. Then we will set out m
 
 **This account of Advaita is our understanding and interpretation of its philosophy**, based on classical texts, commentaries, and modern scholarship. We aim to represent the tradition's central claims accurately, without presenting our reading as the only valid interpretation or claiming to speak for every school of Advaita. Disagreements about this reading should be kept distinct from the comparison that follows: in the second part we present a separate philosophical position on its own foundations.
 
-## Advaita: What Nonduality Means
+## Advaita: what nonduality means
 
 The Sanskrit word *advaita* means “nonduality,” literally “not two.” Classical Advaita Vedānta, particularly as articulated by Śaṅkara, holds that **Brahman is the only independent ultimate reality, and the true self, Ātman, is identical with Brahman**.
 
@@ -17,7 +17,7 @@ This does not mean that there is one enormous object in place of many smaller on
 
 Advaita is at once a philosophy of being, a theory of knowledge, and a path of liberation. Its questions belong together: what truly exists, who knows, and why does a person take themselves to be a limited being?
 
-## Why Advaita Turns to the Upaniṣads
+## Why Advaita turns to the Upaniṣads
 
 For Śaṅkara, the Upaniṣads have a distinctive authority as a source of knowledge of Brahman. Reasoning is essential for clarifying their meaning, resolving apparent inconsistencies, and responding to objections. But the identity of Ātman and Brahman is not offered merely as a deduction from neutral premises that every philosopher must already accept.
 
@@ -25,7 +25,7 @@ This is a defining feature of the tradition, not a defect that can simply be rep
 
 Thus asking how Advaita justifies nonduality requires us to consider both Śaṅkara's arguments and the role of scriptural testimony. Replacing one with the other would alter the teaching we are trying to understand.
 
-## Brahman and the Dependent Reality of the World
+## Brahman and the dependent reality of the world
 
 The *Chāndogya Upaniṣad* (6.1.4) offers the example of clay and the vessels made from it. A pot, bowl, and jar differ in name, shape, and use, yet as clay objects they do not exist independently of clay.
 
@@ -39,7 +39,7 @@ The term *māyā* is associated with the appearance of plurality in a nondual re
 
 Advaita is not necessarily committed to providing a physical mechanism by which Brahman produces the world. Accounts of creation can serve as preliminary instruction: from the ultimate standpoint, the production of a second, independently existing reality is not affirmed.
 
-## Ātman, Consciousness, and the Witness
+## Ātman, consciousness, and the witness
 
 The body changes, thoughts arise and disappear, feelings give way to others, and a person's self-understanding changes as well. Advaita examines these changes and distinguishes what is known from the consciousness by which it is known.
 
@@ -51,7 +51,7 @@ The *Chāndogya Upaniṣad* (6.8.7) gives this teaching its celebrated expressio
 
 Two steps must be distinguished. The content of experiencing changes, while consciousness in Advaita is not reducible to any particular change. But that observation alone does not establish the identity of consciousness and Brahman without the other grounds of Advaita's teaching, above all the testimony of the Upaniṣads.
 
-## Avidyā, Adhyāsa, and Bondage
+## Avidyā, adhyāsa, and bondage
 
 If Ātman is always identical with Brahman, why does a person experience themselves as a limited agent?
 
@@ -67,7 +67,7 @@ If Brahman is understood as the ground of ignorance, this likewise does not mean
 
 We need not choose a final answer on behalf of a tradition whose own schools propose different accounts.
 
-## Mokṣa: Liberation Through Knowledge
+## Mokṣa: liberation through knowledge
 
 Advaita understands liberation, *mokṣa*, as the removal of ignorance about the true self, not the production of a new state of Ātman.
 
@@ -85,7 +85,7 @@ Gauḍapāda expresses nonduality in particularly radical terms in *Māṇḍūk
 
 This outlines its own philosophical structure. Different accounts of ignorance, māyā, and liberating knowledge remain part of the tradition's internal inquiry. We need not settle all of them before turning to another philosophical position.
 
-## Monophenomenalism Begins Elsewhere
+## Monophenomenalism begins elsewhere
 
 Monophenomenalism states its independent starting proposition:
 
@@ -103,7 +103,7 @@ Monophenomenalism **adopts** the one phenomenon as a philosophical starting poin
 
 *Model of the Phenomenon* offers one way of investigating questions within this position. The position and the model are related but not identical.
 
-## Five Theses and the Meaning of Distinction
+## Five theses and the meaning of distinction
 
 *Model of the Phenomenon* consists of five theses:
 
@@ -125,7 +125,7 @@ Here “conceptual” does not mean merely verbal, invented, or nonexistent. Tho
 
 The model is itself a concept. Applying it to its own formulations does not independently prove its truth beyond the adopted philosophical position.
 
-## “I,” World, and Consciousness in the Model
+## “I,” world, and consciousness in the model
 
 The ordinary statement “a person has consciousness and experiences a world” distinguishes the person, consciousness, and the content of experiencing.
 
@@ -141,7 +141,7 @@ This does not erase the person. It does not imply that different people's experi
 
 The model does not search beneath them for a final witness or establish pure consciousness as fundamental reality. It examines the determinacy of relations involving observing, consciousness, “I,” and world.
 
-## Reality, Knowledge, and Error
+## Reality, knowledge, and error
 
 Experience distinguishes an object from its picture, dreaming from waking, a claim from its test, and an expectation from its outcome.
 
@@ -157,7 +157,7 @@ At the same time, the five theses do not yield a single ready-made criterion of 
 
 Likewise, Advaita itself does not demand the destruction of all thinking: removing avidyā cannot be equated with the disappearance of every distinction.
 
-## Freedom: Neither a Property Nor a Compulsory Goal
+## Freedom: neither a property nor a compulsory goal
 
 In the model, freedom is distinguished through its relations with limitation, dependence, and the possibility of action.
 
@@ -175,7 +175,7 @@ We can change circumstances, protect ourselves, make decisions, care for others,
 
 **This is a possible practical significance of the perspective, not a necessary consequence of adopting it.** Philosophical understanding imposes no duty to feel happy at all times and does not guarantee that suffering will disappear.
 
-## Where the Two Approaches Genuinely Resemble Each Other
+## Where the two approaches genuinely resemble each other
 
 Neither philosophy simply accepts familiar individual identity as an unconditionally independent original foundation. In both, the distinguishability of the world is not by itself equivalent to a plurality of independent ultimate beginnings.
 
@@ -185,7 +185,7 @@ But these shared directions do not establish identity between their philosophica
 
 The most important boundaries are worth making explicit.
 
-## Brahman and the Phenomenon
+## Brahman and the phenomenon
 
 **Advaita understands ultimate reality as Brahman—nondual pure consciousness.**
 
@@ -197,7 +197,7 @@ For Advaita, Brahman is not a second object hidden “behind” the world. Brahm
 
 What differs is **the positive content of the starting position**. Advaita affirms the nature of ultimate reality as Brahman; monophenomenalism adopts one phenomenon without that further determination of its nature.
 
-## Ātman, the Witness, and “I”
+## Ātman, the witness, and “I”
 
 Advaita does not stop at questioning the limited personality. It discloses the true Ātman, identical with Brahman.
 
@@ -209,7 +209,7 @@ But in Advaita, pure consciousness has the status of ultimate reality. In the mo
 
 Thus “Ātman,” “consciousness,” and “experiencing” cannot simply be declared different names for the same thing without further arguments.
 
-## Avidyā and Concept
+## Avidyā and concept
 
 Advaita investigates the erroneous identification of the true self with a limited being, and liberation from this ignorance.
 
@@ -223,7 +223,7 @@ There is nevertheless a meaningful shared question: how is a particular understa
 
 Both philosophies allow us to investigate the question without requiring the same answer.
 
-## Liberation: A Parallel Without Identity
+## Liberation: a parallel without identity
 
 Both positions allow us to reconsider the idea of liberation as a future acquisition.
 
@@ -237,7 +237,7 @@ The difference lies elsewhere. Advaita has a determinate object of liberating kn
 
 We may recognize a closeness in the practical direction of the two approaches without declaring their grounds identical.
 
-## Conclusion: What the Comparison Reveals
+## Conclusion: what the comparison reveals
 
 Advaita and monophenomenalism are not two translations of one teaching.
 
