@@ -88,3 +88,7 @@ html[data-theme=dark] .orbit span{border-color:#777777}
 @media(max-width:900px){.entry-wrap{grid-template-columns:minmax(0,1fr);gap:14px}.entry-actions{padding:0;margin-left:85px}.entry-actions .pdf-download,.read-link{min-height:34px;padding:6px 12px;font-size:12px}}
 @media(max-width:680px){.entry-wrap{padding:24px 0}.entry-actions{margin-left:40px}}
 @media print{.entry-actions{display:none!important}}
+
+/* Warm beige emphasis for the reading action in both themes and languages. */
+.entry-actions .read-link{background:#e7d4b8;border-color:#c4a782;color:#30271e}
+.entry-actions .read-link:hover{background:#dbc19f;border-color:#b59673;color:#30271e}
