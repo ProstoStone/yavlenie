@@ -1,9 +1,9 @@
-I, World, Others: The Problem That Never Was
+I, world, others: the problem that never was
 Hume, Kant, other minds, and monophenomenalism: how a distinction comes to be treated as an independent foundation.
 Author's essay
 2026-11-06
 
-## Where Is All of This?
+## Where is all of this?
 
 There is a person.
 
@@ -49,7 +49,7 @@ We can point to a person, a tree, a thought about another mind, a memory. All th
 
 Before seeking connections between supposedly separate foundations, perhaps we should examine where their assumed independence came from.
 
-## The Abyss We Learned Not to Notice
+## The abyss we learned not to notice
 
 A person looks at the world.
 
@@ -79,7 +79,7 @@ Do not seek to assemble the accepted separations like puzzle pieces. **Do not ac
 
 **The distinctions remain, but unexperienced independent existence is not introduced behind them.**
 
-## Without an Original Division
+## Without an original division
 
 This is not an account of a time before people, the world, or consciousness, nor of a state once possessed and then lost.
 
@@ -123,7 +123,7 @@ But it is a definite and radically different starting point from the usual divis
 
 What was previously treated as an independent foundation is considered as a distinction within experience—without the need to posit independent existence behind that distinction. The necessity of each additional foundation can be examined without assuming some other independent foundation as its measure. There was no prior obligation to divide the phenomenon.
 
-## Five Theses
+## Five theses
 
 *Model of the Phenomenon* expresses this way of considering what is in five theses:
 
@@ -155,7 +155,7 @@ There is no separate phenomenon behind experiencing, no separate owner behind �
 
 Even “one” is a concept through which the starting position is expressed.
 
-## Who Experiences?
+## Who experiences?
 
 “I experience.”
 
@@ -187,7 +187,7 @@ But the model requires no such owner.
 
 **There is the phenomenon. The distinction “I experience” is already it.**
 
-## Where Did the Others Come From?
+## Where did the others come from?
 
 “I” is determined through “not-I,” one's own through what is not one's own, inner through outer, self through world.
 
@@ -227,7 +227,7 @@ There is no compulsory problem of how to join them.
 
 **There is nothing to join.**
 
-## Why This Is Not Just a Game of Words
+## Why this is not just a game of words
 
 “You have called people distinctions. What does that explain?”
 
@@ -249,7 +249,7 @@ There is no need first to assume an independent owner of the entire biography an
 
 Personal identity is already a question within a particular conceptual structure. It does not discover a compulsory separate being behind the phenomenon.
 
-## Hume Came to the Very Edge
+## Hume came to the very edge
 
 David Hume made an exceptionally bold move.
 
@@ -279,7 +279,7 @@ The model does not require the prior establishment of independent existences fro
 
 Memory and biography remain open to investigation in experience. They do not require the phenomenon to acquire unity from something else.
 
-## Kant Approached from the Other Side
+## Kant approached from the other side
 
 Kant appears here only as a historical parallel that helps clarify monophenomenalism's own starting point. This is neither an exposition of Kant's philosophy nor a dispute with it; the purpose is not to speak for Kant, refute him, or answer the questions he posed. **Neither Kant's concepts nor solutions to his problems are required by the five theses of *Model of the Phenomenon*.**
 
@@ -323,7 +323,7 @@ Not because cognition is false.
 
 Because **cognition is itself distinguished in the phenomenon, not posited in advance as an independent foundation of its existence**.
 
-## Where the Problems Come From
+## Where the problems come from
 
 “I” and “world” are distinguished in experience. A question arises about how one reaches the other.
 
@@ -357,7 +357,7 @@ Its starting position contains no independently established second foundation be
 
 **And therefore it contains no compulsory task of connecting independent beginnings that were never adopted.**
 
-## What If a Foundation Is Discovered?
+## What if a foundation is discovered?
 
 Suppose new knowledge emerges: previously unknown life, new ways of studying consciousness, evidence of worlds no one had suspected.
 
@@ -383,7 +383,7 @@ Discovering something new is not the same as proving another independent beginni
 
 **To discover a new distinction is not to discover a new original foundation.**
 
-## Nothing Has Disappeared
+## Nothing has disappeared
 
 In this position the familiar “I” is no longer the original owner of all experiencing. The world is not established as a second independent foundation. Other people are not assumed to be original owners of separate phenomena.
 
@@ -409,7 +409,7 @@ The model does not require its reader to undergo a special state. Understanding 
 
 That is its starting thesis.
 
-## Even Unity Must Not Become an Entity
+## Even unity must not become an entity
 
 One final trap remains.
 
@@ -437,7 +437,7 @@ The model itself is a concept within what it describes. It cannot stand beyond t
 
 Nor need it stand beyond the phenomenon to be a definite philosophical position.
 
-## There Is Nothing to Join
+## There is nothing to join
 
 Return to the beginning.
 
