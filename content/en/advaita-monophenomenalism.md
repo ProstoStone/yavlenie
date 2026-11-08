@@ -1,4 +1,4 @@
-Advaita Vedānta and Monophenomenalism: Two Philosophical Starting Points
+Advaita Vedānta and Monophenomenalism: Two Starting Points
 Nonduality, Ātman, consciousness, distinction, and freedom: what each philosophy claims and where their boundaries lie.
 Comparative essay
 2026-11-08
@@ -6,6 +6,8 @@ Comparative essay
 Nonduality can easily become an attractive general formula: everything is one, there is no separate “I,” freedom need not be attained. Yet similar words can express very different philosophical commitments. We cannot understand the relationship between two philosophies merely by renaming Brahman “the phenomenon” or Ātman “consciousness.”
 
 We will first consider Advaita Vedānta on its own terms. Then we will set out monophenomenalism and *Model of the Phenomenon* without treating Advaita as the source of their claims. Only then can we identify where the two approaches genuinely meet and where the resemblance ends.
+
+**This account of Advaita is our understanding and interpretation of its philosophy**, based on classical texts, commentaries, and modern scholarship. We aim to represent the tradition's central claims accurately, without presenting our reading as the only valid interpretation or claiming to speak for every school of Advaita. Disagreements about this reading should be kept distinct from the comparison that follows: in the second part we present a separate philosophical position on its own foundations.
 
 ## Advaita: What Nonduality Means
 
@@ -25,7 +27,7 @@ Thus asking how Advaita justifies nonduality requires us to consider both Śaṅ
 
 ## Brahman and the Dependent Reality of the World
 
-The *Chāndogya Upaniṣad* offers the example of clay and the vessels made from it. A pot, bowl, and jar differ in name, shape, and use, yet as clay objects they do not exist independently of clay.
+The *Chāndogya Upaniṣad* (6.1.4) offers the example of clay and the vessels made from it. A pot, bowl, and jar differ in name, shape, and use, yet as clay objects they do not exist independently of clay.
 
 The example shows that **difference of form need not imply independence of existence**. Advaita applies this approach to the plurality of the world. Names and forms, *nāma-rūpa*, are determinate, but they have no ultimate reality independent of Brahman.
 
@@ -45,7 +47,7 @@ Consciousness here is not another object discovered within the mind. If an inner
 
 The term *sākṣin*, witnessing consciousness, helps explain this. But the witness is not an inner person seated behind thoughts. Nor is the relationship between witness and witnessed the final truth of nonduality: ultimately Brahman does not stand opposite a second, independent object.
 
-The *Chāndogya Upaniṣad* gives this teaching its celebrated expression: **tat tvam asi — “You are That.”** It is not the identification of a personal biography with the cosmos. It asserts the identity of the true self with ultimate reality.
+The *Chāndogya Upaniṣad* (6.8.7) gives this teaching its celebrated expression: **tat tvam asi — “You are That.”** It is not the identification of a personal biography with the cosmos. It asserts the identity of the true self with ultimate reality.
 
 Two steps must be distinguished. The content of experiencing changes, while consciousness in Advaita is not reducible to any particular change. But that observation alone does not establish the identity of consciousness and Brahman without the other grounds of Advaita's teaching, above all the testimony of the Upaniṣads.
 
@@ -91,7 +93,7 @@ Monophenomenalism states its independent starting proposition:
 
 This is neither a translation of “Ātman is Brahman” nor a conclusion drawn from studying Advaita.
 
-Unity here means that **everything that exists is taken as one phenomenon. Distinctions within it are not thereby turned into independent original foundations. One does not mean uniform.**
+Unity here means that **everything that exists is taken as one phenomenon. Distinctions within it are not thereby turned into independent original foundations. Oneness does not mean sameness.**
 
 A person, a world, thoughts, objects, and other people are distinguished. But their being distinguishable does not itself require each to possess an independent ground of existence that must subsequently be connected to the others.
 
@@ -115,7 +117,7 @@ Here *sensory experiencing* includes not only sight, sound, and touch, but also 
 
 The five theses do not describe five things or successive stages in time. Concepts do not take initially formless experiencing and manufacture a finished experience from it.
 
-**A distinction is how experiencing is determinate. A concept is a system of distinctions.**
+**A distinction is how sensory experiencing is. A concept is a system of distinctions.**
 
 Green does not become green because it is named. Pain does not become pain through a mental decision to classify it as pain. Being distinguished does not presuppose a separate agent who manufactures distinctions.
 
@@ -159,7 +161,7 @@ Likewise, Advaita itself does not demand the destruction of all thinking: removi
 
 In the model, freedom is distinguished through its relations with limitation, dependence, and the possibility of action.
 
-Freedom of movement, freedom of choice, and release from a particular obstacle have determinate meanings in their respective contexts.
+Freedom of movement, the experience of choosing, and release from a particular obstacle have determinate meanings in their respective contexts. The experience of free choice is understood through conceptual distinctions; this does not assert the existence of an ontologically independent free will.
 
 Absolute freedom is not distinguished as an ordinary experienced state bounded by an opposite. It is not declared a special property of the phenomenon or an object that some separate subject must possess.
 
@@ -177,7 +179,7 @@ We can change circumstances, protect ourselves, make decisions, care for others,
 
 Neither philosophy simply accepts familiar individual identity as an unconditionally independent original foundation. In both, the distinguishability of the world is not by itself equivalent to a plurality of independent ultimate beginnings.
 
-Both allow for understanding to transform how a person relates to their own bondage. Neither requires the everyday world literally to disappear for nonduality to have meaning.
+In Advaita, liberating knowledge is essential to the path. The model allows us to investigate how understanding relates to experienced limitation, but it prescribes neither a necessary transformation of experiencing nor a predetermined result. Neither approach requires the everyday world literally to disappear for nonduality to be meaningful.
 
 But these shared directions do not establish identity between their philosophical claims.
 
@@ -187,7 +189,9 @@ The most important boundaries are worth making explicit.
 
 **Advaita understands ultimate reality as Brahman—nondual pure consciousness.**
 
-**Monophenomenalism adopts one phenomenon, and the model articulates it through sensory experiencing and distinctions, without establishing pure consciousness as an independent foundation.**
+**Monophenomenalism, as a philosophical position, takes everything that exists as one phenomenon. *Model of the Phenomenon* is a distinct instrument of inquiry within that position: it defines the phenomenon as sensory experiencing and examines its distinctions through concepts.**
+
+Monophenomenalism's starting proposition is not identical with the model's definitions, nor does it require adopting this particular instrument. Neither the position nor the model establishes pure consciousness as an independent foundation of the phenomenon.
 
 For Advaita, Brahman is not a second object hidden “behind” the world. Brahman is its ultimate reality. It would therefore be mistaken to contrast the two philosophies as though Advaita added one more thing while the model merely refused to do so.
 
@@ -253,5 +257,5 @@ The comparison does not require treating either as a refutation of the other. It
 
 1. [Śaṅkara — Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/shankara/) — a study of Śaṅkara's philosophy and its foundations.
 2. [Advaita Vedānta — Internet Encyclopedia of Philosophy](https://iep.utm.edu/advaita-vedanta/) — classical Advaita and later schools.
-3. *Chāndogya Upaniṣad*, chapter 6; *Bṛhadāraṇyaka Upaniṣad*, 2.3–2.4; *Māṇḍūkya Upaniṣad*; Gauḍapāda's *Māṇḍūkya Kārikā* 2.32; Śaṅkara's introduction to his commentary on the *Brahma Sūtras*.
+3. *Chāndogya Upaniṣad*, 6.1.4 (clay and vessels) and 6.8.7 (*tat tvam asi*); *Bṛhadāraṇyaka Upaniṣad*, 2.3–2.4; *Māṇḍūkya Upaniṣad*; Gauḍapāda's *Māṇḍūkya Kārikā* 2.32; Śaṅkara's introduction to his commentary on the *Brahma Sūtras*.
 4. [*Model of the Phenomenon*](https://prostostone.github.io/Monophenomenalism/model_en-1.html), [*Monophenomenalism*](https://prostostone.github.io/Monophenomenalism/monophenomenalism_en-1.html), and the [*Working Map*](https://prostostone.github.io/Monophenomenalism/working_map_en-1.html) — the primary sources for the second part and the comparison.
