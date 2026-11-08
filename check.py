@@ -150,3 +150,15 @@ for lang,slug,page in editions:
  assert any(p.get('/Annots') for p in reader.pages),('Missing PDF links',pdf)
 assert len(list(OUT.rglob('*.pdf')))==len(editions)
 print(f'OK: {len(editions)} PDFs, full text preserved, bilingual download links and PDF metadata')
+
+# Sentence-case safeguard for authored English titles and section headings.
+# Keep proper nouns in their usual case; reject accidental pervasive Title Case.
+for article in (ROOT/'content/en').glob('*.md'):
+ lines=article.read_text(encoding='utf-8').splitlines()
+ headings=[lines[0]]+[line[3:] for line in lines if line.startswith('## ')]
+ for heading in headings:
+  words=[w for w in re.findall(r"[^\\W\\d_]+(?:[’'-][^\\W\\d_]+)*",heading,re.UNICODE) if len(w)>1]
+  capitals=sum(word[0].isupper() for word in words)
+  assert not (len(words)>=4 and capitals>=4 and capitals/len(words)>=0.7),('English heading uses Title Case',article,heading)
+  assert not (2<=len(words)<=3 and capitals==len(words)),('Short English heading uses Title Case',article,heading)
+print('OK: English article headings use sentence case')
