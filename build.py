@@ -30,16 +30,19 @@ def inline(s):
 def render(body,lang):
  result=[];toc=[]
  for block in body.strip().split('\n\n'):
-  if block.startswith('## '):
-   ident=f'section-{len(toc)+1}';title=block[3:].strip();toc.append((ident,title));result.append(f'<h2 id="{ident}">{inline(title)}</h2>')
+  if re.match(r'^#{2,4} ',block):
+   marks,title=block.split(' ',1);level=len(marks);title=title.strip()
+   ident=f'section-{len(toc)+1}' if level<=3 else f'subsection-{len(result)+1}'
+   if level<=3:toc.append((ident,title))
+   result.append(f'<h{level} id="{ident}">{inline(title)}</h{level}>')
   elif re.fullmatch(r'\{\{figure:[1-4]\}\}',block):
    n=block[9];result.append((ROOT/f'templates/gradient-{n}{".en" if lang=="en" else ""}.html').read_text())
   elif re.match(r'^\d+\. ',block):result.append('<ol>'+''.join('<li>'+inline(re.sub(r'^\d+\. ','',x))+'</li>' for x in block.splitlines())+'</ol>')
   elif block.startswith('> '):result.append('<blockquote><p>'+inline(block[2:])+'</p></blockquote>')
   else:result.append('<p>'+inline(block.replace('\n',' '))+'</p>')
  return '\n'.join(result),toc
-ORDER=['freedom','after-ubermensch','nihilism-without-verdict','weightlessness','mistakes','fear','bol-ne-vydumka','odno-ne-znachit-odinakovo','gradient','start','glossary','ya-mir-drugie','advaita-monophenomenalism','about']
-RELATED={'ya-mir-drugie':['advaita-monophenomenalism','start','glossary'],'freedom':['after-ubermensch','weightlessness','nihilism-without-verdict'],'after-ubermensch':['nihilism-without-verdict','weightlessness','freedom'],'nihilism-without-verdict':['weightlessness','after-ubermensch','freedom'],'weightlessness':['after-ubermensch','nihilism-without-verdict','freedom'],'mistakes':['bol-ne-vydumka','freedom','fear'],'fear':['freedom','bol-ne-vydumka','mistakes'],'bol-ne-vydumka':['odno-ne-znachit-odinakovo','gradient','glossary'],'odno-ne-znachit-odinakovo':['gradient','bol-ne-vydumka','start'],'gradient':['odno-ne-znachit-odinakovo','bol-ne-vydumka','glossary'],'start':['freedom','odno-ne-znachit-odinakovo','glossary'],'glossary':['gradient','bol-ne-vydumka','start'],'advaita-monophenomenalism':['ya-mir-drugie','start','glossary'],'about':['start','glossary','gradient']}
+ORDER=['freedom','after-ubermensch','nihilism-without-verdict','weightlessness','mistakes','fear','bol-ne-vydumka','odno-ne-znachit-odinakovo','gradient','start','glossary','ya-mir-drugie','advaita-monophenomenalism','buddhism-monophenomenalism','about']
+RELATED={'ya-mir-drugie':['advaita-monophenomenalism','start','glossary'],'freedom':['after-ubermensch','weightlessness','nihilism-without-verdict'],'after-ubermensch':['nihilism-without-verdict','weightlessness','freedom'],'nihilism-without-verdict':['weightlessness','after-ubermensch','freedom'],'weightlessness':['after-ubermensch','nihilism-without-verdict','freedom'],'mistakes':['bol-ne-vydumka','freedom','fear'],'fear':['freedom','bol-ne-vydumka','mistakes'],'bol-ne-vydumka':['odno-ne-znachit-odinakovo','gradient','glossary'],'odno-ne-znachit-odinakovo':['gradient','bol-ne-vydumka','start'],'gradient':['odno-ne-znachit-odinakovo','bol-ne-vydumka','glossary'],'start':['freedom','odno-ne-znachit-odinakovo','glossary'],'glossary':['gradient','bol-ne-vydumka','start'],'advaita-monophenomenalism':['buddhism-monophenomenalism','start','glossary'],'buddhism-monophenomenalism':['advaita-monophenomenalism','ya-mir-drugie','glossary'],'about':['start','glossary','gradient']}
 items=[]
 for lang in ('ru','en'):
  for p in sorted((ROOT/'content'/('en' if lang=='en' else '')).glob('*.md')):
@@ -62,7 +65,7 @@ def layout(lang,title,desc,path,content,schema,text_path=None,noindex=False,pdf_
 <script id="reading-theme">{theme_script}</script>
 <link rel="icon" href="https://prostostone.github.io/favicon.png" type="image/png" sizes="192x192">
 <link rel="shortcut icon" href="https://prostostone.github.io/favicon.ico">
-<link rel="stylesheet" href="{PREFIX}assets/style.css?v=matching-action-buttons-20261108"><link rel="stylesheet" href="{PREFIX}assets/illustrations.css">
+<link rel="stylesheet" href="{PREFIX}assets/style.css?v=buddhism-sections-20261109"><link rel="stylesheet" href="{PREFIX}assets/illustrations.css">
 <link rel="alternate" type="application/rss+xml" title="{n}" href="{url(lang,'feed.xml')}">
 {f'<link rel="alternate" type="text/plain" href="{text_path}">' if text_path else ''}
 {f'<link rel="alternate" type="application/pdf" href="{pdf_url}">' if pdf_url else ''}

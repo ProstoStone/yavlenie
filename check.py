@@ -162,3 +162,17 @@ for article in (ROOT/'content/en').glob('*.md'):
   assert not (len(words)>=4 and capitals>=4 and capitals/len(words)>=0.7),('English heading uses Title Case',article,heading)
   assert not (2<=len(words)<=3 and capitals==len(words)),('Short English heading uses Title Case',article,heading)
 print('OK: English article headings use sentence case')
+
+# Comparative study: full parallel structure and verbatim foundational theses.
+buddhist_ru=(ROOT/'content/buddhism-monophenomenalism.md').read_text()
+buddhist_en=(ROOT/'content/en/buddhism-monophenomenalism.md').read_text()
+assert all(f'{i}. {t}' in buddhist_ru for i,t in enumerate(ru_theses,1))
+assert all(f'{i}. {t}' in buddhist_en for i,t in enumerate(expected,1))
+for level,count in ((2,2),(3,35),(4,17)):
+ pattern=r'^'+'#'*level+' '
+ assert len(re.findall(pattern,buddhist_ru,re.M))==len(re.findall(pattern,buddhist_en,re.M))==count
+for lang in ('ru','en'):
+ page=(OUT/('en' if lang=='en' else '')/'buddhism-monophenomenalism/index.html').read_text()
+ assert page.count('<h3 id=')==35 and page.count('<h4 id=')==17
+ assert not re.search(r'<p>#{2,4} ',page)
+print('OK: complete bilingual Buddhist study, nested headings, and unchanged five theses')
