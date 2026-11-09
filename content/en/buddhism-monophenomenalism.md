@@ -1,4 +1,4 @@
-Buddhism and monophenomenalism: philosophical foundations and a comparative study
+Buddhism and Monophenomenalism: A Comparative Study
 Not-self, emptiness, consciousness, and liberation: an independent account of Buddhist philosophy and a comparison with the Model of the Phenomenon.
 Study
 2026-11-09
@@ -421,7 +421,7 @@ Monophenomenalism does not arise from these teachings and does not require their
 
 It adopts an independent philosophical position:
 
-Everything that exists is the phenomenon. The phenomenon is one.
+Everything that exists is a phenomenon. The phenomenon is one.
 
 Unity here does not mean that everything distinguished is the same. People, objects, states, and relationships retain their determinacy.
 
@@ -447,7 +447,7 @@ In the model, sensory experiencing includes sensations, emotions, thoughts, and 
 
 Distinction is the way sensory experiencing is. A concept is a system of distinctions.
 
-These claims do not describe stages through which ready-made experience is created from unformed experiencing.
+These theses do not describe stages in which experience is produced from initially unstructured experiencing.
 
 Concepts do not function as an independent productive mechanism.
 
@@ -495,7 +495,7 @@ A similarity in outcome does not therefore establish an identity of philosophica
 
 The Buddhist teaching of the five aggregates offers a particular classification of human existence.
 
-The Model of the Phenomenon allows each aggregate to be investigated as a distinguished determinacy of experiencing.
+The Model of the Phenomenon allows each aggregate to be investigated as something distinctly articulated within experiencing.
 
 But it would be incorrect to claim that the five aggregates and the model’s concepts are the same thing.
 
@@ -533,7 +533,7 @@ The difference between the teachings should therefore not be drawn as an opposit
 
 Buddhism uses dependent origination as a crucial explanation of bondage and the possibility of liberation.
 
-The Model of the Phenomenon considers causal relationships as conceptually determined relationships within experience. Its five theses, however, do not entail the specifically Buddhist account of conditionality connecting ignorance, craving, clinging, and the cessation of dukkha. The difference concerns the content, justification, and investigative purpose of these relationships.
+The Model of the Phenomenon considers causal relationships as relationships articulated through conceptual distinctions within experience. Its five theses, however, do not entail the specifically Buddhist account of conditionality connecting ignorance, craving, clinging, and the cessation of dukkha. The difference concerns the content, justification, and investigative purpose of these relationships.
 
 This does not establish that Buddhist causation is mistaken.
 
@@ -665,7 +665,7 @@ The model allows us to investigate how knowledge, error, understanding, and igno
 
 If the model considers suffering through concepts, it does not follow that suffering is invented.
 
-Pain remains a definite experiencing.
+Pain remains a particular form of experiencing.
 
 Loss differs from joy.
 
