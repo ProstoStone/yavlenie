@@ -55,13 +55,16 @@
   const set = (key, value) => { try { localStorage.setItem(key, value); } catch (_) {} };
   let size = sizes.includes(get('yavlenie-size')) ? get('yavlenie-size') : 'normal';
   let focus = get('yavlenie-focus') === 'true';
+  let fontChoice = get('yavlenie-font') === 'arial' ? 'arial' : 'serif';
   root.dataset.readingSize = size;
   root.dataset.readingFocus = String(focus);
+  root.dataset.readingFont = fontChoice;
   document.addEventListener('DOMContentLoaded', () => {
     const toolbar = document.querySelector('.reader-toolbar');
     if (!toolbar) return;
     const smaller = document.getElementById('reader-smaller');
     const larger = document.getElementById('reader-larger');
+    const fontButton = document.getElementById('reader-font');
     const focusButton = document.getElementById('reader-focus');
     const progress = document.querySelector('.reading-progress');
     const prose = document.querySelector('.prose');
@@ -78,15 +81,24 @@
     function apply() {
       root.dataset.readingSize = size;
       root.dataset.readingFocus = String(focus);
+      root.dataset.readingFont = fontChoice;
+      fontButton.setAttribute('aria-pressed', String(fontChoice === 'arial'));
+      const fontLabel = root.lang === 'en'
+        ? (fontChoice === 'arial' ? 'Switch to book font' : 'Switch to Arial')
+        : (fontChoice === 'arial' ? 'Вернуть книжный шрифт' : 'Включить Arial');
+      fontButton.setAttribute('aria-label', fontLabel);
+      fontButton.title = fontLabel;
       smaller.disabled = size === 'small';
       larger.disabled = size === 'large';
       focusButton.setAttribute('aria-pressed', String(focus));
-      set('yavlenie-size', size); set('yavlenie-focus', String(focus));
+      set('yavlenie-size', size);
+      set('yavlenie-focus', String(focus));
+      set('yavlenie-font', fontChoice);
       updateProgress();
     }
     smaller.addEventListener('click', () => { size = sizes[Math.max(0, sizes.indexOf(size) - 1)]; apply(); });
     larger.addEventListener('click', () => { size = sizes[Math.min(2, sizes.indexOf(size) + 1)]; apply(); });
-    document.getElementById('reader-reset').addEventListener('click', () => { size = 'normal'; apply(); });
+    fontButton.addEventListener('click', () => { fontChoice = fontChoice === 'arial' ? 'serif' : 'arial'; apply(); });
     focusButton.addEventListener('click', () => { focus = !focus; apply(); });
     let scheduled = false;
     window.addEventListener('scroll', () => {
