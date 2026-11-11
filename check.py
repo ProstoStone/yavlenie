@@ -65,7 +65,7 @@ for lang in ('ru','en'):
   assert len(re.findall('<figure',s))==(4 if slug=='gradient' else 0)
 import hashlib
 # Editorial regression guard; does not depend on Git checkout depth.
-PRESERVED_RUSSIAN = {'freedom': '77722813805cc3f3806e5164d835c89343f1778ee21bcad1d01dadf444d6f70e', 'fear': '884e890d5fb196fe54ced141af4b1c2493d4c259dff92593d7c87ea464bf2ed2', 'mistakes': '3affec4e3774d68728f8d83f65e6c33b4f7bceee519af22be643da63cff49e53', 'start': '08e4f9f2241567c3d7b9f91c863ef969b3234524cb365b12c21041108b840442', 'glossary': '039ad6e20dc53ebf02da6912d0d2dc1aad59c943ca041d01e83eacf2c34773ac'}
+PRESERVED_RUSSIAN = {'freedom': '77722813805cc3f3806e5164d835c89343f1778ee21bcad1d01dadf444d6f70e', 'fear': '884e890d5fb196fe54ced141af4b1c2493d4c259dff92593d7c87ea464bf2ed2', 'mistakes': '3affec4e3774d68728f8d83f65e6c33b4f7bceee519af22be643da63cff49e53', 'start': '1b09bdc971e7e0779e5fdc03ac8cb011a42ee5dfeea9c6fd69f44b0d983cfe14', 'glossary': '039ad6e20dc53ebf02da6912d0d2dc1aad59c943ca041d01e83eacf2c34773ac'}
 for slug,digest in PRESERVED_RUSSIAN.items():
  assert hashlib.sha256((ROOT/"content"/(slug+".md")).read_bytes()).hexdigest()==digest,slug
 expected=['Everything is one phenomenon.','The phenomenon is sensory experiencing.','A distinction within sensory experiencing is a concept.','Concepts structure the phenomenon into experience.','Experience is the phenomenon structured through concepts.']
@@ -148,6 +148,15 @@ for lang,slug,page in editions:
  assert page_html.count('class="pdf-download" href="'+pdf_url+'"')>=1,(page,lang)
  assert '<link rel="alternate" type="application/pdf" href="'+pdf_url+'">' in page_html
  assert any(p.get('/Annots') for p in reader.pages),('Missing PDF links',pdf)
+# Both reading languages and original-work editions expose a static theme button
+# immediately after their PDF download link; JavaScript binds it to the shared theme.
+for lang in ('ru', 'en'):
+ for page in ('start/', WORK_PATHS[0]):
+  html_page=(OUT/('en/' if lang=='en' else '')/page/'index.html').read_text()
+  assert re.search(r'class="reader-buttons".*?class="pdf-download"[^>]*>[^<]*</a><button type="button" id="reader-theme-toggle"',html_page,re.S),(lang,page,'reader theme control missing after PDF')
+  assert "document.getElementById('reader-theme-toggle')" in html_page,(lang,page,'theme handler missing')
+print('OK: bilingual article and original-work theme controls follow PDF download')
+
 assert len(list(OUT.rglob('*.pdf')))==len(editions)
 print(f'OK: {len(editions)} PDFs, full text preserved, bilingual download links and PDF metadata')
 
