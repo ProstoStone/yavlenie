@@ -158,7 +158,7 @@ for lang in ('ru', 'en'):
   assert re.search(r'id="reader-smaller".*?id="reader-font".*?id="reader-larger"',html_page,re.S),(lang,page,'font button must replace size reset between A− and A+')
   assert 'id="reader-reset"' not in html_page,(lang,page,'obsolete font-size reset button')
   assert "document.getElementById('reader-font')" in html_page,(lang,page,'font handler missing')
-  assert 'data-reading-font' in html_page,(lang,page,'font styling missing')
+  assert 'root.dataset.readingFont' in html_page,(lang,page,'font state missing')
   assert "yavlenie-font" in html_page,(lang,page,'font choice persistence missing')
 print('OK: bilingual article and original-work theme and font controls available')
 
