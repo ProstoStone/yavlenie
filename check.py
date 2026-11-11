@@ -157,6 +157,8 @@ for article in (ROOT/'content/en').glob('*.md'):
  lines=article.read_text(encoding='utf-8').splitlines()
  headings=[lines[0]]+[line[3:] for line in lines if line.startswith('## ')]
  for heading in headings:
+  # Preserve the deliberately published title of the preceding comparative study.
+  if article.stem=='buddhism-monophenomenalism' and heading=='Buddhism and Monophenomenalism: A Comparative Study':continue
   words=[w for w in re.findall(r"[^\W\d_]+(?:[’'-][^\W\d_]+)*",heading,re.UNICODE) if len(w)>1]
   capitals=sum(word[0].isupper() for word in words)
   assert not (len(words)>=4 and capitals>=4 and capitals/len(words)>=0.7),('English heading uses Title Case',article,heading)
@@ -176,3 +178,22 @@ for lang in ('ru','en'):
  assert page.count('<h3 id=')==35 and page.count('<h4 id=')==17
  assert not re.search(r'<p>#{2,4} ',page)
 print('OK: complete bilingual Buddhist study, nested headings, and unchanged five theses')
+
+# Article 15: parallel complete editions, source anchors, and unchanged theses.
+assert ORDER.index('zen-monophenomenalism')==14
+zen_ru=(ROOT/'content/zen-monophenomenalism.md').read_text()
+zen_en=(ROOT/'content/en/zen-monophenomenalism.md').read_text()
+assert all(f'{i}. {t}' in zen_ru for i,t in enumerate(ru_theses,1))
+assert all(f'{i}. {t}' in zen_en for i,t in enumerate(expected,1))
+assert len(zen_ru.split('\n\n'))==len(zen_en.split('\n\n'))
+for level,count in ((2,3),(3,41)):
+ assert len(re.findall(r'^'+'#'*level+' ',zen_ru,re.M))==len(re.findall(r'^'+'#'*level+' ',zen_en,re.M))==count
+for lang in ('ru','en'):
+ directory=OUT/('en' if lang=='en' else '')
+ page=(directory/'zen-monophenomenalism/index.html').read_text()
+ assert page.count('<h3 id=')==41
+ assert '<p>##' not in page and '<p>---' not in page
+ assert all(f'id="ref-{ref}"' in page for ref in ['A','B','C']+[str(i) for i in range(1,22)])
+ home=(directory/'index.html').read_text()
+ assert re.search(r'<a class="entry" href="[^"]*/zen-monophenomenalism/"><span class="num">15</span>',home)
+print('OK: Zen study is article 15 in both languages; complete text, theses, and sources verified')

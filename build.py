@@ -24,7 +24,7 @@ def tr(lang,ru,en):return en if lang=='en' else ru
 def name(lang):return tr(lang,'Явление','Phenomenon')
 def inline(s):
  s=E(s)
- s=re.sub(r'\[([^\]]+)\]\((https://[^\s)]+|/[^\s)]+)\)',r'<a href="\2">\1</a>',s)
+ s=re.sub(r'\[([^\]]+)\]\((https://[^\s)]+|/[^\s)]+|#[^\s)]+)\)',r'<a href="\2">\1</a>',s)
  s=re.sub(r'\*\*(.+?)\*\*',r'<strong>\1</strong>',s)
  return re.sub(r'(?<!\*)\*([^*]+)\*(?!\*)',r'<em>\1</em>',s)
 def render(body,lang):
@@ -38,11 +38,13 @@ def render(body,lang):
   elif re.fullmatch(r'\{\{figure:[1-4]\}\}',block):
    n=block[9];result.append((ROOT/f'templates/gradient-{n}{".en" if lang=="en" else ""}.html').read_text())
   elif re.match(r'^\d+\. ',block):result.append('<ol>'+''.join('<li>'+inline(re.sub(r'^\d+\. ','',x))+'</li>' for x in block.splitlines())+'</ol>')
+  elif re.match(r'^\[([A-C]|\d+)\] ',block):
+   ref=re.match(r'^\[([A-C]|\d+)\] ',block)[1];result.append(f'<p id="ref-{ref}">'+inline(block)+'</p>')
   elif block.startswith('> '):result.append('<blockquote><p>'+inline(block[2:])+'</p></blockquote>')
   else:result.append('<p>'+inline(block.replace('\n',' '))+'</p>')
  return '\n'.join(result),toc
-ORDER=['freedom','after-ubermensch','nihilism-without-verdict','weightlessness','mistakes','fear','bol-ne-vydumka','odno-ne-znachit-odinakovo','gradient','start','glossary','ya-mir-drugie','advaita-monophenomenalism','buddhism-monophenomenalism','about']
-RELATED={'ya-mir-drugie':['advaita-monophenomenalism','start','glossary'],'freedom':['after-ubermensch','weightlessness','nihilism-without-verdict'],'after-ubermensch':['nihilism-without-verdict','weightlessness','freedom'],'nihilism-without-verdict':['weightlessness','after-ubermensch','freedom'],'weightlessness':['after-ubermensch','nihilism-without-verdict','freedom'],'mistakes':['bol-ne-vydumka','freedom','fear'],'fear':['freedom','bol-ne-vydumka','mistakes'],'bol-ne-vydumka':['odno-ne-znachit-odinakovo','gradient','glossary'],'odno-ne-znachit-odinakovo':['gradient','bol-ne-vydumka','start'],'gradient':['odno-ne-znachit-odinakovo','bol-ne-vydumka','glossary'],'start':['freedom','odno-ne-znachit-odinakovo','glossary'],'glossary':['gradient','bol-ne-vydumka','start'],'advaita-monophenomenalism':['buddhism-monophenomenalism','start','glossary'],'buddhism-monophenomenalism':['advaita-monophenomenalism','ya-mir-drugie','glossary'],'about':['start','glossary','gradient']}
+ORDER=['freedom','after-ubermensch','nihilism-without-verdict','weightlessness','mistakes','fear','bol-ne-vydumka','odno-ne-znachit-odinakovo','gradient','start','glossary','ya-mir-drugie','advaita-monophenomenalism','buddhism-monophenomenalism','zen-monophenomenalism','about']
+RELATED={'ya-mir-drugie':['advaita-monophenomenalism','start','glossary'],'freedom':['after-ubermensch','weightlessness','nihilism-without-verdict'],'after-ubermensch':['nihilism-without-verdict','weightlessness','freedom'],'nihilism-without-verdict':['weightlessness','after-ubermensch','freedom'],'weightlessness':['after-ubermensch','nihilism-without-verdict','freedom'],'mistakes':['bol-ne-vydumka','freedom','fear'],'fear':['freedom','bol-ne-vydumka','mistakes'],'bol-ne-vydumka':['odno-ne-znachit-odinakovo','gradient','glossary'],'odno-ne-znachit-odinakovo':['gradient','bol-ne-vydumka','start'],'gradient':['odno-ne-znachit-odinakovo','bol-ne-vydumka','glossary'],'start':['freedom','odno-ne-znachit-odinakovo','glossary'],'glossary':['gradient','bol-ne-vydumka','start'],'advaita-monophenomenalism':['buddhism-monophenomenalism','start','glossary'],'buddhism-monophenomenalism':['zen-monophenomenalism','advaita-monophenomenalism','glossary'],'zen-monophenomenalism':['buddhism-monophenomenalism','advaita-monophenomenalism','glossary'],'about':['start','glossary','gradient']}
 items=[]
 for lang in ('ru','en'):
  for p in sorted((ROOT/'content'/('en' if lang=='en' else '')).glob('*.md')):
