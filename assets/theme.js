@@ -5,23 +5,44 @@
   let choice = null;
   try { choice = localStorage.getItem(key); } catch (_) {}
   if (choice !== 'light' && choice !== 'dark') choice = null;
-  let button;
+  const buttons = [];
   function apply() {
     const dark = choice === 'dark';
     root.dataset.theme = dark ? 'dark' : 'light';
-    if (button) button.setAttribute('aria-pressed', String(dark));
+    const label = root.lang === 'en'
+      ? (dark ? 'Switch to light theme' : 'Switch to dark theme')
+      : (dark ? 'Включить светлую тему' : 'Включить тёмную тему');
+    buttons.forEach(button => {
+      button.setAttribute('aria-pressed', String(dark));
+      button.setAttribute('aria-label', label);
+      button.title = label;
+    });
+  }
+  function toggleTheme() {
+    choice = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    try { localStorage.setItem(key, choice); } catch (_) {}
+    apply();
   }
   apply();
   document.addEventListener('DOMContentLoaded', () => {
-    button = document.getElementById('theme-toggle');
-    if (!button) return;
-    button.hidden = false;
+    const headerButton = document.getElementById('theme-toggle');
+    if (headerButton) {
+      headerButton.hidden = false;
+      buttons.push(headerButton);
+      headerButton.addEventListener('click', toggleTheme);
+    }
+    // All article and original-work readers share this toolbar in both languages.
+    const download = document.querySelector('.reader-toolbar .reader-buttons .pdf-download');
+    if (download) {
+      const readerButton = document.createElement('button');
+      readerButton.type = 'button';
+      readerButton.id = 'reader-theme-toggle';
+      readerButton.textContent = root.lang === 'en' ? 'Theme ◐' : 'Тема ◐';
+      download.insertAdjacentElement('afterend', readerButton);
+      buttons.push(readerButton);
+      readerButton.addEventListener('click', toggleTheme);
+    }
     apply();
-    button.addEventListener('click', () => {
-      choice = root.dataset.theme === 'dark' ? 'light' : 'dark';
-      try { localStorage.setItem(key, choice); } catch (_) {}
-      apply();
-    });
   });
   window.addEventListener('storage', (event) => {
     if (event.key !== key && event.key !== null) return;
