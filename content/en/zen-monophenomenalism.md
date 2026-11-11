@@ -1,4 +1,4 @@
-Zen (Chan) and monophenomenalism: an independent study and philosophical comparison
+Zen and Monophenomenalism: A Study and Philosophical Comparison
 Awakening, no-thought, koans, and practice: Zen on its own terms and in comparison with the Model of the Phenomenon.
 Study
 2026-11-12
