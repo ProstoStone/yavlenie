@@ -31,14 +31,10 @@
       buttons.push(headerButton);
       headerButton.addEventListener('click', toggleTheme);
     }
-    // All article and original-work readers share this toolbar in both languages.
-    const download = document.querySelector('.reader-toolbar .reader-buttons .pdf-download');
-    if (download) {
-      const readerButton = document.createElement('button');
-      readerButton.type = 'button';
-      readerButton.id = 'reader-theme-toggle';
-      readerButton.textContent = root.lang === 'en' ? 'Theme ◐' : 'Тема ◐';
-      download.insertAdjacentElement('afterend', readerButton);
+    // The reading toolbar includes this button in its static HTML.
+    // Bind it to the same theme state and saved preference as the header toggle.
+    const readerButton = document.getElementById('reader-theme-toggle');
+    if (readerButton) {
       buttons.push(readerButton);
       readerButton.addEventListener('click', toggleTheme);
     }
