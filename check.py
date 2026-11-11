@@ -155,7 +155,12 @@ for lang in ('ru', 'en'):
   html_page=(OUT/('en/' if lang=='en' else '')/page/'index.html').read_text()
   assert re.search(r'class="reader-buttons".*?class="pdf-download"[^>]*>[^<]*</a><button type="button" id="reader-theme-toggle"',html_page,re.S),(lang,page,'reader theme control missing after PDF')
   assert "document.getElementById('reader-theme-toggle')" in html_page,(lang,page,'theme handler missing')
-print('OK: bilingual article and original-work theme controls follow PDF download')
+  assert re.search(r'id="reader-smaller".*?id="reader-font".*?id="reader-larger"',html_page,re.S),(lang,page,'font button must replace size reset between A− and A+')
+  assert 'id="reader-reset"' not in html_page,(lang,page,'obsolete font-size reset button')
+  assert "document.getElementById('reader-font')" in html_page,(lang,page,'font handler missing')
+  assert 'data-reading-font' in html_page,(lang,page,'font styling missing')
+  assert "yavlenie-font" in html_page,(lang,page,'font choice persistence missing')
+print('OK: bilingual article and original-work theme and font controls available')
 
 assert len(list(OUT.rglob('*.pdf')))==len(editions)
 print(f'OK: {len(editions)} PDFs, full text preserved, bilingual download links and PDF metadata')
