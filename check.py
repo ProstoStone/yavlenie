@@ -160,6 +160,15 @@ for lang in ('ru', 'en'):
   assert "document.getElementById('reader-font')" in html_page,(lang,page,'font handler missing')
   assert 'root.dataset.readingFont' in html_page,(lang,page,'font state missing')
   assert "yavlenie-font" in html_page,(lang,page,'font choice persistence missing')
+  # Compact visible labels must retain their position and accessible descriptions.
+  button_row=re.search(r'<div class="reader-buttons">(.*?)</div></div><div class="reading-progress"',html_page,re.S)
+  assert button_row,(lang,page,'reader button group missing')
+  button_html=button_row[1]
+  assert re.search(r'id="reader-smaller"[^>]*>−</button>.*?id="reader-font"[^>]*>A</button>.*?id="reader-larger"[^>]*>\+</button>.*?id="reader-focus"[^>]*>.*?</button>.*?class="pdf-download"[^>]*>.*?</a><button[^>]*id="reader-theme-toggle"[^>]*>◐</button>',button_html,re.S),(lang,page,'compact reader control labels/order')
+  assert 'aria-label="' in button_html,(lang,page,'reader controls lack accessible labels')
+css=(ROOT/'assets/style.css').read_text()
+assert '/* Mobile reading controls: one row, including at narrow iPhone widths. */' in css
+assert 'flex-wrap:nowrap' in css and '@media(max-width:360px)' in css
 print('OK: bilingual article and original-work theme and font controls available')
 
 assert len(list(OUT.rglob('*.pdf')))==len(editions)
