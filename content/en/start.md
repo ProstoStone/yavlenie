@@ -3,8 +3,6 @@ One phenomenon, many differences: how Model of the Phenomenon works and why it c
 Introduction
 2026-11-04
 
-Look around you.
-
 Some things seem close and others far away. There are sounds, colors, and touches. A memory of yesterday is not like the cup on the table. Another person is not the same as your thought about them. Pain is not the same as the word “pain.”
 
 Differences are everywhere. Sometimes everything we call life seems to depend on them.
