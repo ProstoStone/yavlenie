@@ -1,34 +1,42 @@
 About the site and its sources
-How Phenomenon works and where its materials come from.
+What Phenomenon publishes, how the original works relate to its studies, and where interpretation has its limits.
 About
 2026-11-03
 
-Phenomenon is an independent information site about monophenomenalism and *Model of the Phenomenon*. Start with an everyday question, explore an example, encounter an objection, and gradually turn to the original formulations.
+Phenomenon is a site for readers and philosophical inquiry into monophenomenalism and *Model of the Phenomenon*. It explores philosophical positions through everyday questions, examples, objections, and comparisons with other traditions. These materials support the study of the original works; they do not replace them.
 
-## How the articles are made
+## Two original works and a working map
 
-This isn't the original author's official philosophical resource or an academic exposition. Popular articles, translations, and illustrations are created with AI assistance, drawing on the original works, supplied materials, and editorial discussion.
+[Monophenomenalism](https://prostostone.github.io/Monophenomenalism/monophenomenalism_en-1.html), by Roman V. Dudnikov, advances an independent, affirmative philosophical starting point: everything that exists is one phenomenon. This is a starting position, not a proof that other possible ontologies cannot exist. Unity neither makes people and things identical nor turns the phenomenon into a separate substance.
 
-Most articles appear without a personal author byline and are not attributed to the author of the original works. The exception is the explicitly authorized essay [*I, World, Others: The Problem That Never Was*](/yavlenie/en/ya-mir-drugie/), by Roman Dudnikov. Its philosophical claims and Russian text were approved by him; editing and the English translation were prepared with AI assistance. A separate site and numerous explanations don't constitute independent confirmation of the philosophical position. These articles help explore it; they don't replace the sources.
+[Model of the Phenomenon](https://prostostone.github.io/Monophenomenalism/model_en-1.html), by the same author, sets out five foundational theses and offers a language for examining sensory experiencing, distinctions, concepts, and experience. Experiencing is not the same as experience; a concept is not necessarily a fiction; and structuring does not describe the step-by-step creation of a world. The model is one possible instrument of inquiry within monophenomenalism. Accepting the philosophical position does not require accepting this particular model.
 
-## The three main sources
+The [Working Map](https://prostostone.github.io/Monophenomenalism/working_map_en-1.html) helps readers interpret, apply, and critically assess the two works. It is a methodological guide, not a third foundational philosophical doctrine.
 
-[Model of the Phenomenon](https://prostostone.github.io/Monophenomenalism/model_en-1.html), by Roman Dudnikov, contains the five foundational theses, definitions, and examples of application.
+Russian and English editions are available on the [site of the original works](https://prostostone.github.io/Monophenomenalism/index.html). Citations should identify the particular work and version. The five theses of *Model of the Phenomenon* are reproduced without alteration in Phenomenon's articles.
 
-[Monophenomenalism](https://prostostone.github.io/Monophenomenalism/monophenomenalism_en-1.html) sets out the philosophical position, its motivation, and the limits of its justification.
+## What the site explores
 
-[Working Map](https://prostostone.github.io/Monophenomenalism/working_map_en-1.html) clarifies how to read, apply, and critically examine these texts.
+Alongside introductions to freedom, fear, error, responsibility, and the familiar “I,” the site publishes philosophical essays and comparative studies. These include separate studies of [Advaita Vedanta](/yavlenie/en/advaita-monophenomenalism/), [Buddhism](/yavlenie/en/buddhism-monophenomenalism/), and [Zen (Chan)](/yavlenie/en/zen-monophenomenalism/).
 
-All three works and their language versions are available on the [official site](https://prostostone.github.io/Monophenomenalism/index.html). Citations should identify the particular work and version. The five foundational theses are quoted verbatim.
+The order of inquiry matters. Each tradition is first presented on its own historical and philosophical terms, including its internal differences. It is then compared with monophenomenalism and the model. Similar expressions do not establish identical doctrines. Comparison does not prove either position, nor does it reduce another tradition to an application of Dudnikov's philosophy.
 
-## Two languages, one subject
+## Freedom, differences, and limits of the claims
 
-The Russian and English sections are connected by a language switch on every page. It takes you to the same article in the other language. English terminology is checked against the supplied English translations of the original works: experiencing — переживание, experience — опыт, sensory experiencing — чувственное переживание, concept — концепция, distinction — различение.
+Absolute freedom is an important human concern of this project. It is explored without requiring a special state or making liberation an obligatory task. It is not a promise of lasting happiness, unrestricted free will, or freedom from the constraints of human life.
 
-## How the site grows
+The unity of the phenomenon does not erase differences, pain, relationships, knowledge, or responsibility. Declining to assume independent first principles as necessary starting points does not prove that other people or an external reality do not exist. Philosophical interpretation does not displace scientific testing, practical care, or the consequences of actions.
 
-Each article explores a distinct question: freedom, pain, fear, responsibility, differences, the familiar “I,” and everyday life. There's room for examples, comparisons, independent objections, and open questions. A new page should add substance rather than repeat keywords.
+## How the materials are prepared and attributed
 
-Bold titles unfold within the essays. “There Are No Mistakes” doesn't abolish errors in calculations; “Nothing to Fear” doesn't make the world safe. Inquiry through the model preserves the significance of consequences, help, and care.
+The two original philosophical works are by Roman V. Dudnikov. The site's explanatory articles, translations, and comparative studies are prepared with AI assistance, drawing on primary sources, scholarly research, editorial discussion, and critical review. Their claims should be distinguished from the original author's exact formulations.
 
-Every material is available as HTML without JavaScript and as plain text. The catalogue helps readers find it; RSS tracks updates. An open site doesn't guarantee indexing, citation by search-based AI, or inclusion in model training.
+Most articles are published without individual author bylines. Where a piece is expressly approved as an authored work, this is stated: for example, [*I, World, Others: The Problem That Never Was*](/yavlenie/en/ya-mir-drugie/) is attributed to Roman Dudnikov; editing and the English translation were prepared with AI assistance.
+
+Phenomenon does not replace the author's original publications. Neither the number of articles nor the use of AI independently demonstrates the philosophical position. Its historical and comparative material should also be read as reasoned inquiry open to revision, not as the sole authoritative interpretation of an entire tradition.
+
+## Russian and English editions
+
+Every article has a Russian and an English edition connected by a language switch. The translations aim to preserve philosophical meaning rather than mechanically reproduce each word. Particularly important is the distinction between *experiencing* (переживание) and *experience* (опыт); the terminology also includes *sensory experiencing* (чувственное переживание), *distinction* (различение), and *concept* (концепция).
+
+Materials are available as reading pages, plain-text editions, and PDFs. The [catalogue](/yavlenie/en/catalog/) helps readers find texts, while [RSS](/yavlenie/en/feed.xml) follows new publications. Open access does not guarantee search indexing or use by AI systems.
