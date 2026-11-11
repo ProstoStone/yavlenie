@@ -1,4 +1,4 @@
-Zen and Monophenomenalism: A Study and Philosophical Comparison
+Zen and monophenomenalism: a study and philosophical comparison
 Awakening, no-thought, koans, and practice: Zen on its own terms and in comparison with the Model of the Phenomenon.
 Study
 2026-11-12
