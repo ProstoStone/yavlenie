@@ -67,7 +67,7 @@ def layout(lang,title,desc,path,content,schema,text_path=None,noindex=False,pdf_
 <script id="reading-theme">{theme_script}</script>
 <link rel="icon" href="https://prostostone.github.io/favicon.png" type="image/png" sizes="192x192">
 <link rel="shortcut icon" href="https://prostostone.github.io/favicon.ico">
-<link rel="stylesheet" href="{PREFIX}assets/style.css?v=buddhism-sections-20261109"><link rel="stylesheet" href="{PREFIX}assets/illustrations.css">
+<link rel="stylesheet" href="{PREFIX}assets/style.css?v=reader-compact-20261112"><link rel="stylesheet" href="{PREFIX}assets/illustrations.css">
 <link rel="alternate" type="application/rss+xml" title="{n}" href="{url(lang,'feed.xml')}">
 {f'<link rel="alternate" type="text/plain" href="{text_path}">' if text_path else ''}
 {f'<link rel="alternate" type="application/pdf" href="{pdf_url}">' if pdf_url else ''}
