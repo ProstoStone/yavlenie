@@ -396,3 +396,51 @@ From a Daoist perspective, one question remains: how can someone find a way of l
 
 One question does not cancel the other. The comparison therefore concludes not with a proven fusion of systems, but with a clearer understanding of the possibilities and limits of each. Life, action, relationships, pain, and responsibility remain distinguishable; neither philosophical unity nor a call to naturalness cancels their significance.
 
+
+## Sources and research guides
+
+### Primary texts and translations
+
+[A] The *Daodejing* (道德經): references in this study use chapters 1–3, 8, 11, 12, 17, 19, 25, 30–31, 37, 40, 42, 43, 46, 48, 51, 57, 65, 67, 78, and 80 in the customary numbering of the received text. Scholarly investigation must also take account of the Guodian and Mawangdui manuscripts and the commentarial traditions of Wang Bi and Heshang Gong. The Chinese text and James Legge's historical English translation are available through the [Chinese Text Project](https://ctext.org/dao-de-jing). This is useful for reading versions in parallel, but disputed terms require comparison across translations.
+
+[B] The *Zhuangzi* (莊子): Inner Chapters 1 (*Xiao yao you*), 2 (*Qi wu lun*), 3 (*Yang sheng zhu*), 4 (*Ren jian shi*), and 6 (*Da zong shi*); Outer Chapter 17 (*Qiu shui*); and chapter 18, which contains the story of Zhuangzi's wife's death. The Chinese text and James Legge's historical English translation appear at the [Chinese Text Project](https://ctext.org/zhuangzi). A useful open academic translation of the Inner Chapters with commentary is Robert Eno, *Zhuangzi: The Inner Chapters* (Indiana University, 2019), available from the [Indiana University repository](https://hdl.handle.net/2022/23427). For a complete translation and alternative interpretations, see Brook Ziporyn, trans., *Zhuangzi: The Complete Writings* (Hackett, 2020), [publisher's page](https://hackettpublishing.com/philosophy/asian-philosophy/zhuangzi-the-complete-writings).
+
+### Scholarship and reference works
+
+[1] Chad Hansen, “Daoism,” *Stanford Encyclopedia of Philosophy* (2025), [entry](https://plato.stanford.edu/entries/daoism/). Offers a contemporary naturalistic interpretation of ways, naturalness, practice, language, and normativity. This is a reasoned interpretation, not the sole possible reading of the entire tradition.
+
+[2] Alan K. L. Chan, “Laozi,” *Stanford Encyclopedia of Philosophy* (updated October 22, 2025), [entry](https://plato.stanford.edu/entries/laozi/). Discusses authorship, manuscripts, and alternative interpretations of Dao, *de*, *ziran*, and *wuwei*.
+
+[3] Fabrizio Pregadio, “Religious Daoism,” *Stanford Encyclopedia of Philosophy*, [entry](https://plato.stanford.edu/entries/daoism-religion/). Covers the history of Daoist movements, the relationship between *daojia* and *daojiao*, Dao, and religious practices.
+
+[4] Chad Hansen, “Zhuangzi,” *Stanford Encyclopedia of Philosophy*, archived Fall 2021 edition (first published 2014), [entry](https://plato.stanford.edu/archives/fall2021/entries/zhuangzi/). Examines layers of the text, skepticism, dialogues, and philosophical interpretations.
+
+[5] Thomas Michael, “The Original Text of the Daodejing: Disentangling Versions and Recensions,” *Religions* 13, no. 4 (2022), article 325, [article](https://www.mdpi.com/2077-1444/13/4/325). Compares the transmission of the text and manuscript traditions.
+
+[6] Richard John Lynn, trans. and comm., *Zhuangzi: A New Translation of the Sayings of Master Zhuang as Interpreted by Guo Xiang* (Columbia University Press, 2022), [publisher's page](https://cup.columbia.edu/book/zhuangzi/9780231556453/). The translation follows Guo Xiang's interpretation and includes his commentary on the transmitted 33-chapter text. The publisher's description does not replace reading the volume's scholarly introduction.
+
+[7] “Mind (Heart-Mind) in Chinese Philosophy,” *Stanford Encyclopedia of Philosophy*, [entry](https://plato.stanford.edu/entries/chinese-mind/). Discusses *xin* (heart-mind), skilled action, and perspective in the *Zhuangzi*.
+
+[8] Robert Eno, *Zhuangzi: The Inner Chapters* (Indiana University, 2019), [open academic resource](https://hdl.handle.net/2022/23427). An openly available scholarly teaching translation of the Inner Chapters with interpretive commentary, intended in part for classroom use; it is not a peer-reviewed research monograph. It includes the butterfly dream, Cook Ding, fasting of the heart-mind, and sitting in forgetfulness.
+
+[9] Lea Cantor, “Zhuangzi on ‘happy fish’ and the limits of human knowledge,” *British Journal for the History of Philosophy* 28, no. 2 (2020), pp. 216–230 (published online November 4, 2019), [DOI](https://doi.org/10.1080/09608788.2019.1667294). Michael Beaney, “The joy of responding to others,” *British Journal for the History of Philosophy* (published online July 27, 2026), [DOI](https://doi.org/10.1080/09608788.2026.2680958). The second article responds to participants in a scholarly symposium on Beaney's *The Joy of Chinese Philosophy*; the discussion includes the happy-fish dialogue and competing ways of interpreting it. These studies do not justify treating one reading as uncontroversial.
+
+### Primary sources of monophenomenalism
+
+[M1] R. V. Dudnikov, “Monophenomenalism,” [original work](https://prostostone.github.io/Monophenomenalism/monophenomenalism_en-1.html).
+
+[M2] R. V. Dudnikov, “Model of the Phenomenon,” [original work](https://prostostone.github.io/Monophenomenalism/model_en-1.html).
+
+[M3] “Working Map: Model of the Phenomenon and Monophenomenalism,” [working document](https://prostostone.github.io/Monophenomenalism/working_map_en-1.html). A methodological commentary on the two original works, not a third independent foundational philosophical position.
+
+### Earlier articles in this series—explanations and comparisons, not additional primary sources
+
+[R1] “Advaita Vedanta and monophenomenalism: two starting points,” [article](https://prostostone.github.io/yavlenie/en/advaita-monophenomenalism/).
+
+[R2] “Buddhism and monophenomenalism: a comparative study,” [article](https://prostostone.github.io/yavlenie/en/buddhism-monophenomenalism/).
+
+[R3] “Zen and monophenomenalism: a study and philosophical comparison,” [article](https://prostostone.github.io/yavlenie/en/zen-monophenomenalism/).
+
+[R4] “The ‘I’ does not need to be eliminated,” [article](https://prostostone.github.io/yavlenie/en/ya-ne-nuzhno-ustranyat/).
+
+Note on sources. The references include accessible publisher pages, academic surveys, and translation resources. Not every edition makes its complete text freely available; a link to a publisher's page does not imply open access to the book. This article's paraphrases are independent expositions and are not presented as verbatim translations of Classical Chinese.
