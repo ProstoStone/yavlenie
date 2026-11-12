@@ -16,7 +16,9 @@ class Page(HTMLParser):
    if k in a:self.links.append(a[k])
   if t=='script':
    self.json=a.get('type')=='application/ld+json'
-   assert self.json or (a.get('id')=='reading-theme' and 'src' not in a)
+   assert self.json or (a.get('id')=='reading-theme' and 'src' not in a) or (
+    a.get('src')==PREFIX+'assets/reader-audio.js?v=audio-reader-20261112' and 'defer' in a
+   )
  def handle_endtag(self,t):
   if t=='script':self.json=False
  def handle_data(self,s):
@@ -189,17 +191,26 @@ for lang in ('ru', 'en'):
   assert 'root.dataset.readingFont' in html_page,(lang,page,'font state missing')
   assert "yavlenie-font" in html_page,(lang,page,'font choice persistence missing')
   # Compact visible labels must retain their position and accessible descriptions.
-  button_row=re.search(r'<div class="reader-buttons">(.*?)</div></div><div class="reading-progress"',html_page,re.S)
+  button_row=re.search(r'<div class="reader-buttons">(.*?)</div><div class="reader-audio-panel"',html_page,re.S)
   assert button_row,(lang,page,'reader button group missing')
   button_html=button_row[1]
   assert re.search(r'id="reader-smaller"[^>]*>−</button>.*?id="reader-font"[^>]*>A</button>.*?id="reader-larger"[^>]*>\+</button>.*?id="reader-focus"[^>]*>.*?</button>.*?class="pdf-download"[^>]*>.*?</a><button[^>]*id="reader-theme-toggle"[^>]*>◐</button>',button_html,re.S),(lang,page,'compact reader control labels/order')
   assert 'aria-label="' in button_html,(lang,page,'reader controls lack accessible labels')
+  assert re.search(r'class="pdf-download"[^>]*>PDF</a>',button_html),(lang,page,'compact PDF label missing')
+  assert re.search(r'id="reader-theme-toggle"[^>]*>◐</button>.*?id="reader-listen-toggle"',button_html,re.S),(lang,page,'listen toggle must be beside theme')
+  assert 'aria-expanded="false"' in button_html,(lang,page,'listen panel must start collapsed')
+  assert 'id="reader-audio-play"' in html_page and 'id="reader-audio-pause"' in html_page and 'id="reader-audio-stop"' in html_page
+  assert 'id="reader-audio-rate"' in html_page and 'id="reader-audio-voice"' in html_page and 'id="reader-audio-section"' in html_page
+  assert 'reader-audio.js?v=audio-reader-20261112' in html_page
 css=(ROOT/'assets/style.css').read_text()
 # The current mobile design uses natural spacing and allows wrapping, without stretching.
 mobile_css=css[css.rfind('@media(max-width:680px)'):]
 mobile_row=re.search(r'\.reader-toolbar \.reader-buttons\s*\{([^}]+)\}',mobile_css)[1]
 assert all(rule in mobile_row for rule in ('flex-wrap:wrap','justify-content:flex-start','width:auto','gap:8px'))
 assert 'flex:0 0 auto' in mobile_css
+assert '#reader-listen-toggle' in mobile_css
+assert 'reader-audio-panel' in css and 'reader-audio-settings' in css
+assert (ROOT/'assets/reader-audio.js').exists()
 print('OK: bilingual article and original-work theme and font controls available')
 
 assert len(list(OUT.rglob('*.pdf')))==len(editions)
