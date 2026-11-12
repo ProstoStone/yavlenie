@@ -1,0 +1,446 @@
+Daoism and monophenomenalism: a study and philosophical comparison
+The Way, naturalness, non-action, and freedom: an independent study of Daoist thought followed by its consideration through monophenomenalism.
+Study
+2026-11-12
+
+## Introduction
+
+Daoism is often presented through a handful of appealing words: naturalness, serenity, non-action, and living in harmony with the flow of life. Sometimes a promise of complete freedom is added: stop struggling, and everything will work itself out. Such a picture is too simple. Behind it stand ancient writings with a complex history, divergent understandings of Dao, criticisms of human overconfidence, reflections on governing a state, and entire religious traditions whose practices and aims do not necessarily resemble the contemporary ideal of “doing nothing.”
+
+Monophenomenalism, by contrast, begins with an independent affirmative statement: “Everything that exists is a phenomenon. The phenomenon is one.” Roman Dudnikov's Model of the Phenomenon offers one way to investigate distinctions within experiencing and experience from this standpoint. This raises a substantive question: how do the Daoist Way, naturalness, and freedom relate to a philosophy in which unity need not be produced and liberation need not become a mandatory assignment?
+
+An answer cannot be reached simply by translating “Dao” as “phenomenon,” “non-action” as “absolute freedom,” or Daoist “forgetting” as the elimination of an independent subject. The Daoist tradition must first be understood on its own terms. Part I therefore concentrates on the *Daodejing* and the *Zhuangzi*, while also considering the limits of treating them as representative of Daoism as a whole. Part II introduces monophenomenalism and its model independently and only then compares them.
+
+This is a philosophical inquiry, not a claim that either side has proved the other. References to classical texts use chapter numbers; English paraphrases convey the sense without pretending to be literal renderings of Classical Chinese. The composite character of the *Zhuangzi* is taken into account, and contemporary scholarly interpretations are identified as interpretations rather than the definitively established meaning of an ancient author.
+
+## Part I. Daoism on its own terms
+
+### 1. What is meant by Daoism
+
+The name “Daoism” covers several layers in the history of Chinese thought. Contemporary philosophical interest often centers on the *Laozi*, a text better known as the *Daodejing*, and the *Zhuangzi*. Yet Daoism is not confined to these two works. It includes religious movements, ritual systems, contemplative practices, breathing and bodily disciplines, accounts of immortals, cosmologies, internal alchemical traditions, and monastic and communal institutions.
+
+The familiar division between “philosophical Daoism” (*daojia*) and “religious Daoism” (*daojiao*) is useful for orientation but is not an ancient, universal boundary. Historical Daoist communities were not obliged to separate doctrine, practice, ritual, and philosophical reflection in the manner adopted by modern textbooks. The designations themselves changed in meaning across periods. [1; 3]
+
+In what follows, “early Daoist thought” refers primarily to the problems and writings of the *Daodejing* and the *Zhuangzi*. This is a deliberate limitation of scope. It permits a detailed examination of Dao, *de*, *wuwei*, *ziran*, and freedom, without making these texts a complete portrait of Daoist religion or a mandatory creed for every historical Daoist.
+
+It is equally important not to imagine these books as one doctrine merely presented by two authors in different styles. The *Daodejing* frequently addresses the ruler and describes a particular ordering of the world and human conduct. The *Zhuangzi* favors parables, disputes, and shifts of perspective; its interest in the mobility of human judgments does not readily become a manual of government. Shared themes do not erase differences of argument and genre. [1; 2; 4]
+
+### 2. Laozi, the Daodejing, and the history of the text
+
+Tradition tells of a sage named Laozi, an older contemporary of Confucius, who wrote down a short work on the Way and *de* at a border guard's request before departing westward. This story entered Chinese cultural memory, but it is not a reliable biography. Whether the book had a single historical author, and when it was composed, remain subjects of scholarly debate. [2]
+
+The received *Daodejing* consists of 81 chapters arranged in two principal parts. Its early history, however, is more complicated. Archaeologists discovered fragments on bamboo slips at Guodian (excavated in 1993) and two silk manuscripts at Mawangdui (excavated in 1973). They show that the text circulated in different selections and recensions. In the silk manuscripts, the section associated with *de* precedes the section on Dao; ancient witnesses also contain variant readings. The commentaries attributed to Wang Bi (third century CE) and Heshang Gong, whose own attribution has a history, exerted major influence on subsequent interpretations. [2; 5]
+
+Consequently, a reference to “Daodejing, chapter 25” points to the familiar numbering of the traditionally transmitted text; it does not prove that the passage existed in precisely that form from the outset or was spoken by one historical Laozi. This does not diminish the philosophical importance of the ideas. Rather, it allows their meaning to be considered within a living history of debate and transmission.
+
+The *Daodejing* is neither a purely metaphysical treatise nor a collection of merely practical advice. Reflections on origins and the order of things sit beside reflections on language and naming, government, violence, desire, weakness and strength, sages, and rulers. A single image can work on several levels; it should not be translated in advance into one modern philosophical system.
+
+### 3. Dao: the Way that cannot be exhausted by a name
+
+The word *dao* (道) can mean a road or path, a way of proceeding, a direction, a manner of acting, or guidance. Different schools of early Chinese thought spoke about “ways.” A distinctive feature of the *Daodejing* is the breadth of its reflection on Dao: the emergence and course of the “ten thousand things,” meaning the diversity of existence, are considered in relation to it. [1; 2]
+
+The opening of the *Daodejing* draws attention to the difference between Dao and any supposedly final way of naming it (chapter 1). Chapter 25 speaks of something whole that arose before heaven and earth; not knowing its name, the speaker provisionally calls it Dao. This is not only a problem of naming but also a cosmogonic motif. The provisional character of the name does not forbid speech or thought. The *Daodejing* itself makes numerous substantive statements. Its language suggests that an expression can guide understanding without amounting to complete possession of what it addresses.
+
+Different philosophical readings of Dao remain possible. It can appear as the source of the cosmos, an unnamed order of emergence, the manner in which processes unfold, or the horizon of possible ways. Religious Daoist interpretations often emphasize its absolute and generative standing; modern scholarship also offers naturalistic and normative readings in which Dao concerns the structure of possible paths and ways of living. [1; 2; 3]
+
+For that very reason, it is not enough to declare Dao “not a substance” and regard the matter as settled. Some passages are unmistakably cosmogonic; others resist any object-like description. Nor should Dao automatically be turned into an enormous thing hidden behind other things. The reader encounters a philosophical tension: how can a source or order of emergence be thought without making it one more object of the order it is supposed to explain?
+
+### 4. Dao, de, and the “ten thousand things”
+
+*De* (德) is translated as “virtue,” “efficacy,” “power,” “potency,” or “excellence in the manner of acting.” No single English term covers its full range. If Dao suggests the general Way, *de* can refer to its particular manifestation or efficacy in the manner in which a specific thing or living being exists and acts. Chapter 51 of the *Daodejing* distinguishes the generation of things by Dao from their nurturing through *de*. [2; 3]
+
+Care is needed not to impose a scheme involving two separate entities: “Dao somewhere above, *de* as an energy poured into things.” In the Chinese context, the relationship may instead concern a way, a mode, and its efficacy. In images of skilled action, *de* need not mean moral merit in the familiar sense; virtue and mastery can overlap without being identical.
+
+The “ten thousand things” should not be taken as an actual count. The phrase indicates the inexhaustible diversity of what occurs. Daoist thought does not simply devalue differences for the sake of an abstract One. On the contrary, a central question is how diversity arises, changes, and unfolds without having to be forcibly reduced to a single human scheme.
+
+The assertion that “all diversity is itself Dao” also needs to be examined against particular passages. Some emphasize Dao as a source; others emphasize the Way within things. The image of a source does not by itself imply a separate entity beyond the world. Flattening these perspectives into one would make the tradition more uniform than it really is.
+
+### 5. Presence and absence: you, wu, and images of emptiness
+
+The *Daodejing* uses *you* (有, presence or having) and *wu* (無, absence or not-having), especially in chapters 1, 11, and 40; related motifs also appear in chapters 2 and 43. It is tempting to render them as absolute “Being” and absolute “Nothingness,” but importing those categories can prejudge what needs to be investigated.
+
+In chapter 11, the usefulness of the wheel, vessel, and dwelling depends not only on their solid form but also on unoccupied space: the opening makes the wheel usable, the hollow makes the vessel useful, and the openings make the dwelling workable. This illustrates the functional interdependence of presence and absence; it does not prove that matter is illusory or that “nothing” is a hidden substance.
+
+Chapter 40 speaks of return as Dao's movement and relates what is present to what is not present. Chapter 42 outlines a generative sequence: Dao, one, two, three, and the multitude of things. The same chapter relates things to *yin*, *yang*, and their harmonization through *qi*. *Qi* (氣), often rendered “breath,” is a vital and cosmological notion in Chinese accounts of the body and world; it is not energy in the strict sense used by modern physics. *Yin* and *yang* name correlative aspects and processes, not two independent creators of the world. The precise interpretations of “one,” “two,” and “three” vary. [A; 3] Reading the sequence as a completed physical cosmology would be excessively literal, but dismissing it as mere metaphor would too hastily eliminate its cosmological claims.
+
+An open question is how cosmogonic language relates to the description of practical activity. One concerns what emergence means; the other concerns how presence and absence jointly make action possible. These meanings may complement one another, but neither follows automatically from the other.
+
+### 6. Ziran: naturalness as being-so-of-itself
+
+*Ziran* (自然) is literally associated with “self” and “thus”: being thus of itself, in its own way. “Naturalness” is a useful translation but can mislead. It does not necessarily mean opposing forests to civilization or treating human biology as an unchanging norm. [1; 2]
+
+In chapter 25 of the *Daodejing*, Dao is related to *ziran*: it does not need an external pattern to copy in order to be what it is. In human conduct, naturalness may mean refraining from forcibly fitting oneself and one's circumstances to a predetermined image of success.
+
+There is nevertheless a difficulty. If naturalness simply meant “whatever happens,” then greed, cruelty, and ineptitude would all exemplify the Way. Daoist writings do not argue quite so simply: they contain preferences and criticize excess, cunning, belligerence, and coercion. Naturalness concerns a certain quality of relating, not the unrestricted endorsement of every kind of behavior.
+
+The question “How should one be natural?” therefore has no ready answer in “Do whatever you want.” Desires themselves may arise from competition or habit. It is not always clear which action should count as spontaneous and which as shaped by imposed expectations. Daoism explores this problem through images, practical advice, and changing perspectives.
+
+### 7. Wuwei: not the absence of action, but another way of acting
+
+*Wuwei* (無為) is variously rendered “non-action,” “not-doing,” or “action without artificial compulsion.” A literal reading seems to produce a paradox: if one should do nothing, why learn, govern, cook, or help anyone? In the *Daodejing*, however, *wuwei* does not mean obligatory bodily immobility. It expresses a refusal to impose one's will on the world in a particular manner: to manage constantly and try to force a desired outcome through direct pressure. [2]
+
+In the traditionally transmitted version of chapter 37, Dao is associated with not-acting while nothing remains undone; chapter 48 contrasts daily addition in learning with daily reduction in following Dao. Taking this reduction as a reduction in excessive intervention is one interpretation, rather than the text's literal definition. These images are not about laziness: complicated action may succeed precisely when excessive control ceases to undermine it.
+
+Consider a gardener. A plant needs water, soil, and protection: these are real actions. But it cannot be made to grow by repeatedly pulling its stem upward. Genuine assistance requires an understanding of the processes being supported and the limits of intervention. This is a contemporary illustration, not a disguised translation of a Daoist passage.
+
+*Wuwei* remains a normative ideal: it distinguishes fitting from unfitting ways of acting. The slogan “everything is already wuwei” would destroy the point of Daoist recommendations. Daoist wisdom is not identical with the bare fact that something happened.
+
+### 8. Simplicity, desire, and the artificial complication of life
+
+The *Daodejing* repeatedly associates social unrest with insatiability, rivalry over status, accumulation, and performative virtue. Chapters 3, 12, 19, and 46 offer different versions of this theme. They do not necessarily demand the elimination of every desire: hunger, care, and bodily needs are not identical with endless competition for superiority.
+
+The radical force of this idea lies in recognizing that some needs arise because a system of evaluations has already been adopted that makes permanent deficiency unavoidable. If the highest good always lies one step further up the ladder of recognition, every achievement simultaneously becomes another reason to feel inadequate.
+
+Simplicity, however, is not a neutral psychological technique. In the *Daodejing* it is often tied to political and social organization and may entail restricting other people's aspirations. A modern reader should distinguish the possibility of giving up unnecessary rivalry from external regulation of other people's desires. The criticism of excess can itself become excessive when it becomes coercion in the name of “proper naturalness.”
+
+### 9. Softness and weakness: water, yielding, and resilience
+
+Water is one of Daoism's best-known images. It takes the shape of the terrain, supports life, flows downward, and acts without displaying superiority. Chapters 8, 43, and 78 of the *Daodejing* contrast what is soft and yielding with brute force, which often breaks precisely what it seeks to control.
+
+This does not mean that weakness is always physically stronger, or that resistance is never justified. The image suggests a capacity to respond to circumstances without obsessively maintaining one's own fixed shape. Strength need not mean aggression; resilience can include the capacity to change.
+
+There is also a political dimension: governing only through coercion may generate resistance, while a ruler's arrogance may cause instability. Yet applying this image to any particular dangerous situation demands separate justification. The texts place softness within a specific view of life's order; it must not become a promise of safety or advice to endure violence.
+
+### 10. The ruler, society, and the ambiguities of Daodejing politics
+
+A substantial portion of the *Daodejing* addresses rulers. Good government is described in terms of less conspicuous control, avoidance of aggressive campaigns, modesty, and placing people's lives above the ruler's glory. Chapters 30 and 31 criticize military overconfidence, while chapter 57 concerns government without excessive coercion. Chapter 67 presents three “treasures”: compassion, frugality, and the refusal to claim first place, associating them in part with restraint in the use of force. In chapter 17, the best ruler is barely noticed by the people.
+
+Nevertheless, some passages are difficult to reconcile with a modern ideal of open, autonomous citizenship. Chapter 3 discusses reducing the people's desires and knowledge; chapter 65 addresses the difficulty of governing a population accustomed to clever knowledge; chapter 80 imagines a small state with limited contact beyond its borders. They cannot be silently recast as a liberal principle of self-government.
+
+Different assessments are possible. Some scholars read such passages as critiques of socially manufactured envy, coerced mobilization, and artificial complexity; others see a more paternalistic program for keeping the population simple. Nor does invoking *wuwei* guarantee that a policy will be humane.
+
+A serious inquiry must hold together both the attraction of restraining violence and the ambiguities of this political vision. Daoism should not be declared free of questions about power merely because it speaks against coercion.
+
+
+### 11. Zhuangzi: a book of many voices
+
+The *Zhuangzi* is conventionally associated with Zhuang Zhou, a thinker of the fourth century BCE. The surviving text consists of 33 chapters, divided into the Inner Chapters (1–7), Outer Chapters (8–22), and Miscellaneous Chapters (23–33). The received 33-chapter recension is associated with Guo Xiang (third to early fourth century CE) and his commentary; ancient sources knew a longer text. The exact extent of his editorial intervention remains debated. Attribution of all the chapters to a single historical author is untenable. Even the authorship of the Inner Chapters is not demonstrable on a passage-by-passage basis, although they are generally regarded as closest to Zhuang Zhou's original circle of thought. [1; 4; 6]
+
+Genre is crucial here. Fictional and historical figures, animals, artisans, Confucius, and his disciples all speak in this book; stories may even mock their own assumptions. Not every statement made by a character is automatically the author's final doctrine. Sometimes the meaning lies in the way a story shifts the reader's standpoint.
+
+Where the *Daodejing* often speaks in aphorisms, the *Zhuangzi* shows thinking in motion. Its humor and paradox perform philosophical work by exposing how what seems obvious depends on a standpoint, vocabulary, role, or interest. This does not yet imply that nothing can be known.
+
+### 12. Equalizing things and the limits of judgment
+
+The second Inner Chapter, *Qi wu lun* (齊物論), examines distinctions, dispute, naming, and perspectives. Its title admits several readings: one may understand it as equalizing things or as equalizing discourses and judgments about them. It examines why disputants tend to regard their own “this” as right and the other's “that” as wrong. Once the rules of evaluation have been accepted within one position, they may appear wholly natural and necessary. [1; 4]
+
+But “equalizing” must not be mechanically understood as the denial of all distinctions. Large and small, useful and useless, life and death do not cease to differ in every practical context. The question arises at another level: what happens when a context-dependent assessment is turned into an unconditional judgment over every possible way of living?
+
+Competing interpretations remain possible. Zhuangzi has been read as a skeptic, a relativist, a critic of dogmatic norms, or a thinker who recognizes flexible knowledge appropriate to different circumstances. The text can offer grounds for several of these approaches, but no single interpretation should be treated as an undisputed replacement for the work itself. A modern naturalistic reading, represented for example in the Stanford Encyclopedia of Philosophy's account of Daoism, emphasizes possible paths of action and the contextual nature of normative choice; other studies give greater weight to apophatic and contemplative dimensions. [1; 4; 7]
+
+A crucial conclusion follows: criticism of hasty evaluation does not mean that error is impossible. Practical testing and disagreements remain meaningful. The difficulty is not distinction as such, but the moment when a particular perspective presents itself as the final measure of everything that exists.
+
+### 13. The butterfly dream and the transformation of things
+
+At the end of the second chapter, Zhuang Zhou is said to have dreamed that he was a butterfly. On waking, the question arises: was it Zhou who dreamed he was a butterfly, or is it a butterfly now dreaming that it is Zhou? The story ends by invoking the transformation of things. [4; 8]
+
+Popular retellings often make this parable proof that the world is a dream or that objective reality does not exist. But the story proves neither proposition. Rather, it leaves the question open while drawing attention to the difference between states and the transformation of perspective. The butterfly in the dream is not merely another object in a narrative: it unsettles the confidence with which a familiar standpoint is assigned unconditional primacy.
+
+The story permits inquiry into memory, identity, the limits of self-knowledge, and continuity of life without turning the parable into neuroscience or a literal thesis about two independently existing souls. Its force lies in a movement of perspective: from the familiar certainty “I know who I am” toward wonder at how that certainty itself belongs to a particular state and story of experiencing.
+
+For the Daoist text, however, the transformation of things also matters. Transformation is not exhausted by human psychology. The world changes, and human beings are not guaranteed a privileged center within it.
+
+### 14. Cook Ding's skill: following the structure of a situation
+
+The third Inner Chapter of the *Zhuangzi* tells of Cook Ding, who carves up an ox with remarkable ease and precision. His mastery is not a lack of skill; it has been developed through prolonged practice. He responds to the body's structure, moves through its natural spaces, slows down at difficult points, and does not damage his blade by forcing it against resistance. [4; 8]
+
+The story is often used to illuminate *wuwei*, although Cook Ding's skill is not explicitly called by that name in the episode. Its immediate conclusion concerns the nurturing of life: after hearing the cook, the ruler says that he has learned how to nourish life. This is more than a recipe for productivity. Non-action can be illustrated here through action: the cook performs complex movements, yet these do not look like a constant collision between a predetermined command and a resistant reality. His action answers to the particular structure before him.
+
+To read the story as magical spontaneity would lose the central importance of years of learning and attention to obstacles. To read it merely as technical proficiency would lose its question about a way of living that no longer consists in a compulsory struggle between one's intentions and what one encounters.
+
+A serious objection remains: expertise in one craft does not prove a philosophical model of the universe. This is a parable about a manner of acting and its possible human significance, not an experimental demonstration of cosmic structure.
+
+### 15. Fasting of the heart-mind and sitting in forgetfulness
+
+The fourth Inner Chapter presents a practice often translated as “fasting of the heart-mind” (*xinzhai*, 心齋). The sixth contains “sitting in forgetfulness” (*zuowang*, 坐忘). Both episodes are staged as conversations involving Confucius and his disciples: literary situations, not direct records of instructions delivered by the historical Zhuangzi. They are associated with release from the habitual narrowing of attention, but admit no single uncontested psychological reading. [3; 4]
+
+The discussion of fasting of the heart-mind arises in a situation involving the danger of confronting a ruler. Moral slogans alone will not suffice: one must remain open to actual conditions rather than merely confirm a preconceived image of one's own righteousness. The story connects attention with *qi*, a term that should not be casually equated with “consciousness” or with “energy” in modern physics.
+
+Sitting in forgetfulness is described in radical terms. Yan Hui speaks of leaving behind bodily form and knowledge, and of becoming one with a “great thoroughfare” or “great pervasion”; translations of the relevant expression *da tong* (大通) are contested. It would therefore be insufficient to reduce the episode to an ordinary redirection of attention. Some scholars see traces of contemplative practice, while others stress its literary and philosophical setting. One episode cannot establish a universal standardized method supposedly prescribed by all early Daoists.
+
+The positive content should not be lost: this is not a demand to become stupid, amnesiac, or irresponsible. One possible interpretation is that the text explores acting and understanding without making habitual forms of perception and self-understanding the final authority over what happens. But “possible interpretation” matters here. In the *Zhuangzi*'s own vocabulary, the discussion concerns the Way, *qi*, transformation, forgetting, and release from rigid dispositions.
+
+### 16. The debate over the happiness of fish: knowing another
+
+Chapter 17, part of the Outer rather than the Inner Chapters, contains the celebrated exchange between Zhuangzi and Huizi on a bridge over the Hao River. One observes that the fish are happy; the other asks how a human could know a fish's happiness when he is not a fish. One line of interpretation takes the reply to redirect the dispute from a general prohibition on knowing another creature toward the grounds for such knowledge and the meaning of “whence” or “how.” This is an influential approach, not the only possible reading. [4; 9]
+
+The story is especially valuable because the formula “all beings are one” does not settle it. The dispute involves real differences between humans and fish, access to states, the meaning of “from where” and “how,” reasons for ascribing happiness, and the right to reject that ascription. Philosophical interpretations range from criticism of a faulty argument to inquiry into perspectival knowledge and participation in the world. [9]
+
+Zhuangzi need not prove that he infallibly knows the fish's internal state. But Huizi's position—“because you are not a fish, you cannot know”—also involves a substantial additional assumption. The issue concerns the limits of knowledge, the possibility of indirect understanding, and how disputants tacitly establish standards for an acceptable answer.
+
+Even within the Daoist tradition, “another's experience” is not resolved merely by invoking Dao. It remains a distinct question about perspectives, signs, communication, and what counts as knowledge.
+
+### 17. Life, death, and transformation
+
+In the *Zhuangzi*, life and death are considered within a horizon of transformation. Parables of sages who do not cling to their temporary situation as an eternal foundation emphasize that coming to be and passing away belong to a wider course of things. In the sixth Inner Chapter, images of the “genuine person” (*zhenren*) are associated with a non-hostile attitude toward change; chapter 18 recounts the death of Zhuangzi's wife and the transformation of his response to grief. [3; 4]
+
+Two opposite errors are easy to make. The first is to present Daoist thought as a promise of physical immortality: that does not follow from these parables, even though Daoist religious history does include diverse practices and ideas concerning longevity and immortality. The second is to turn the subject of transformation into a demand not to grieve. The story of bereavement can acknowledge initial sorrow even as it subsequently changes the perspective on it.
+
+Freedom in the face of death is not simply the suppression of fear through willpower. It concerns how to live in a world where change is not always controllable and whether life must always be made to assume a motionless form. This may have deep human significance. Nevertheless, philosophical reconciliation with change does not remove the need to care for the sick, protect life, or recognize loss.
+
+### 18. Free and easy wandering: what xiao yao you means
+
+The title of the *Zhuangzi*'s first chapter, *Xiao yao you* (逍遙遊), is translated as “Free and Easy Wandering,” “Carefree Roaming,” or “Untrammeled Wandering.” It compares different scales of existence: the gigantic bird Peng and creatures for whom its flight is incomprehensible; the small and the great; the limited and the apparently limitless. [4; 6]
+
+Its meaning is not simply that large is always superior to small. Even Peng's flight depends on the wind; Liezi, who can travel on the wind, also remains dependent on something. These are examples from the first chapter of the *Zhuangzi*. The text then raises the possibility of wandering without this sort of dependence. In that setting appear formulas saying that the perfected person has “no self,” the spiritual person “no merit,” and the sage “no name” or “no fame.” Their meaning remains contested: they are not ready-made proof that a person does not exist. [B; 8]
+
+Freedom is often read here as an ability to move freely among perspectives without becoming captive to fixed distinctions. But it belongs to a context of the Way, transformation, and a Daoist ideal of the sage, not to a proof of independent free will that overrides causation. Nor should it be immediately recast as “there is no need to seek liberation”: Daoist texts continue to contain teachings, cultivation, and distinctions between flexible and inflexible ways of relating to the world.
+
+Another image from the same chapter is a tree considered useless by a carpenter. Its “uselessness” allows it to survive and provides a place to rest. What is challenged is not every kind of usefulness, but the claim that one measure of utility exhausts the value of what exists. The parable does not promise that uselessness will always save someone. [B; 8]
+
+A powerful question in this book is what it means to live when familiar standards of comparison lose their claim to absoluteness. If there is no final human measure of all things, can someone cease making their own limited position into a permanent prison? This is a question about the possibility of inner freedom, but its answer need not coincide with a different philosophical theory of freedom.
+
+### 19. Historical Daoism beyond the two books
+
+Well-attested organized Daoist movements emerged in the second century CE, with antecedents in earlier cults, cosmological ideas, and practices. The communities of the Celestial Masters, the Shangqing and Lingbao traditions, and later schools and monastic lineages greatly expand what the name “Daoism” encompasses. Revelations, rituals, calendars, purification, bodily disciplines, moral precepts, cosmology, and rites for the living and the dead become important. [3]
+
+Dao and *de* remain significant, but this does not mean that all of Daoist religious history simply applies the *Daodejing* as a ready-made system. Authorities, forms of transmission, kinds of practice, and goals change. It cannot be assumed without evidence that every Daoist school opposed effort, ritual, or discipline. Paradoxically, traditions that valued naturalness sometimes developed highly elaborate methods of instruction and self-cultivation.
+
+This study does not attempt a detailed account of the Daoist canon, alchemy, theology, or ritual history. Nevertheless, the boundary matters: philosophical conclusions about Laozi and Zhuangzi cannot automatically be attributed to all religious Daoists, nor can features of later traditions simply be read back into the two books.
+
+### 20. Daoist ethics and its genuine tensions
+
+Can a complete ethics be deduced from *wuwei*? No. But it is equally wrong to say that Daoism contains no ethical preferences. The *Daodejing* values restraint, moderation, avoiding aggressive war, concern for life, and rejection of self-aggrandizement. The *Zhuangzi* criticizes the cruelty of dogmatic standards and violence against the diversity of living beings. At the same time, it can question familiar norms of what “ought” to be done, while the *Daodejing* sometimes permits paternalistic politics.
+
+This is no license to select only agreeable passages and dismiss the rest as irrelevant mistakes. Restraint can mean freedom from obsessive control—or a method of concealed domination. Flexibility can mean understanding circumstances—or evading responsibility. Naturalness can help someone avoid self-destruction—or become an excuse for injustice on the grounds that “such is the Way.”
+
+For these reasons, applying Daoist thought to present-day problems requires further ethical and social arguments. Questions about care, justice, protection from violence, and the right to challenge a ruler are not answered by an attractive image of water alone.
+
+### 21. The outcome of an independent study: what Daoism opens up
+
+Early Daoist writings open several connected lines of philosophical inquiry.
+
+First, they challenge the claim that a human name or rule can exhaust what occurs. Dao cannot be reduced to what is said about it; nevertheless, language is precisely what makes it possible to draw attention to language's limits.
+
+Second, they rethink action. *Wuwei* does not abolish activity; it questions compulsive, self-confirming intervention. Cook Ding illustrates mastery in which learning and immediate action are not enemies.
+
+Third, they examine the relativity of familiar standards of judgment. The *Zhuangzi* does more than doubt: it shows how another situation, another history, and another need can alter the meaning of an assessment.
+
+Fourth, these writings open the possibility of loosening dependence on fixed measures, fame, and compulsive self-assertion. In the *Zhuangzi* this takes the form of free wandering and attention to transformation; in the *Daodejing*, simplicity, softness, and refusal of excess.
+
+At the same time, the tradition does not supply one metaphysics, ethics, or practice obligatory for all its schools. Dao can be understood as a source and as a Way; cultivation can accompany calls for naturalness; the social ideal has attractive and disputable features. None of these tensions needs to be erased for the sake of the comparison that follows.
+
+
+## Part II. Daoism considered through monophenomenalism
+
+### 1. The method of comparison: another question, not a concealed proof
+
+The starting point of the inquiry now changes. Until this point, Dao, *wuwei*, *ziran*, and free wandering have been examined within the Daoist tradition. Monophenomenalism and the Model of the Phenomenon will now be introduced as an independent philosophical position and one possible instrument for inquiry within that position.
+
+The purpose of comparison is to identify what differences become visible when the starting question changes. This is not a reconstruction of Laozi's “true meaning,” nor proof that ancient Daoists secretly meant monophenomenalism. Similarity cannot be treated as evidence that the model is true.
+
+This study continues earlier examinations of Advaita Vedanta, Buddhism, and Zen, but does not combine their concepts into one doctrine. Several distinctions established in those studies remain essential: being distinguishable does not mean being false; unity does not mean uniformity; and the significance of a practice is not equivalent to its being mandatory for adopting a philosophical position. The article “The ‘I’ does not need to be eliminated” adds a particularly useful point of reference: declining to posit an independent owner of experiencing does not require a change in one's sense of self. The question can now be widened: must not only the “I,” but also one's manner of acting, change for the starting position to remain coherent? [R1–R4]
+
+Three kinds of claims must be carefully distinguished: what a Daoist text actually says; how scholars interpret that text; and what emerges when a particular theme is independently considered from the standpoint of monophenomenalism. These levels should not be mixed in the sections that follow.
+
+### 2. The starting position and the five theses
+
+Roman Valentinovich Dudnikov's monophenomenalism adopts a positive philosophical starting position: “Everything that exists is a phenomenon. The phenomenon is one.” This does not designate a separate thing or substance hidden behind a multitude of things. Unity does not mean that contents are identical, nor does it require an independently existing owner of experiencing.
+
+This proposition has not been established as a necessary logical consequence of the fact that every argument is accessible within experiencing. The possibility of considering and testing claims within experiencing sets limits to justification, but by itself does not prove that alternative ontologies are impossible. Monophenomenalism remains an independently adopted philosophical starting position, open to critical inquiry.
+
+The Model of the Phenomenon is one possible conceptual instrument of inquiry within that position. Accepting monophenomenalism does not require adopting this particular model. Its five theses are quoted verbatim in their established English form:
+
+1. Everything is one phenomenon.
+2. The phenomenon is sensory experiencing.
+3. A distinction within sensory experiencing is a concept.
+4. Concepts structure the phenomenon into experience.
+5. Experience is the phenomenon structured through concepts.
+
+“Sensory experiencing” includes not only the deliverances of the sense organs, but also thoughts, emotions, memories, and states. “Experiencing” and “experience” are not interchangeable terms. Distinction does not require first positing a separate “someone who distinguishes.” A concept is broader than a verbal thought and is not synonymous with illusion. The five theses do not describe successive stages in the production of experience or introduce an initial period in which a “pure phenomenon” exists before someone adds concepts to it and makes a world. The model itself is considered a concept within the phenomenon.
+
+### 3. Dao and the phenomenon: a real resemblance and its limits
+
+One of the first temptations is to call Dao “the one phenomenon” in another language. The identification is appealing: both perspectives allow us to question the supposed self-sufficiency of isolated things and to reconsider unity and multiplicity. But this is a broad point of contact, not an identical proposition explicitly affirmed by both traditions.
+
+The agreement has limits. In the *Daodejing*, Dao frequently functions as a source and manner of generating the “ten thousand things”; in various interpretations it appears either as an absolute origin or as an order of ways. Monophenomenalism does not add a generative entity to what is distinguished within the phenomenon, derive multiplicity from an independent first principle, or prescribe an external law by which the phenomenon must arise. That does not preclude investigating regularities within experience. “Everything is one phenomenon” is a positive starting position, not a cosmogony.
+
+If Dao is read primarily as the Way of possible transformations, the difference takes another form: the model does not claim that the phenomenon's unity is a universally correct manner of movement. Processes, directions, and practical regularities are distinguished within the phenomenon, but the five theses do not establish one such regularity in advance as a compulsory moral path.
+
+The answer “Dao equals the phenomenon” therefore lacks argument and blurs two real questions: what existence and unity mean, and what a Way means through which emergence, change, and skillful action are possible. The philosophical value of comparison consists precisely in examining both questions without declaring them identical.
+
+### 4. Naming Dao and concepts as distinctions
+
+The opening of the *Daodejing* calls into question the possibility of naming Dao once and for all. In the Model of the Phenomenon, a concept is a distinction within sensory experiencing; it is not confined to a word, linguistic notion, or expressible proposition. Daoist criticism of a supposedly final name therefore cannot simply be translated into the model as “all concepts are false.” A name is a linguistic form, whereas “concept” in the model means distinction and is not exhausted by words; the two notions perform different philosophical tasks.
+
+From the model's standpoint, the word “Dao,” the image of a path, the distinction between named and unnamed, and attempts to affirm or deny the presence of a foundation are already distinguishable contents of experience. This does not mean that speaking about Dao is “really meaningless.” The model describes the status of distinctions within its own philosophical framework; it does not settle all the semantics and practice of ancient Chinese thought.
+
+A deeper point of contact nevertheless emerges. Daoism may warn that successful naming never exhausts its subject matter; the model allows distinction itself to be considered without making verbal naming its prerequisite. Naming and distinguishing are connected but are not the same. This leaves room for philosophical dialogue: the necessity of language can be acknowledged without turning a successful formula into the final proprietor of everything that exists.
+
+The Daoist question, however, has a normative dimension: what role should language have in a wise life? The five theses do not choose that norm. Further criteria are needed to explain when words assist and when they constrain.
+
+### 5. Presence and absence: why wu is not the absence of the phenomenon
+
+In the *Daodejing*, pairs such as presence and absence, filled and empty, manifest and unmanifest may illuminate both emergence and the usefulness of things. In the model, distinctions such as “full” and “empty,” “thing” and “space for its use,” belong to the content of experience.
+
+The model does not, however, assert that “nothing” as an independent ontological principle is hidden within the phenomenon. The hollow of a vessel differs in content from its walls; an empty space does not thereby become a cosmic first principle. Their functional relationship can be investigated without positing another world behind what is distinguished.
+
+Nor can Daoist *wu* simply be identified with Buddhist *śūnyatā* from the preceding study: a critique of intrinsic nature and reflections on presence, absence, and generation address different problems. The fact that related words such as “emptiness” and “nothingness” occur in translations does not erase the distinction. [R2]
+
+There is a limit to the comparison as well. Daoist passages describing generation from not-having may express genuine cosmogonic claims. Replacing such a claim with the formula “this is a concept” does not explain the Daoist assertion; it merely repeats the model's terminology. A comparison must distinguish the status of the Daoist account of origins from monophenomenalism's option not to adopt that account as a necessary premise of its own.
+
+### 6. Ziran and unity without having to “become natural”
+
+In Daoist thought, naturalness points to a way of being and acting that does not forcibly copy an external pattern. It may function as an ideal of wisdom and a subject of practical cultivation. Monophenomenalism does not maintain that the phenomenon must “return” to itself or attain some special naturalness in order to be one phenomenon.
+
+This reveals a subtle distinction. Daoist guidance may help a person cease demanding a predetermined form from everything that happens; monophenomenalism poses a different question: is a correct way of acting required as a condition of the unity of what exists? Within the adopted position, calm, agitation, efforts to control, and release from those efforts are all distinguishable. Their presence does not make the phenomenon less one.
+
+None of this establishes that *wuwei* and *ziran* are useless or that all actions have equal consequences. Unity is no certificate of mastery, kindness, or safety. Daoist naturalness evaluates the manner of acting; monophenomenalism does not make conformity to that evaluation a mandatory ontological condition.
+
+### 7. Wuwei and absolute freedom: the most significant difference
+
+It is easy to romanticize *wuwei* as freedom from effort. In practice, Daoist non-action may call for cultivating attention, relinquishing particular habits, and learning to coordinate action with conditions. It is not the abolition of a path but a particular way of following one.
+
+In monophenomenalism, absolute freedom has a different human significance. Within the adopted philosophical position, the unity of the phenomenon does not depend on whether someone has attained calm, learned to yield, achieved perfect mastery, or abandoned desires. This alone does not prove that life lacks purposes or obligations. The more precise human conclusion is that the position itself creates no requirement to complete a special path of liberation before existence can be justified. A person may practice, change habits, and seek help; what does not follow from the proposition that the phenomenon is one is the necessity of these activities as a philosophical prerequisite. Nor is a special transformation of the everyday “I” required: it may persist or change within experience without becoming a criterion for whether the starting position is correct.
+
+Daoism should not be declared “unfree” because it speaks of a Way. Daoist writings themselves do not necessarily demand that a person “earn the right to exist”; that assignment may be imported by a modern reader. The comparison must not attribute it to the tradition merely to produce a convenient contrast. *Wuwei* is not a metaphysical rupture that monophenomenalism must “overcome”: it concerns primarily the manner and quality of action, not an ontological precondition for the unity of what exists. Nor should Daoism be made to assume a prior opposition of independent entities which monophenomenalism then supposedly abolishes. Daoist writings themselves question unnatural separations between people and what occurs. The primary difference concerns the status of teaching and norm: Daoist ideals recommend qualities of action; monophenomenalism does not make the initial unity dependent on achieving such an ideal.
+
+Absolute freedom here is a human reading of the position, not a property of the phenomenon or a special quality of feeling. It does not mean unlimited free will, an ability to cancel pain, or success without action. It guarantees no felt relief. It allows liberation not to become a philosophically compulsory task which life must first complete.
+
+### 8. Cook Ding and distinctions within the experience of action
+
+Cook Ding's story helps test the dangers of drawing conclusions too quickly. In its Daoist context it is a story about skill, the Way of acting, and the capacity to follow a situation's particular structure. Within the model, movements, knowledge, obstacles, bodily skill, judgment, and a sense of ease can be distinguished without positing a separate metaphysical owner of each.
+
+But the model does not explain exactly how to learn to carve an ox, how motor memory works, or which movements are safe. These remain matters of practical knowledge, instruction, and scientific investigation. A cook may make a mistake; errors and their consequences do not disappear because they are regarded as distinctions within one phenomenon.
+
+The moment before a difficult place is especially revealing: even a master slows down and acts attentively. On this reading of *wuwei*, attention and slowing down do not contradict mastery. Monophenomenalism likewise supplies no demand to deny effort when effort is needed. What may differ is the quality of the effort and one's relationship to the demand to be infallible.
+
+### 9. Zhuangzi, perspectives, and the claim to a final center
+
+The *Zhuangzi* reveals how a familiar perspective can silently present its own criteria as universal. Monophenomenalism proposes another question: why should the distinguishability of perspectives automatically require recognizing each one as an independent fundamental first principle?
+
+The approaches are close in criticizing hasty ontological conclusions, but not identical. In the *Zhuangzi*, the issue often concerns the correctness of judgments, the art of living, forms of choice, and limits to normative certainty. In the model, it concerns how distinction exists within sensory experiencing and why distinction need not silently become a concealed “one who distinguishes.”
+
+The model does not license the statement “all perspectives are equally true.” Beliefs, experiments, mistakes, false memories, evidence, and consequences remain distinguishable. Recognizing knowledge as a distinction in experience does not replace the testing of knowledge. This is especially important in comparisons with the skeptical motifs of the *Zhuangzi*.
+
+
+### 10. The butterfly dream and the familiar “I”
+
+The butterfly parable raises the question of how stable self-description is when a state changes. The model permits inquiry into dreaming, waking, memory, the image of “I,” their differences, and the ways they are connected within experience. An independent observer set behind these distinctions is not required as their initial explanation. But this does not entail a task of eliminating the ordinary experience of “I” or attaining a state without an observer.
+
+It is particularly important to compare this with sitting in forgetfulness and with the formula concerning “no self” in the first chapter. Within the Daoist text, they concern a particular transformation of life and one's relationship to the Way; within the model, the status of the “I” as an explanatory foundation changes, while transformation of self-experience is not prescribed. Likewise, Dōgen's “forgetting the self,” discussed in the earlier Zen study, was not reduced to the thesis that “there is no owner.” The everyday “I” may remain, while inquiry and practice may continue. [R3; R4]
+
+It would be misleading to claim that Zhuangzi explicitly taught that “the I is a concept” in the model's sense. His narrative belongs to a Daoist language of transformation, not Dudnikov's five theses. The resemblance concerns the possibility of reconsidering the privileged status of a familiar “I,” not an exact coincidence of philosophical assertions.
+
+Nor does the model make differences between dreams and waking irrelevant to ordinary life. The reliability of memory, corroboration by others, physical safety, and the understanding of sleep remain distinct topics of inquiry. Distinction within one phenomenon does not mean that there are no grounds for better and worse forms of verification.
+
+### 11. The happiness of fish and other experiencing
+
+On the Hao River bridge, the question of knowing the fish's happiness begins with a distinction: a human is not a fish. Huizi turns this difference into an argument against knowledge of another creature; Zhuangzi asks whether this is sufficient, and what “how do you know?” means.
+
+Monophenomenalism makes it possible to pose a different question: why should the practical distinction between a human and a fish immediately count as proof of two independent ontological first principles that require a special metaphysical bridge? Within the adopted position, people, fish, joy, reports, and objections are distinguished in one phenomenon; their distinctness does not oblige us to introduce independent foundations of existence.
+
+This move does not establish that a particular fish is happy or that a human knows its state infallibly. The question of which signs support attributing a state to a living creature remains substantive. Nor should a theory of monophenomenalism be attributed to Zhuangzi: his dialogue raises an epistemological problem within another context.
+
+Two legitimate results meet here. There is no requirement to accept independent “owners” of experiencing as an initial premise. At the same time, ways of understanding other beings must still be investigated—through behavior, communication, empathy, and testable knowledge. Refusal of a particular metaphysical assumption does not replace that inquiry.
+
+### 12. “Nothing to connect” and a possible resemblance in how questions are posed
+
+An important insight developed in the study of monophenomenalism is that the task of connecting supposedly independent beginnings may arise from the scheme in which the problem was first posed. Start with independent owners and independent worlds, and then a bridge must be sought. First it is worth asking why independence was accepted as a mandatory foundation.
+
+In the *Zhuangzi* one can find a similar attentiveness to the way a question already shapes what can count as its answer. This is especially visible in the stories about right and wrong, dreaming and waking, humans and fish. Yet similarity in a methodological gesture does not make the texts identical. Zhuangzi need not be starting from a problem of connecting independently existing consciousnesses; his concerns involve Dao, transformation, knowledge, and ways of living.
+
+The comparison is therefore appropriate as a comparison of ways of questioning a problem's frame. It would be wrong to claim that “Zhuangzi already said ‘there is nothing to connect’” in the sense intended by the specific modern philosophical work, or that he first accepted independently existing beginnings only in order to reject them.
+
+### 13. Death, change, and the limits of philosophical consolation
+
+Daoist images of transformation may loosen the obsessive demand for permanence. Monophenomenalism also permits another consideration of attachment and liberation. But the promise that either view guarantees freedom from the fear of death would be false.
+
+Within the model, death, grief, memory, the body, medicine, and love for another person do not become inventions. The presence of distinctions in one phenomenon does not mean that particular pain is canceled by a logical definition. None of the five theses proves personal immortality or that the consequences of loss are insignificant.
+
+A person may, on the other hand, cease to regard their life as an assignment that must be brought to some finally “correct” form. In Daoist thought this may resemble acceptance of transformation and the restraint of coercive control; in monophenomenalism it may resemble not requiring special liberation as a condition for unity. These are different ways of philosophical consideration, not one therapeutic method. Nor can the unity of the phenomenon establish that personal, or some impersonal, experiencing necessarily continues after death: that assertion would require independent grounds.
+
+### 14. Ethics, government, and responsibility
+
+Monophenomenalism does not contain a complete ready-made ethical system. The five theses do not determine how resources should be allocated, how vulnerable people should be protected, or which political institutions are just. Yet this is no permission to regard kindness and cruelty as interchangeable: they differ, have different consequences, and can be assessed through ethical arguments.
+
+This distinction matters particularly in comparison with Daoism. Calls for simplicity and non-action may be valuable when they restrain violence and the self-importance of rulers. The same words, however, may serve to excuse passivity in the face of injustice or to impose artificial “simplicity” on the governed. The *Daodejing* does indeed connect the Way with political advice. But applying such advice today requires independent argument; the unity of the phenomenon likewise cannot replace ethical justification.
+
+Someone's need for help does not vanish because the situation is considered philosophically. When action is required, practical action remains meaningful. Absolute freedom as an important human implication of monophenomenalism does not abolish responsibility for consequences.
+
+### 15. Objections the comparison must withstand
+
+The first objection comes from a Daoist interlocutor: does monophenomenalism turn its claim about one phenomenon into the final truth about what, from a Daoist standpoint, cannot be exhausted by naming? The answer lies in distinguishing statuses. Monophenomenalism openly adopts a positive starting position, but does not present it as an incontrovertible logical refutation of every other ontology. Such an answer may still be unsatisfactory to the Daoist interlocutor. Clarifying a starting position marks the boundary of disagreement; it does not automatically settle the disagreement.
+
+Second: why “one,” when the *Zhuangzi* reminds us of the many ways in which what happens may be described and assessed? Unity does not follow automatically from the context-dependence of evaluations, nor does it have to be regarded as their culmination. It is independently adopted. Another thinker remains entitled to reject it and examine the reasons offered for it.
+
+Third: does the model make everything real “merely a concept”? No. Here a concept is a distinction within sensory experiencing, not necessarily a word, fantasy, or error. Moreover, the proposition “pain is distinguished in experience” is not identical with the pain itself and cannot replace medical assistance. Confusing being distinguished with not existing would be a mistake.
+
+Fourth: does *wuwei* become pointless if liberation is not mandatory? No. The fact that a special path is not required as a condition of unity does not mean that skill, practice, and care lack significance. Someone can learn to act better without treating such learning as a metaphysical precondition for the right to live.
+
+Fifth: does the *Daodejing* not have its own cosmology, which a comparative study risks dissolving into the model? It does have cosmogonic motifs, and these deserve independent investigation. Considering them from another position is not a demonstrated refutation. It only shows that monophenomenalism need not adopt them as its own foundation.
+
+Sixth: might the very idea of “absolute freedom” conceal an ideal that obliges a person to attain liberation after all? It would become such an ideal if declared a newly mandatory state, a standard of happiness, or a property of some separate entity. Its human significance should therefore be formulated differently: the philosophical standpoint does not require a prior accomplishment of special liberation for the phenomenon to be one. A person is free to practice, seek change, and remain dissatisfied with circumstances, without being judged philosophically as not yet having “earned” existence.
+
+Seventh: does the resemblance arise only because both sides have been assigned a criticism of control? That would be an oversimplification. Monophenomenalism does not itself declare control bad. Planning, testing, and effort can all be appropriate. *Wuwei* investigates the quality of action; the unity of the phenomenon does not depend on the success of a chosen manner of acting. Comparison distinguishes these questions instead of issuing a shared command to “let everything go.”
+
+Eighth: has liberation from duties been deduced from an ontological formula alone? No. Saying that “an obligation does not follow from this position” does not mean “no obligation can be justified.” Promises, caring for another person, danger, and practical aims can provide reasons to act. What is rejected is not every necessity, but the idea that ontological unity itself requires someone to undergo a preliminary transformation.
+
+### 16. The positive significance: not another assignment for life
+
+The comparison does not finally fuse two philosophies into one. Daoism retains its own questions about the Way, naturalness, wise action, shifting perspectives, and humanity's place in the world. Monophenomenalism retains its independent positive starting position, while the Model of the Phenomenon remains one instrument for examining distinctions within experience.
+
+Their encounter is nevertheless substantive. Daoist writings persistently investigate how people complicate life by making their goals, roles, and descriptions unconditional. Monophenomenalism makes it possible to question the supposed duty to become something else in order to justify existence. This does not abolish human action, but it may alter how that action is regarded.
+
+Someone may work, defend a loved one, make mistakes, learn, resist injustice, or seek assistance without making every act an examination in ultimate liberation. *Wuwei* can be valued as the art of not damaging a situation through unnecessary force without making it an obligatory route to ontological unity. The parable of the “useless” tree introduces another question: why should the value of life be exhausted by a task imposed by someone else? It does not prove monophenomenalism, but helps reveal how a measure of usefulness can turn into an unwarranted demand to justify existence itself.
+
+A particular possibility of freedom thus comes into view: not freedom from all circumstances, and not control over the world, but freedom from making freedom itself one more mandatory goal. This is a human interpretation of the adopted philosophical position. It guarantees no relief, but it makes it possible not to treat even the absence of relief as evidence of philosophical failure.
+
+### 17. Conclusion: the Way and the phenomenon need not coincide
+
+Daoism and monophenomenalism can genuinely meet over questions of the familiar “I,” the power of distinctions, the urge to control everything, ways of acting, and the possibility of not forcing life into a predetermined form. Their encounter is philosophically fruitful.
+
+Dao, however, does not automatically become the phenomenon; naturalness does not become distinguishability; non-action does not become absolute freedom. The *Zhuangzi* is not obliged to solve the problem of independent first principles, and monophenomenalism obtains no ready-made proof of its truth from Daoist parables.
+
+From a Daoist perspective, one question remains: how can someone find a way of living, acting, and changing that does not damage life through excessive interference? Monophenomenalism raises another: must what is distinguished be taken as independent first principles, and liberation as a preliminary duty, in order to regard what exists and one's own life as meaningful?
+
+One question does not cancel the other. The comparison therefore concludes not with a proven fusion of systems, but with a clearer understanding of the possibilities and limits of each. Life, action, relationships, pain, and responsibility remain distinguishable; neither philosophical unity nor a call to naturalness cancels their significance.
+
+
+## Sources and research guides
+
+### Primary texts and translations
+
+[A] The *Daodejing* (道德經): references in this study use chapters 1–3, 8, 11, 12, 17, 19, 25, 30–31, 37, 40, 42, 43, 46, 48, 51, 57, 65, 67, 78, and 80 in the customary numbering of the received text. Scholarly investigation must also take account of the Guodian and Mawangdui manuscripts and the commentarial traditions of Wang Bi and Heshang Gong. The Chinese text and James Legge's historical English translation are available through the [Chinese Text Project](https://ctext.org/dao-de-jing). This is useful for reading versions in parallel, but disputed terms require comparison across translations.
+
+[B] The *Zhuangzi* (莊子): Inner Chapters 1 (*Xiao yao you*), 2 (*Qi wu lun*), 3 (*Yang sheng zhu*), 4 (*Ren jian shi*), and 6 (*Da zong shi*); Outer Chapter 17 (*Qiu shui*); and chapter 18, which contains the story of Zhuangzi's wife's death. The Chinese text and James Legge's historical English translation appear at the [Chinese Text Project](https://ctext.org/zhuangzi). A useful open academic translation of the Inner Chapters with commentary is Robert Eno, *Zhuangzi: The Inner Chapters* (Indiana University, 2019), available from the [Indiana University repository](https://hdl.handle.net/2022/23427). For a complete translation and alternative interpretations, see Brook Ziporyn, trans., *Zhuangzi: The Complete Writings* (Hackett, 2020), [publisher's page](https://hackettpublishing.com/philosophy/asian-philosophy/zhuangzi-the-complete-writings).
+
+### Scholarship and reference works
+
+[1] Chad Hansen, “Daoism,” *Stanford Encyclopedia of Philosophy* (2025), [entry](https://plato.stanford.edu/entries/daoism/). Offers a contemporary naturalistic interpretation of ways, naturalness, practice, language, and normativity. This is a reasoned interpretation, not the sole possible reading of the entire tradition.
+
+[2] Alan K. L. Chan, “Laozi,” *Stanford Encyclopedia of Philosophy* (updated October 22, 2025), [entry](https://plato.stanford.edu/entries/laozi/). Discusses authorship, manuscripts, and alternative interpretations of Dao, *de*, *ziran*, and *wuwei*.
+
+[3] Fabrizio Pregadio, “Religious Daoism,” *Stanford Encyclopedia of Philosophy*, [entry](https://plato.stanford.edu/entries/daoism-religion/). Covers the history of Daoist movements, the relationship between *daojia* and *daojiao*, Dao, and religious practices.
+
+[4] Chad Hansen, “Zhuangzi,” *Stanford Encyclopedia of Philosophy*, archived Fall 2021 edition (first published 2014), [entry](https://plato.stanford.edu/archives/fall2021/entries/zhuangzi/). Examines layers of the text, skepticism, dialogues, and philosophical interpretations.
+
+[5] Thomas Michael, “The Original Text of the Daodejing: Disentangling Versions and Recensions,” *Religions* 13, no. 4 (2022), article 325, [article](https://www.mdpi.com/2077-1444/13/4/325). Compares the transmission of the text and manuscript traditions.
+
+[6] Richard John Lynn, trans. and comm., *Zhuangzi: A New Translation of the Sayings of Master Zhuang as Interpreted by Guo Xiang* (Columbia University Press, 2022), [publisher's page](https://cup.columbia.edu/book/zhuangzi/9780231556453/). The translation follows Guo Xiang's interpretation and includes his commentary on the transmitted 33-chapter text. The publisher's description does not replace reading the volume's scholarly introduction.
+
+[7] “Mind (Heart-Mind) in Chinese Philosophy,” *Stanford Encyclopedia of Philosophy*, [entry](https://plato.stanford.edu/entries/chinese-mind/). Discusses *xin* (heart-mind), skilled action, and perspective in the *Zhuangzi*.
+
+[8] Robert Eno, *Zhuangzi: The Inner Chapters* (Indiana University, 2019), [open academic resource](https://hdl.handle.net/2022/23427). An openly available scholarly teaching translation of the Inner Chapters with interpretive commentary, intended in part for classroom use; it is not a peer-reviewed research monograph. It includes the butterfly dream, Cook Ding, fasting of the heart-mind, and sitting in forgetfulness.
+
+[9] Lea Cantor, “Zhuangzi on ‘happy fish’ and the limits of human knowledge,” *British Journal for the History of Philosophy* 28, no. 2 (2020), pp. 216–230 (published online November 4, 2019), [DOI](https://doi.org/10.1080/09608788.2019.1667294). Michael Beaney, “The joy of responding to others,” *British Journal for the History of Philosophy* (published online July 27, 2026), [DOI](https://doi.org/10.1080/09608788.2026.2680958). The second article responds to participants in a scholarly symposium on Beaney's *The Joy of Chinese Philosophy*; the discussion includes the happy-fish dialogue and competing ways of interpreting it. These studies do not justify treating one reading as uncontroversial.
+
+### Primary sources of monophenomenalism
+
+[M1] R. V. Dudnikov, “Monophenomenalism,” [original work](https://prostostone.github.io/Monophenomenalism/monophenomenalism_en-1.html).
+
+[M2] R. V. Dudnikov, “Model of the Phenomenon,” [original work](https://prostostone.github.io/Monophenomenalism/model_en-1.html).
+
+[M3] “Working Map: Model of the Phenomenon and Monophenomenalism,” [working document](https://prostostone.github.io/Monophenomenalism/working_map_en-1.html). A methodological commentary on the two original works, not a third independent foundational philosophical position.
+
+### Earlier articles in this series—explanations and comparisons, not additional primary sources
+
+[R1] “Advaita Vedanta and monophenomenalism: two starting points,” [article](https://prostostone.github.io/yavlenie/en/advaita-monophenomenalism/).
+
+[R2] “Buddhism and monophenomenalism: a comparative study,” [article](https://prostostone.github.io/yavlenie/en/buddhism-monophenomenalism/).
+
+[R3] “Zen and monophenomenalism: a study and philosophical comparison,” [article](https://prostostone.github.io/yavlenie/en/zen-monophenomenalism/).
+
+[R4] “The ‘I’ does not need to be eliminated,” [article](https://prostostone.github.io/yavlenie/en/ya-ne-nuzhno-ustranyat/).
+
+Note on sources. The references include accessible publisher pages, academic surveys, and translation resources. Not every edition makes its complete text freely available; a link to a publisher's page does not imply open access to the book. This article's paraphrases are independent expositions and are not presented as verbatim translations of Classical Chinese.
