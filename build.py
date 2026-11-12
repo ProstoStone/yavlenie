@@ -67,8 +67,7 @@ def layout(lang,title,desc,path,content,schema,text_path=None,noindex=False,pdf_
  return f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{E(title)} — {n}</title><meta name="description" content="{E(desc,quote=True)}"><meta name="robots" content="{'noindex,follow' if noindex else 'index,follow,max-snippet:-1,max-image-preview:large'}"><link rel="canonical" href="{canonical}">{alts}
 <script id="reading-theme">{theme_script}</script>
-<link rel="icon" href="https://prostostone.github.io/favicon.png" type="image/png" sizes="192x192">
-<link rel="shortcut icon" href="https://prostostone.github.io/favicon.ico">
+<link rel="icon" type="image/svg+xml" sizes="any" href="{PREFIX}assets/favicon.svg?v=ya-logo-20261112">
 <link rel="stylesheet" href="{PREFIX}assets/style.css?v=beige-progress-20261112"><link rel="stylesheet" href="{PREFIX}assets/illustrations.css">
 <link rel="alternate" type="application/rss+xml" title="{n}" href="{url(lang,'feed.xml')}">
 {f'<link rel="alternate" type="text/plain" href="{text_path}">' if text_path else ''}
