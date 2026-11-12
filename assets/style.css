@@ -125,12 +125,12 @@ html[data-reading-font=arial] .reading-page .prose h4{
   font-family:Arial,Helvetica,sans-serif
 }
 
-/* Mobile reading controls: one row, including at narrow iPhone widths. */
+/* Compact mobile reading controls: natural spacing, never stretched across the bar. */
 @media(max-width:680px){
- .reader-toolbar{margin:0 16px 25px;padding:10px 0}
+ .reader-toolbar{margin:0 22px 25px;padding:10px 0}
  .reader-toolbar .reader-buttons{
-  display:flex;flex-wrap:nowrap;justify-content:space-between;align-items:center;
-  width:100%;gap:4px;min-width:0
+  display:flex;flex-wrap:wrap;justify-content:flex-start;align-items:center;
+  width:auto;gap:8px;min-width:0
  }
  .reader-toolbar .reader-buttons button,
  .reader-toolbar .reader-buttons .pdf-download{
@@ -145,19 +145,4 @@ html[data-reading-font=arial] .reading-page .prose h4{
   display:inline-flex;align-items:center;justify-content:center
  }
  .reader-toolbar .reader-buttons #reader-theme-toggle{font-size:20px}
-}
-@media(max-width:360px){
- .reader-toolbar{margin-inline:12px}
- .reader-toolbar .reader-buttons{gap:3px}
- .reader-toolbar .reader-buttons button,
- .reader-toolbar .reader-buttons .pdf-download{
-  height:34px;min-height:34px;font-size:11px;padding-inline:4px
- }
- .reader-toolbar .reader-buttons #reader-smaller,
- .reader-toolbar .reader-buttons #reader-font,
- .reader-toolbar .reader-buttons #reader-larger,
- .reader-toolbar .reader-buttons #reader-theme-toggle{
-  width:30px;min-width:30px;padding:0
- }
- .reader-toolbar .reader-buttons #reader-theme-toggle{font-size:19px}
 }
