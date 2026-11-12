@@ -204,7 +204,7 @@ for lang in ('ru', 'en'):
   assert 'reader-audio.js?v=audio-reader-20261112' in html_page
 css=(ROOT/'assets/style.css').read_text()
 # The current mobile design uses natural spacing and allows wrapping, without stretching.
-mobile_css=css[css.rfind('@media(max-width:680px)'):]
+mobile_css=css[css.index('/* Compact mobile reading controls:'):]
 mobile_row=re.search(r'\.reader-toolbar \.reader-buttons\s*\{([^}]+)\}',mobile_css)[1]
 assert all(rule in mobile_row for rule in ('flex-wrap:wrap','justify-content:flex-start','width:auto','gap:8px'))
 assert 'flex:0 0 auto' in mobile_css
