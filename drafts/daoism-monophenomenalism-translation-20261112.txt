@@ -1,0 +1,113 @@
+Daoism and monophenomenalism: a study and philosophical comparison
+The Way, naturalness, non-action, and freedom: an independent study of Daoist thought followed by its consideration through monophenomenalism.
+Study
+2026-11-12
+
+## Introduction
+
+Daoism is often presented through a handful of appealing words: naturalness, serenity, non-action, and living in harmony with the flow of life. Sometimes a promise of complete freedom is added: stop struggling, and everything will work itself out. Such a picture is too simple. Behind it stand ancient writings with a complex history, divergent understandings of Dao, criticisms of human overconfidence, reflections on governing a state, and entire religious traditions whose practices and aims do not necessarily resemble the contemporary ideal of “doing nothing.”
+
+Monophenomenalism, by contrast, begins with an independent affirmative statement: “Everything that exists is a phenomenon. The phenomenon is one.” Roman Dudnikov's Model of the Phenomenon offers one way to investigate distinctions within experiencing and experience from this standpoint. This raises a substantive question: how do the Daoist Way, naturalness, and freedom relate to a philosophy in which unity need not be produced and liberation need not become a mandatory assignment?
+
+An answer cannot be reached simply by translating “Dao” as “phenomenon,” “non-action” as “absolute freedom,” or Daoist “forgetting” as the elimination of an independent subject. The Daoist tradition must first be understood on its own terms. Part I therefore concentrates on the *Daodejing* and the *Zhuangzi*, while also considering the limits of treating them as representative of Daoism as a whole. Part II introduces monophenomenalism and its model independently and only then compares them.
+
+This is a philosophical inquiry, not a claim that either side has proved the other. References to classical texts use chapter numbers; English paraphrases convey the sense without pretending to be literal renderings of Classical Chinese. The composite character of the *Zhuangzi* is taken into account, and contemporary scholarly interpretations are identified as interpretations rather than the definitively established meaning of an ancient author.
+
+## Part I. Daoism on its own terms
+
+### 1. What is meant by Daoism
+
+The name “Daoism” covers several layers in the history of Chinese thought. Contemporary philosophical interest often centers on the *Laozi*, a text better known as the *Daodejing*, and the *Zhuangzi*. Yet Daoism is not confined to these two works. It includes religious movements, ritual systems, contemplative practices, breathing and bodily disciplines, accounts of immortals, cosmologies, internal alchemical traditions, and monastic and communal institutions.
+
+The familiar division between “philosophical Daoism” (*daojia*) and “religious Daoism” (*daojiao*) is useful for orientation but is not an ancient, universal boundary. Historical Daoist communities were not obliged to separate doctrine, practice, ritual, and philosophical reflection in the manner adopted by modern textbooks. The designations themselves changed in meaning across periods. [1; 3]
+
+In what follows, “early Daoist thought” refers primarily to the problems and writings of the *Daodejing* and the *Zhuangzi*. This is a deliberate limitation of scope. It permits a detailed examination of Dao, *de*, *wuwei*, *ziran*, and freedom, without making these texts a complete portrait of Daoist religion or a mandatory creed for every historical Daoist.
+
+It is equally important not to imagine these books as one doctrine merely presented by two authors in different styles. The *Daodejing* frequently addresses the ruler and describes a particular ordering of the world and human conduct. The *Zhuangzi* favors parables, disputes, and shifts of perspective; its interest in the mobility of human judgments does not readily become a manual of government. Shared themes do not erase differences of argument and genre. [1; 2; 4]
+
+### 2. Laozi, the Daodejing, and the history of the text
+
+Tradition tells of a sage named Laozi, an older contemporary of Confucius, who wrote down a short work on the Way and *de* at a border guard's request before departing westward. This story entered Chinese cultural memory, but it is not a reliable biography. Whether the book had a single historical author, and when it was composed, remain subjects of scholarly debate. [2]
+
+The received *Daodejing* consists of 81 chapters arranged in two principal parts. Its early history, however, is more complicated. Archaeologists discovered fragments on bamboo slips at Guodian (excavated in 1993) and two silk manuscripts at Mawangdui (excavated in 1973). They show that the text circulated in different selections and recensions. In the silk manuscripts, the section associated with *de* precedes the section on Dao; ancient witnesses also contain variant readings. The commentaries attributed to Wang Bi (third century CE) and Heshang Gong, whose own attribution has a history, exerted major influence on subsequent interpretations. [2; 5]
+
+Consequently, a reference to “Daodejing, chapter 25” points to the familiar numbering of the traditionally transmitted text; it does not prove that the passage existed in precisely that form from the outset or was spoken by one historical Laozi. This does not diminish the philosophical importance of the ideas. Rather, it allows their meaning to be considered within a living history of debate and transmission.
+
+The *Daodejing* is neither a purely metaphysical treatise nor a collection of merely practical advice. Reflections on origins and the order of things sit beside reflections on language and naming, government, violence, desire, weakness and strength, sages, and rulers. A single image can work on several levels; it should not be translated in advance into one modern philosophical system.
+
+### 3. Dao: the Way that cannot be exhausted by a name
+
+The word *dao* (道) can mean a road or path, a way of proceeding, a direction, a manner of acting, or guidance. Different schools of early Chinese thought spoke about “ways.” A distinctive feature of the *Daodejing* is the breadth of its reflection on Dao: the emergence and course of the “ten thousand things,” meaning the diversity of existence, are considered in relation to it. [1; 2]
+
+The opening of the *Daodejing* draws attention to the difference between Dao and any supposedly final way of naming it (chapter 1). Chapter 25 speaks of something whole that arose before heaven and earth; not knowing its name, the speaker provisionally calls it Dao. This is not only a problem of naming but also a cosmogonic motif. The provisional character of the name does not forbid speech or thought. The *Daodejing* itself makes numerous substantive statements. Its language suggests that an expression can guide understanding without amounting to complete possession of what it addresses.
+
+Different philosophical readings of Dao remain possible. It can appear as the source of the cosmos, an unnamed order of emergence, the manner in which processes unfold, or the horizon of possible ways. Religious Daoist interpretations often emphasize its absolute and generative standing; modern scholarship also offers naturalistic and normative readings in which Dao concerns the structure of possible paths and ways of living. [1; 2; 3]
+
+For that very reason, it is not enough to declare Dao “not a substance” and regard the matter as settled. Some passages are unmistakably cosmogonic; others resist any object-like description. Nor should Dao automatically be turned into an enormous thing hidden behind other things. The reader encounters a philosophical tension: how can a source or order of emergence be thought without making it one more object of the order it is supposed to explain?
+
+### 4. Dao, de, and the “ten thousand things”
+
+*De* (德) is translated as “virtue,” “efficacy,” “power,” “potency,” or “excellence in the manner of acting.” No single English term covers its full range. If Dao suggests the general Way, *de* can refer to its particular manifestation or efficacy in the manner in which a specific thing or living being exists and acts. Chapter 51 of the *Daodejing* distinguishes the generation of things by Dao from their nurturing through *de*. [2; 3]
+
+Care is needed not to impose a scheme involving two separate entities: “Dao somewhere above, *de* as an energy poured into things.” In the Chinese context, the relationship may instead concern a way, a mode, and its efficacy. In images of skilled action, *de* need not mean moral merit in the familiar sense; virtue and mastery can overlap without being identical.
+
+The “ten thousand things” should not be taken as an actual count. The phrase indicates the inexhaustible diversity of what occurs. Daoist thought does not simply devalue differences for the sake of an abstract One. On the contrary, a central question is how diversity arises, changes, and unfolds without having to be forcibly reduced to a single human scheme.
+
+The assertion that “all diversity is itself Dao” also needs to be examined against particular passages. Some emphasize Dao as a source; others emphasize the Way within things. The image of a source does not by itself imply a separate entity beyond the world. Flattening these perspectives into one would make the tradition more uniform than it really is.
+
+### 5. Presence and absence: you, wu, and images of emptiness
+
+The *Daodejing* uses *you* (有, presence or having) and *wu* (無, absence or not-having), especially in chapters 1, 11, and 40; related motifs also appear in chapters 2 and 43. It is tempting to render them as absolute “Being” and absolute “Nothingness,” but importing those categories can prejudge what needs to be investigated.
+
+In chapter 11, the usefulness of the wheel, vessel, and dwelling depends not only on their solid form but also on unoccupied space: the opening makes the wheel usable, the hollow makes the vessel useful, and the openings make the dwelling workable. This illustrates the functional interdependence of presence and absence; it does not prove that matter is illusory or that “nothing” is a hidden substance.
+
+Chapter 40 speaks of return as Dao's movement and relates what is present to what is not present. Chapter 42 outlines a generative sequence: Dao, one, two, three, and the multitude of things. The same chapter relates things to *yin*, *yang*, and their harmonization through *qi*. *Qi* (氣), often rendered “breath,” is a vital and cosmological notion in Chinese accounts of the body and world; it is not energy in the strict sense used by modern physics. *Yin* and *yang* name correlative aspects and processes, not two independent creators of the world. The precise interpretations of “one,” “two,” and “three” vary. [A; 3] Reading the sequence as a completed physical cosmology would be excessively literal, but dismissing it as mere metaphor would too hastily eliminate its cosmological claims.
+
+An open question is how cosmogonic language relates to the description of practical activity. One concerns what emergence means; the other concerns how presence and absence jointly make action possible. These meanings may complement one another, but neither follows automatically from the other.
+
+### 6. Ziran: naturalness as being-so-of-itself
+
+*Ziran* (自然) is literally associated with “self” and “thus”: being thus of itself, in its own way. “Naturalness” is a useful translation but can mislead. It does not necessarily mean opposing forests to civilization or treating human biology as an unchanging norm. [1; 2]
+
+In chapter 25 of the *Daodejing*, Dao is related to *ziran*: it does not need an external pattern to copy in order to be what it is. In human conduct, naturalness may mean refraining from forcibly fitting oneself and one's circumstances to a predetermined image of success.
+
+There is nevertheless a difficulty. If naturalness simply meant “whatever happens,” then greed, cruelty, and ineptitude would all exemplify the Way. Daoist writings do not argue quite so simply: they contain preferences and criticize excess, cunning, belligerence, and coercion. Naturalness concerns a certain quality of relating, not the unrestricted endorsement of every kind of behavior.
+
+The question “How should one be natural?” therefore has no ready answer in “Do whatever you want.” Desires themselves may arise from competition or habit. It is not always clear which action should count as spontaneous and which as shaped by imposed expectations. Daoism explores this problem through images, practical advice, and changing perspectives.
+
+### 7. Wuwei: not the absence of action, but another way of acting
+
+*Wuwei* (無為) is variously rendered “non-action,” “not-doing,” or “action without artificial compulsion.” A literal reading seems to produce a paradox: if one should do nothing, why learn, govern, cook, or help anyone? In the *Daodejing*, however, *wuwei* does not mean obligatory bodily immobility. It expresses a refusal to impose one's will on the world in a particular manner: to manage constantly and try to force a desired outcome through direct pressure. [2]
+
+In the traditionally transmitted version of chapter 37, Dao is associated with not-acting while nothing remains undone; chapter 48 contrasts daily addition in learning with daily reduction in following Dao. Taking this reduction as a reduction in excessive intervention is one interpretation, rather than the text's literal definition. These images are not about laziness: complicated action may succeed precisely when excessive control ceases to undermine it.
+
+Consider a gardener. A plant needs water, soil, and protection: these are real actions. But it cannot be made to grow by repeatedly pulling its stem upward. Genuine assistance requires an understanding of the processes being supported and the limits of intervention. This is a contemporary illustration, not a disguised translation of a Daoist passage.
+
+*Wuwei* remains a normative ideal: it distinguishes fitting from unfitting ways of acting. The slogan “everything is already wuwei” would destroy the point of Daoist recommendations. Daoist wisdom is not identical with the bare fact that something happened.
+
+### 8. Simplicity, desire, and the artificial complication of life
+
+The *Daodejing* repeatedly associates social unrest with insatiability, rivalry over status, accumulation, and performative virtue. Chapters 3, 12, 19, and 46 offer different versions of this theme. They do not necessarily demand the elimination of every desire: hunger, care, and bodily needs are not identical with endless competition for superiority.
+
+The radical force of this idea lies in recognizing that some needs arise because a system of evaluations has already been adopted that makes permanent deficiency unavoidable. If the highest good always lies one step further up the ladder of recognition, every achievement simultaneously becomes another reason to feel inadequate.
+
+Simplicity, however, is not a neutral psychological technique. In the *Daodejing* it is often tied to political and social organization and may entail restricting other people's aspirations. A modern reader should distinguish the possibility of giving up unnecessary rivalry from external regulation of other people's desires. The criticism of excess can itself become excessive when it becomes coercion in the name of “proper naturalness.”
+
+### 9. Softness and weakness: water, yielding, and resilience
+
+Water is one of Daoism's best-known images. It takes the shape of the terrain, supports life, flows downward, and acts without displaying superiority. Chapters 8, 43, and 78 of the *Daodejing* contrast what is soft and yielding with brute force, which often breaks precisely what it seeks to control.
+
+This does not mean that weakness is always physically stronger, or that resistance is never justified. The image suggests a capacity to respond to circumstances without obsessively maintaining one's own fixed shape. Strength need not mean aggression; resilience can include the capacity to change.
+
+There is also a political dimension: governing only through coercion may generate resistance, while a ruler's arrogance may cause instability. Yet applying this image to any particular dangerous situation demands separate justification. The texts place softness within a specific view of life's order; it must not become a promise of safety or advice to endure violence.
+
+### 10. The ruler, society, and the ambiguities of Daodejing politics
+
+A substantial portion of the *Daodejing* addresses rulers. Good government is described in terms of less conspicuous control, avoidance of aggressive campaigns, modesty, and placing people's lives above the ruler's glory. Chapters 30 and 31 criticize military overconfidence, while chapter 57 concerns government without excessive coercion. Chapter 67 presents three “treasures”: compassion, frugality, and the refusal to claim first place, associating them in part with restraint in the use of force. In chapter 17, the best ruler is barely noticed by the people.
+
+Nevertheless, some passages are difficult to reconcile with a modern ideal of open, autonomous citizenship. Chapter 3 discusses reducing the people's desires and knowledge; chapter 65 addresses the difficulty of governing a population accustomed to clever knowledge; chapter 80 imagines a small state with limited contact beyond its borders. They cannot be silently recast as a liberal principle of self-government.
+
+Different assessments are possible. Some scholars read such passages as critiques of socially manufactured envy, coerced mobilization, and artificial complexity; others see a more paternalistic program for keeping the population simple. Nor does invoking *wuwei* guarantee that a policy will be humane.
+
+A serious inquiry must hold together both the attraction of restraining violence and the ambiguities of this political vision. Daoism should not be declared free of questions about power merely because it speaks against coercion.
+
