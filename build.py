@@ -30,6 +30,8 @@ def inline(s):
 def render(body,lang):
  result=[];toc=[]
  for block in body.strip().split('\n\n'):
+  block=block.strip()
+  if not block:continue
   if re.match(r'^#{2,4} ',block):
    marks,title=block.split(' ',1);level=len(marks);title=title.strip()
    ident=f'section-{len(toc)+1}' if level<=3 else f'subsection-{len(result)+1}'
