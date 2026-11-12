@@ -89,7 +89,7 @@ assert len(re.findall(r'^## ',ru_weight,re.M))==len(re.findall(r'^## ',en_weight
 assert 'Множество вещей. Множество различий.<br>Одно явление.' in (ROOT/'build.py').read_text()
 assert 'Many things. Many distinctions.<br>One phenomenon.' in (ROOT/'build.py').read_text()
 # Editorial consistency: corresponding Russian and English articles retain their structure.
-EDITORIAL_SLUGS=('freedom','fear','mistakes','nihilism-without-verdict','weightlessness','after-ubermensch','start','glossary','bol-ne-vydumka','daoism-monophenomenalism')
+EDITORIAL_SLUGS=('freedom','fear','mistakes','nihilism-without-verdict','weightlessness','after-ubermensch','start','glossary','bol-ne-vydumka','daoism-monophenomenalism','monophenomenalism-boundaries')
 for slug in EDITORIAL_SLUGS:
  ru=(ROOT/'content'/(slug+'.md')).read_text()
  en=(ROOT/'content/en'/(slug+'.md')).read_text()
@@ -107,6 +107,19 @@ for lang,theses in (('ru',ru_theses),('en',expected)):
  rendered_headings=len(re.findall(r'<h[23] id="section-\d+">',page_html))
  assert expected_headings==rendered_headings,(lang,'Markdown headings leaked into article HTML',expected_headings,rendered_headings)
  assert not re.search(r'<p>\s*#{2,4}\s',page_html),(lang,'Raw Markdown heading in HTML')
+# Philosophical boundaries article: complete paired editions, correct wording and no Markdown artifacts.
+for lang,theses in (('ru',ru_theses),('en',expected)):
+ article=(ROOT/'content'/('en' if lang=='en' else '')/'monophenomenalism-boundaries.md').read_text(encoding='utf-8')
+ assert len(article)>30000,(lang,'boundaries article unexpectedly truncated')
+ assert len(re.findall(r'^## \d{1,2}\. ',article,re.M))==16,(lang,'boundaries sections')
+ assert all(f'{i}. {t}' in article for i,t in enumerate(theses,1)),(lang,'model theses altered')
+ page=(OUT/('en/' if lang=='en' else '')/'monophenomenalism-boundaries'/'index.html').read_text()
+ assert page.count('<h2 id=')==18,(lang,'boundaries headings missing')
+ assert not re.search(r'<p>\s*#{2,4}\s',page),(lang,'raw Markdown headings in boundaries article')
+ assert '<link rel="alternate" type="application/pdf" href="'+BASE+pdf_path(lang,'monophenomenalism-boundaries')+'">' in page
+ru_boundaries=(ROOT/'content/monophenomenalism-boundaries.md').read_text()
+assert 'После этого определения монофеноменализма' in ru_boundaries
+assert 'Ни принадлежность к какой-либо конкретной недвойственной традиции' in ru_boundaries
 assert 'такой цели не существует или её невозможно обоснованно установить' not in (ROOT/'content/nihilism-without-verdict.md').read_text()
 assert 'no such purpose exists, or none can be adequately established' not in (ROOT/'content/en/nihilism-without-verdict.md').read_text()
 assert 'Ни одно из этих действий не обязательно.' not in (ROOT/'content/fear.md').read_text()
