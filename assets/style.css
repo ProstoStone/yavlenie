@@ -171,7 +171,7 @@ html[data-reading-font=arial] .reading-page .prose h4{
 .reader-audio-panel p{margin:0;color:var(--muted);font-size:12px;line-height:1.45}
 @media(max-width:680px){
  .reader-toolbar .reader-buttons #reader-listen-toggle{
-  width:34px;min-width:34px;padding:0
+  width:36px;min-width:36px;height:36px;padding:0
  }
  .reader-audio-panel{max-height:50dvh;overflow-y:auto;gap:10px}
  .reader-audio-settings{grid-template-columns:90px minmax(0,1fr);gap:10px}
