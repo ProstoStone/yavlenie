@@ -69,7 +69,11 @@
     const progress = document.querySelector('.reading-progress');
     const prose = document.querySelector('.prose');
     toolbar.hidden = false;
-    toolbar.querySelectorAll('button[hidden]').forEach(button => { button.hidden = false; });
+    // Optional speech controls are revealed only by the dedicated audio feature check.
+    ['reader-smaller', 'reader-font', 'reader-larger', 'reader-focus'].forEach(id => {
+      const control = document.getElementById(id);
+      if (control) control.hidden = false;
+    });
     progress.hidden = false;
     function updateProgress() {
       const rect = prose.getBoundingClientRect();
