@@ -4,6 +4,7 @@ from urllib.parse import urlsplit,unquote
 from xml.etree import ElementTree as ET
 import json,re
 from build import OUT,BASE,PREFIX
+from pdf_export import pdf_path
 class Page(HTMLParser):
  def __init__(self):super().__init__();self.links=[];self.ids=set();self.h1=0;self.canon=[];self.json=False;self.scripts=[]
  def handle_starttag(self,t,attrs):
