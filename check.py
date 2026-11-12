@@ -101,6 +101,12 @@ for lang,theses in (('ru',ru_theses),('en',expected)):
  assert len(dao)>60000,(lang,'Daoism study unexpectedly truncated')
  assert len(re.findall(r'^### \d+\. ',dao,re.M))==38,(lang,'Daoism study must retain 21+17 numbered sections')
  assert all(f'{i}. {t}' in dao for i,t in enumerate(theses,1)),(lang,'Daoism model theses altered')
+ # Every source heading must be rendered as an HTML heading, not literal Markdown.
+ page_html=(OUT/('en/' if lang=='en' else '')/'daoism-monophenomenalism'/'index.html').read_text()
+ expected_headings=len(re.findall(r'^#{2,3} ',dao,re.M))
+ rendered_headings=len(re.findall(r'<h[23] id="section-\d+">',page_html))
+ assert expected_headings==rendered_headings,(lang,'Markdown headings leaked into article HTML',expected_headings,rendered_headings)
+ assert not re.search(r'<p>\s*#{2,4}\s',page_html),(lang,'Raw Markdown heading in HTML')
 assert 'такой цели не существует или её невозможно обоснованно установить' not in (ROOT/'content/nihilism-without-verdict.md').read_text()
 assert 'no such purpose exists, or none can be adequately established' not in (ROOT/'content/en/nihilism-without-verdict.md').read_text()
 assert 'Ни одно из этих действий не обязательно.' not in (ROOT/'content/fear.md').read_text()
@@ -132,6 +138,8 @@ for lang,slug,page in editions:
  assert len(reader.pages)>0 and pdf.stat().st_size>5000,pdf
  text='\n'.join(re.sub(r'prostostone\.github\.io/yavlenie\s*\d+', '', p.extract_text() or '') for p in reader.pages)
  assert '\ufffd' not in text,('Invalid character',pdf)
+ if slug=='daoism-monophenomenalism':
+  assert not re.search(r'(?m)^\s*#{2,4}\s',text),('Raw Markdown heading in PDF',lang)
  # Remove repeated running footers before comparing the full body, not just a sample.
  page_html=(OUT/('en/' if lang=='en' else '')/page/'index.html').read_text()
  prose=re.search(r'<div class="prose">(.*?)</div><section class="source-note">',page_html,re.S)[1]
