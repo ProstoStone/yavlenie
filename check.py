@@ -220,3 +220,19 @@ for lang in ('ru','en'):
  home=(directory/'index.html').read_text()
  assert re.search(r'<a class="entry" href="[^"]*/zen-monophenomenalism/"><span class="num">15</span>',home)
 print('OK: Zen study is article 15 in both languages; complete text, theses, and sources verified')
+
+# Article 16: complete matching Russian and English editions.
+new_slug='ya-ne-nuzhno-ustranyat'
+assert ORDER.index(new_slug)==15
+for lang in ('ru','en'):
+ content_path=ROOT/'content'/('en' if lang=='en' else '')/(new_slug+'.md')
+ source_text=content_path.read_text(encoding='utf-8')
+ assert len(re.findall(r'^## ',source_text,re.M))==5,(lang,'article 16 headings')
+ assert '2026-11-12' in source_text.splitlines()[3],(lang,'article 16 date')
+ html_page=(OUT/('en/' if lang=='en' else '')/new_slug/'index.html').read_text()
+ assert html_page.count('<h2 id=')==5,(lang,'article 16 sections')
+ home_page=(OUT/('en/' if lang=='en' else '')/'index.html').read_text()
+ assert re.search(r'<a class="entry" href="[^"]*/ya-ne-nuzhno-ustranyat/"><span class="num">16</span>',home_page),(lang,'article 16 index position')
+ assert 'id="reader-theme-toggle"' in html_page and 'id="reader-font"' in html_page
+ assert '<link rel="alternate" type="application/pdf" href="'+BASE+pdf_path(lang,new_slug)+'">' in html_page
+print('OK: article 16 is bilingual, complete and published with PDF editions')
