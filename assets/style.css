@@ -146,3 +146,35 @@ html[data-reading-font=arial] .reading-page .prose h4{
  }
  .reader-toolbar .reader-buttons #reader-theme-toggle{font-size:20px}
 }
+
+/* Optional spoken reading stays collapsed until the listener opens it. */
+.reader-toolbar .reader-buttons #reader-listen-toggle{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:36px;min-width:36px;height:36px;padding:0;border-radius:0
+}
+.reader-listen-toggle svg{display:block;flex-shrink:0}
+.reader-audio-panel{
+  flex:1 0 100%;width:100%;min-width:0;
+  display:grid;gap:12px;padding:12px 0 3px;border-top:1px solid var(--line)
+}
+.reader-audio-actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.reader-audio-actions button{font-size:13px;padding:6px 14px;min-height:36px}
+.reader-audio-settings{display:grid;grid-template-columns:minmax(85px,110px) minmax(160px,1fr) minmax(160px,1fr);gap:12px;align-items:end}
+.reader-audio-settings label{display:flex;flex-direction:column;gap:5px;min-width:0;color:var(--muted);font-size:12px}
+.reader-audio-settings select{
+  display:block;width:100%;min-width:0;height:36px;border:1px solid var(--line);
+  border-radius:0;background:var(--paper);color:var(--ink);
+  font:13px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  padding:5px 8px;overflow:hidden;text-overflow:ellipsis
+}
+.reader-audio-settings select:focus-visible{outline:2px solid var(--detail);outline-offset:2px}
+.reader-audio-panel p{margin:0;color:var(--muted);font-size:12px;line-height:1.45}
+@media(max-width:680px){
+ .reader-toolbar .reader-buttons #reader-listen-toggle{
+  width:34px;min-width:34px;padding:0
+ }
+ .reader-audio-panel{max-height:50dvh;overflow-y:auto;gap:10px}
+ .reader-audio-settings{grid-template-columns:90px minmax(0,1fr);gap:10px}
+ .reader-audio-section-label{grid-column:1/-1}
+}
+@media print{.reader-audio-panel{display:none!important}}
