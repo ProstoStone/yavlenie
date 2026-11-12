@@ -167,8 +167,11 @@ for lang in ('ru', 'en'):
   assert re.search(r'id="reader-smaller"[^>]*>−</button>.*?id="reader-font"[^>]*>A</button>.*?id="reader-larger"[^>]*>\+</button>.*?id="reader-focus"[^>]*>.*?</button>.*?class="pdf-download"[^>]*>.*?</a><button[^>]*id="reader-theme-toggle"[^>]*>◐</button>',button_html,re.S),(lang,page,'compact reader control labels/order')
   assert 'aria-label="' in button_html,(lang,page,'reader controls lack accessible labels')
 css=(ROOT/'assets/style.css').read_text()
-assert '/* Mobile reading controls: one row, including at narrow iPhone widths. */' in css
-assert 'flex-wrap:nowrap' in css and '@media(max-width:360px)' in css
+# The current mobile design uses natural spacing and allows wrapping, without stretching.
+mobile_css=css[css.rfind('@media(max-width:680px)'):]
+mobile_row=re.search(r'\.reader-toolbar \.reader-buttons\s*\{([^}]+)\}',mobile_css)[1]
+assert all(rule in mobile_row for rule in ('flex-wrap:wrap','justify-content:flex-start','width:auto','gap:8px'))
+assert 'flex:0 0 auto' in mobile_css
 print('OK: bilingual article and original-work theme and font controls available')
 
 assert len(list(OUT.rglob('*.pdf')))==len(editions)
