@@ -89,12 +89,18 @@ assert len(re.findall(r'^## ',ru_weight,re.M))==len(re.findall(r'^## ',en_weight
 assert 'Множество вещей. Множество различий.<br>Одно явление.' in (ROOT/'build.py').read_text()
 assert 'Many things. Many distinctions.<br>One phenomenon.' in (ROOT/'build.py').read_text()
 # Editorial consistency: corresponding Russian and English articles retain their structure.
-EDITORIAL_SLUGS=('freedom','fear','mistakes','nihilism-without-verdict','weightlessness','after-ubermensch','start','glossary','bol-ne-vydumka')
+EDITORIAL_SLUGS=('freedom','fear','mistakes','nihilism-without-verdict','weightlessness','after-ubermensch','start','glossary','bol-ne-vydumka','daoism-monophenomenalism')
 for slug in EDITORIAL_SLUGS:
  ru=(ROOT/'content'/(slug+'.md')).read_text()
  en=(ROOT/'content/en'/(slug+'.md')).read_text()
  assert len(re.findall(r'^## ',ru,re.M))==len(re.findall(r'^## ',en,re.M)),slug
  assert len(ru)>3000 and len(en)>3000,slug
+# Full Russian and English Daoism research must remain structurally paired.
+for lang,theses in (('ru',ru_theses),('en',expected)):
+ dao=(ROOT/'content'/('en' if lang=='en' else '')/'daoism-monophenomenalism.md').read_text()
+ assert len(dao)>60000,(lang,'Daoism study unexpectedly truncated')
+ assert len(re.findall(r'^### \d+\. ',dao,re.M))==38,(lang,'Daoism study must retain 21+17 numbered sections')
+ assert all(f'{i}. {t}' in dao for i,t in enumerate(theses,1)),(lang,'Daoism model theses altered')
 assert 'такой цели не существует или её невозможно обоснованно установить' not in (ROOT/'content/nihilism-without-verdict.md').read_text()
 assert 'no such purpose exists, or none can be adequately established' not in (ROOT/'content/en/nihilism-without-verdict.md').read_text()
 assert 'Ни одно из этих действий не обязательно.' not in (ROOT/'content/fear.md').read_text()
