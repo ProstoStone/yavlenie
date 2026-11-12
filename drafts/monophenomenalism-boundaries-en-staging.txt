@@ -191,3 +191,68 @@ The original unity entails neither personal immortality, nor the necessary conti
 It is especially dangerous to turn the non-introduction of a premise into a new property of the phenomenon. Not introducing time as a fundamental external foundation does not establish eternity. Not requiring an independent controller does not establish chaos or universal predetermination. Not assigning an owner to the phenomenon does not disclose a hidden metaphysical nature of “subjectlessness.”
 
 Such claims can only be examined as new propositions requiring grounds of their own. The position must not be expanded by multiplying promises or by replacing one set of unjustified first principles with another—now constructed from negations.
+
+## 15. How to compare without substituting
+
+A rigorous comparison can proceed through six questions.
+
+1. What exactly does monophenomenalism assert, in its original formulation?
+2. Does the claim belong to the position itself, to the model's specialized definitions, or to a later interpretation?
+3. What specific claim is made by the theory under comparison, and in what context?
+4. Do the meanings of the terms, the premises, and the consequences coincide—or only certain words?
+5. What additional assertions had to be introduced to obtain resemblance or identity?
+6. What is the actual outcome: agreement on a particular proposition, partial resemblance, compatibility, difference, or contradiction?
+
+If one position asserts something about which another is silent, a contradiction has not yet been established. If an additional theory is compatible with the model, it does not follow that the theory can be derived from the five theses. If agreement in content has been found, borrowing does not thereby follow.
+
+The converse error is just as significant: the independent origin of a position does not in itself establish its truth or its absolute historical novelty. Criticism may examine the initial unity, the precision of definitions, logical transitions, and explanatory limits. It need not first accept the vocabulary of monophenomenalism, but it must specify exactly which of its claims is being challenged.
+
+The comparison with priority monism illustrates how the procedure works. Monophenomenalism's starting position is “Everything that exists is a phenomenon. The phenomenon is one”; the specialized definitions of the model are not required for it. Priority monism asserts the metaphysical priority of the whole over its parts. Both positions speak of unity, but identifying them would require the additional introduction of a relationship of ontological priority. Because the starting position does not establish that relationship, the result is not identity but a difference alongside a possible resemblance between particular themes. In this way, comparison identifies an added premise instead of rewriting the original thesis.
+
+Drawing a clear boundary does not remove the need to answer substantive objections. If an actual contradiction is identified, it must be considered. If a conclusion fails examination, it must be corrected.
+
+## 16. Conclusion. Identification is not a substitute for inquiry
+
+Monophenomenalism does not have to be assigned a place within the taxonomy of monism before it can possess its own content. Its starting position is defined by the assertion of one phenomenon and the refusal to introduce a second independently established foundation as an obligatory premise. The *Model of the Phenomenon* offers a separate instrument of investigation, but neither proves the position nor becomes a compulsory vocabulary for all its possible interpretations.
+
+Monism may provide a broad classificatory category. Idealism, phenomenalism, neutral monism, Buddhism, Advaita, Zen, and Daoism may each show particular points of contact. But none of these resemblances licenses replacing the phenomenon with a substance, experiencing with an owner, distinction with error, conceptual structuring with the production of the world, or absolute freedom with a mandatory spiritual achievement.
+
+Distortion rarely begins with an open rejection of the original theses. More often, a familiar explanation quietly introduces one unnamed premise. That explanation is then cited as part of the starting position, and further conclusions are built upon it. It is therefore necessary to examine not only a conclusion but every step leading to it.
+
+Independence does not mean immunity from examination, and it does not require denying real similarities. It means that the position must be considered according to its own content rather than through a philosophical genealogy assigned to it in advance. Criticism may challenge its foundations; classification may note similarities. Neither is entitled to change what is actually asserted without proof.
+
+Resemblance is a reason to compare. Not permission to substitute.
+
+## Sources and reference points for checking the comparisons
+
+The original content of monophenomenalism is established by its own works. External scholarship is provided to check the accuracy with which other philosophical approaches are characterized. These external sources are not initial premises of monophenomenalism and do not replace its reasoning.
+
+### Original works
+
+[A] Roman V. Dudnikov, “Monophenomenalism.” The original philosophical position: [source](https://prostostone.github.io/Monophenomenalism/monophenomenalism_en-1.html)
+
+[B] Roman V. Dudnikov, “Model of the Phenomenon.” The five theses and their explanation: [source](https://prostostone.github.io/Monophenomenalism/model_en-1.html)
+
+[C] “Working Map: Model of the Phenomenon and Monophenomenalism,” version 2.0. Supplementary methodological material, not a separate fundamental proposition: [source](https://prostostone.github.io/Monophenomenalism/working_map_en-1.html)
+
+### Reference scholarship on the other approaches
+
+[1] Jonathan Schaffer, “Monism,” *Stanford Encyclopedia of Philosophy*. On the differences among existence monism, priority monism, and substance monism: [source](https://plato.stanford.edu/entries/monism/)
+
+[2] Leopold Stubenberg and Donovan Wishon, “Neutral Monism,” *Stanford Encyclopedia of Philosophy*. On different versions of neutral monism: [source](https://plato.stanford.edu/entries/neutral-monism/)
+
+[3] Paul Guyer and Rolf-Peter Horstmann, “Idealism,” *Stanford Encyclopedia of Philosophy*. On the diversity of idealist positions: [source](https://plato.stanford.edu/entries/idealism/)
+
+[4] “Epistemological Problems of Perception,” *Stanford Encyclopedia of Philosophy*. The discussion of idealism and phenomenalism: [source](https://plato.stanford.edu/entries/perception-episprob/)
+
+[5] “Phenomenology,” *Stanford Encyclopedia of Philosophy*. On the subject matter and methods of phenomenology: [source](https://plato.stanford.edu/entries/phenomenology/)
+
+[6] “Kant’s Transcendental Idealism,” *Stanford Encyclopedia of Philosophy*. On the distinction between appearances and things in themselves: [source](https://plato.stanford.edu/entries/kant-transcendental-idealism/)
+
+[7] “Panpsychism,” *Stanford Encyclopedia of Philosophy*. On the different senses in which mentality may be fundamental or widespread: [source](https://plato.stanford.edu/entries/panpsychism/)
+
+[8] “Śaṅkara,” *Stanford Encyclopedia of Philosophy*. On Atman, Brahman, and Advaita Vedanta: [source](https://plato.stanford.edu/entries/shankara/)
+
+[9] “Madhyamaka,” *Stanford Encyclopedia of Philosophy*. On the denial of intrinsic nature (*svabhava*), the two truths, and critical arguments concerning claims about ultimate reality: [source](https://plato.stanford.edu/entries/madhyamaka/)
+
+Other schools and traditions are discussed here only to the extent necessary to establish the boundaries. Detailed independent studies of Advaita, Buddhism, Zen, and Daoism have appeared in earlier articles in the *Phenomenon* series.
