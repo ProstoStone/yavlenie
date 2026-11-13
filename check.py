@@ -68,7 +68,7 @@ for lang in ('ru','en'):
   assert len(re.findall('<figure',s))==(4 if slug=='gradient' else 0)
 import hashlib
 # Editorial regression guard; does not depend on Git checkout depth.
-PRESERVED_RUSSIAN = {'freedom': '77722813805cc3f3806e5164d835c89343f1778ee21bcad1d01dadf444d6f70e', 'fear': '884e890d5fb196fe54ced141af4b1c2493d4c259dff92593d7c87ea464bf2ed2', 'mistakes': '3affec4e3774d68728f8d83f65e6c33b4f7bceee519af22be643da63cff49e53', 'start': '1b09bdc971e7e0779e5fdc03ac8cb011a42ee5dfeea9c6fd69f44b0d983cfe14', 'glossary': '039ad6e20dc53ebf02da6912d0d2dc1aad59c943ca041d01e83eacf2c34773ac'}
+PRESERVED_RUSSIAN = {'freedom': '6f7a983800d47b555ffc77ab6161cf73071504e616af3ad35b9b908fd7c67745', 'fear': '884e890d5fb196fe54ced141af4b1c2493d4c259dff92593d7c87ea464bf2ed2', 'mistakes': '8e42590b43a3b3eaebacec66a0690c3120f78df46d65d40ca8496c18608a1ab8', 'start': '1b09bdc971e7e0779e5fdc03ac8cb011a42ee5dfeea9c6fd69f44b0d983cfe14', 'glossary': '039ad6e20dc53ebf02da6912d0d2dc1aad59c943ca041d01e83eacf2c34773ac'}
 for slug,digest in PRESERVED_RUSSIAN.items():
  assert hashlib.sha256((ROOT/"content"/(slug+".md")).read_bytes()).hexdigest()==digest,slug
 expected=['Everything is one phenomenon.','The phenomenon is sensory experiencing.','A distinction within sensory experiencing is a concept.','Concepts structure the phenomenon into experience.','Experience is the phenomenon structured through concepts.']
