@@ -461,7 +461,7 @@ Nor is it the emptiness left after everything dear has disappeared.
 
 It is the absence of a need to turn life into a continuous test of whether one has managed to justify it.
 
-**There is no need to stop holding on. Nor is there a need to maintain the absence of support. **We can begin with a single demand on ourselves that we no longer want to treat as mandatory.****
+**There is no need to stop holding on. Nor is there a need to maintain the absence of support. We can begin with a single demand on ourselves that we no longer want to treat as mandatory.**
 
 And one day even this sentence may be forgotten.
 

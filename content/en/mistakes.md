@@ -35,7 +35,9 @@ We can imagine an ideal world where cups never break, loved ones never die, and 
 
 In *Model of the Phenomenon*, everything is one phenomenon, and a distinction within sensory experiencing is a concept. Concepts structure the phenomenon into experience. Mistake, rule, correspondence, violation, cause, effect, “it could have been otherwise”—these, too, are distinctions within experience. We cannot carve out a special exemption for the concept of a mistake and place it outside everything it is meant to judge.
 
-So **“the phenomenon itself makes no mistakes”** does not mean that we have inspected every event and simply failed to find any. It means something more radical: the phenomenon has no external, nonconceptual yardstick by which it could fail to be what it is. It is not sitting an examination to earn the right to exist as it does.
+A criterion can be distinguished within experience while applying to the world as a whole. We can condemn an entire known social order, assess human history, or imagine a differently organized world. But the possibility of such a judgment does not establish an unconditional law that existence itself must satisfy to earn the right to be.
+
+So **“the phenomenon itself makes no mistakes”** does not mean that we have inspected every event and simply failed to find any. It means something more radical: within the adopted position, no external, nonconceptual yardstick is established whose satisfaction would be a condition for the very existence of the phenomenon. It is not sitting an examination to earn the right to exist as it does.
 
 Mistakes are distinguished *within the phenomenon*. But **the phenomenon itself cannot be a mistake**.
 
@@ -117,6 +119,6 @@ The cup is still broken. The coffee needs wiping up. If it belonged to someone e
 
 Nor must you turn this understanding into an achievement. Tomorrow you may say “I made a mistake” again, feel upset, reconsider a decision. None of that will refute the point. It will be life, within which goals, results, regrets, and repairs are distinguished—and within which there is no extra examination that life itself must pass.
 
-**Mistakes exist wherever conditions are distinguished by which something counts as a mistake. Within the phenomenon there are those conditions, their violations, experiences, and consequences. But the phenomenon itself has no condition it is obliged to fulfill. There is no mandatory blueprint against which it could fail.**
+**Mistakes exist wherever conditions are distinguished by which something counts as a mistake. Within the phenomenon there are those conditions, their violations, experiences, and consequences. The world as a whole can also be judged. But no such judgment, by itself, establishes that existence must first earn the right to be.**
 
 And that is why there are no mistakes.

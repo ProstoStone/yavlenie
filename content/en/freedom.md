@@ -99,17 +99,15 @@ A locked door really does restrict a person. Coercion can deprive someone of rig
 
 ## And who is responsible for everything that happens?
 
-Here we reach an even stranger idea: **there is no one responsible for the happening of the phenomenon as a whole**.
+An unfamiliar question arises: **does distinguishing what happens establish an ultimate bearer of responsibility for everything that happens?**
 
 In ordinary life, we distinguish actions, their agents, intentions, harm, promises, guilt, and attempts to make things right. If someone breaks an agreement, they can be held accountable. If a person harms another, we can stop them, protect the victim, and seek restitution. Calling these things concepts does not make them trivial.
 
-But “who is responsible for the phenomenon as a whole?” is a different sort of question. To blame someone, we must distinguish them from the circumstances, identify an action, and establish a standard of judgment. To assign responsibility *for everything*, we would have to find an agent separate from everything for which they were responsible.
+Someone responsible for an action need not stand outside the circumstances in which they act. A person can be accountable for their decisions while remaining part of what happens.
 
-Where would that agent be? Their body, history, character, decisions, even their sense of guilt already belong to what can be distinguished. If we move the agent beyond all of it, we haven't discovered a pure bearer of responsibility. We've merely added another proposed foundation to the phenomenon.
+But the possibility of assigning responsibility for a particular action does not establish an ultimate author of the entire phenomenon. To claim that someone created existence itself, granted it permission to be in advance, or must answer for it as a whole requires separate justification. Monophenomenalism introduces no such first principle.
 
-There is therefore no ultimate owner who can be presented with the bill for the existence of the world. No one who should have chosen the phenomenon in advance, granted it permission to happen, or ensured that it matched the correct blueprint.
-
-This is not a universal amnesty for actions. **Responsibility for an action is distinguished in human experience; responsibility for the phenomenon itself would require a separate agent outside the phenomenon.** The model introduces no such agent.
+This is not a universal amnesty for actions. **You can be responsible for an action and its consequences without becoming the creator of existence itself.** Responsibility has force where its specific grounds are distinguished; it does not automatically prove that the world has an ultimate owner.
 
 You can apologize and correct mistakes without regarding yourself as the creator of everything that happened. You can love and care without appointing yourself supreme director of the world.
 
