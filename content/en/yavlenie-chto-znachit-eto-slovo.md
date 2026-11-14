@@ -15,7 +15,7 @@ This article explains a chosen use of the word. It is neither a dictionary entry
 
 The English word “phenomenon” is used here to translate the Russian “явление” (yavlenie). In ordinary Russian, that word has several meanings: an event, a process, an occurrence, or an appearance. In philosophy, it can also acquire more specific meanings, including the manifestation of an underlying essence or an object as it appears in experience. We are not combining these meanings into a doctrine. We are specifying our own usage: **“phenomenon” indicates that something is, occurs, or appears in some way, without deciding in advance what that something is.**
 
-This use does not require us to posit an underlying essence that manifests itself or a separate observer before whom it appears. The grammar of “something appears to someone” does not by itself establish two independent foundations. Nor does the word “appeared” explain what came about or how.
+This use does not require us to posit an underlying essence that manifests itself or a separate observer before whom it appears. The grammar of “something appears to someone” does not by itself establish two independent foundations.
 
 The word is not empty: it lets us speak of “something” as distinct from complete absence. But by itself it does not explain the nature of that “something.”
 
@@ -24,8 +24,6 @@ The word is not empty: it lets us speak of “something” as distinct from comp
 A person sees water in the distance, approaches, and discovers a mirage. There was no lake. Yet the visual experience did not thereby become nothing: the explanation of what happened changed.
 
 The same distinction holds between a conversation in a dream and a conversation that took place while awake. The dream occurred, but that does not establish that the other person actually spoke those words.
-
-Someone hears a noise behind a door and assumes that a person is walking there. Later it turns out that a pipe was creaking. There was a noise; there were no footsteps. Acknowledging what happened does not mean accepting the first explanation.
 
 **To acknowledge a phenomenon is not to accept its description as true or the object represented in it as existing.**
 
@@ -45,9 +43,7 @@ That is why the phrase “without a description, the phenomenon does not exist�
 
 ## Why the model speaks of experiencing
 
-So far, the discussion has concerned our choice of word. We now turn to how that word is used in the Model of the Phenomenon.
-
-Its second thesis states:
+The second thesis of the Model of the Phenomenon states:
 
 **“The phenomenon is sensory experiencing.”**
 
@@ -70,8 +66,6 @@ Thus, “before description” means without an explanation already assumed, not
 The word “phenomenon” also belongs to this description. We can begin our exposition with it, but it does not become a first concept that generates all others. The model explicitly states: “There is no first concept” (§ 1.2.6). The beginning of a text is not the beginning of existence.
 
 ## One phenomenon does not erase many distinctions
-
-One further clarification is needed: the word “phenomenon” and the statement “the phenomenon is one” are not the same claim.
 
 In everyday speech, rain, a rainbow, and a memory are different phenomena. This usage remains valid: it lets us distinguish, count, and investigate events.
 
