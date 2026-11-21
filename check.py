@@ -283,7 +283,7 @@ print('OK: article 17 is bilingual, complete and published with PDF editions')
 assert ORDER[0]=="start"
 for lang in ("ru","en"):
  home_page=(OUT/("en" if lang=="en" else "")/"index.html").read_text()
- assert re.search(r'<a class="entry" href="[^"]*/start/"><span class="num">1</span>',home_page),(lang,'plain-language introduction must be first')
+ assert re.search(r'<a class="entry" href="[^"]*/start/"><span class="num">01</span>',home_page),(lang,'plain-language introduction must be first')
 
 # The terminology article precedes the essay on unity in both languages.
 assert ORDER.index("yavlenie-chto-znachit-eto-slovo")==8
