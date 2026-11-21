@@ -244,8 +244,8 @@ for lang in ('ru','en'):
  assert not re.search(r'<p>#{2,4} ',page)
 print('OK: complete bilingual Buddhist study, nested headings, and unchanged five theses')
 
-# Article 17: parallel complete editions, source anchors, and unchanged theses.
-assert ORDER.index('zen-monophenomenalism')==16
+# Article 16: parallel complete editions, source anchors, and unchanged theses.
+assert ORDER.index('zen-monophenomenalism')==15
 zen_ru=(ROOT/'content/zen-monophenomenalism.md').read_text()
 zen_en=(ROOT/'content/en/zen-monophenomenalism.md').read_text()
 assert all(f'{i}. {t}' in zen_ru for i,t in enumerate(ru_theses,1))
@@ -260,24 +260,24 @@ for lang in ('ru','en'):
  assert '<p>##' not in page and '<p>---' not in page
  assert all(f'id="ref-{ref}"' in page for ref in ['A','B','C']+[str(i) for i in range(1,22)])
  home=(directory/'index.html').read_text()
- assert re.search(r'<a class="entry" href="[^"]*/zen-monophenomenalism/"><span class="num">17</span>',home)
-print('OK: Zen study is article 17 in both languages; complete text, theses, and sources verified')
+ assert re.search(r'<a class="entry" href="[^"]*/zen-monophenomenalism/"><span class="num">16</span>',home)
+print('OK: Zen study is article 16 in both languages; complete text, theses, and sources verified')
 
-# Article 18: complete matching Russian and English editions.
+# Article 17: complete matching Russian and English editions.
 new_slug='ya-ne-nuzhno-ustranyat'
-assert ORDER.index(new_slug)==17
+assert ORDER.index(new_slug)==16
 for lang in ('ru','en'):
  content_path=ROOT/'content'/('en' if lang=='en' else '')/(new_slug+'.md')
  source_text=content_path.read_text(encoding='utf-8')
- assert len(re.findall(r'^## ',source_text,re.M))==5,(lang,'article 18 headings')
- assert '2026-11-12' in source_text.splitlines()[3],(lang,'article 18 date')
+ assert len(re.findall(r'^## ',source_text,re.M))==5,(lang,'article 17 headings')
+ assert '2026-11-12' in source_text.splitlines()[3],(lang,'article 17 date')
  html_page=(OUT/('en/' if lang=='en' else '')/new_slug/'index.html').read_text()
- assert html_page.count('<h2 id=')==5,(lang,'article 18 sections')
+ assert html_page.count('<h2 id=')==5,(lang,'article 17 sections')
  home_page=(OUT/('en/' if lang=='en' else '')/'index.html').read_text()
- assert re.search(r'<a class="entry" href="[^"]*/ya-ne-nuzhno-ustranyat/"><span class="num">18</span>',home_page),(lang,'article 17 index position')
+ assert re.search(r'<a class="entry" href="[^"]*/ya-ne-nuzhno-ustranyat/"><span class="num">17</span>',home_page),(lang,'article 17 index position')
  assert 'id="reader-theme-toggle"' in html_page and 'id="reader-font"' in html_page
  assert '<link rel="alternate" type="application/pdf" href="'+BASE+pdf_path(lang,new_slug)+'">' in html_page
-print('OK: article 18 is bilingual, complete and published with PDF editions')
+print('OK: article 17 is bilingual, complete and published with PDF editions')
 
 # The plain-language introduction is the first article on both homepages.
 assert ORDER[0]=="start"
